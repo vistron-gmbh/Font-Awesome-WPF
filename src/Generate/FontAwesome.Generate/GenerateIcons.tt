@@ -49,31 +49,14 @@
 
 
 		foreach(var item in interop.Items) {
-			WriteLine("///<summary>{0} (created: {1})</summary>", item.Name, item.Created);
-			WriteLine("///<see href=\"{0}\" />", String.Format(baseUrl, item.Id));
 			var sb = new StringBuilder();
-			sb.AppendFormat("Description(\"{0}\"),", item.Name);
-			sb.AppendFormat("IconId(\"{0}\"),", item.Id);
-		
-			if(item.Categories != null && item.Categories.Count > 0) {
-				foreach(var cat in item.Categories) {
-					sb.AppendFormat("IconCategory(\"{0}\"),", cat);
-				}
-			}
+			sb.AppendFormat("Description(\"{0}\"),", item.Label);
+			
 			sb.Remove(sb.Length - 1, 1);
 			WriteLine("[{0}]", sb.ToString());
 			WriteLine("{0} = 0x{1},", item.SafeName, item.Unicode);
 
-			if(item.Aliases != null) {
-				foreach(var alias in item.Aliases) {
-					var safeAlias = item.Safe(alias);
-					if(String.Equals(safeAlias, item.SafeName, StringComparison.InvariantCultureIgnoreCase)) continue;
-					WriteLine("///<summary>Alias of: {0}</summary>", item.SafeName);
-					WriteLine("///<see cref=\"F:FontAwesome.WPF.FontAwesomeIcon.{0}\" />", item.SafeName);
-					WriteLine("[IconAlias]");
-					WriteLine("{0} = {1},", safeAlias, item.SafeName);
-				}
-			}
+		
 		}
 		PopIndent();
 		WriteLine("}");

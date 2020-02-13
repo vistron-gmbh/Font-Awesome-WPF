@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading;
 using FontAwesome.Generate.Properties;
 using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.NamingConventions;
+using System.Diagnostics;
 
 namespace FontAwesome.Generate
 {
@@ -17,18 +19,32 @@ namespace FontAwesome.Generate
 
         public FontAwesomeInterop(string configYaml)
         {
-            
+
             var deserializer = new Deserializer(namingConvention: new CamelCaseNamingConvention(), ignoreUnmatched: true);
             _config = deserializer.Deserialize<ConfigContainer>(new StreamReader(configYaml));
-            
-            if(string.IsNullOrEmpty(_config.IconMeta)) throw new Exception("icon meta");
+
+            if (string.IsNullOrEmpty(_config.IconMeta)) throw new Exception("icon meta");
 
             var iconPath = Path.Combine(Path.GetDirectoryName(configYaml), _config.IconMeta);
 
-            if(!File.Exists(iconPath))
+            if (!File.Exists(iconPath))
                 throw new FileNotFoundException("icon.yaml file specified in _config.yaml could not be found", iconPath);
+            try
+            {
+                var temp = deserializer.Deserialize<Dictionary<string, IconEntry>>(new StreamReader(iconPath));
+                foreach (var entry in temp)                
+                    entry.Value.Id = entry.Key;
 
-            _iconContainer = deserializer.Deserialize<IconContainer>(new StreamReader(iconPath));
+                _iconContainer = new IconContainer();
+                _iconContainer.Icons.AddRange(temp.Values);
+            }
+            catch (Exception ex)
+            {
+                Debugger.Break();
+                Trace.WriteLine(ex.Message);
+            }
+
+        
         }
 
         public IEnumerable<IconEntry> Items
@@ -60,6 +76,9 @@ namespace FontAwesome.Generate
             public FontAwesomeConfig FontAwesome { get; set; }
         }
 
+
+  
+
         [UsedImplicitly]
         public class FontAwesomeConfig
         {
@@ -78,7 +97,7 @@ namespace FontAwesome.Generate
         [UsedImplicitly]
         public class IconContainer
         {
-            public List<IconEntry> Icons { get; set; } 
+            public List<IconEntry> Icons { get; set; } = new List<IconEntry>();
         }
         [UsedImplicitly]
         public class Author
@@ -96,16 +115,15 @@ namespace FontAwesome.Generate
         [UsedImplicitly]
         public class IconEntry
         {
-            private static readonly Regex REG_PROP = new Regex(@"\([^)]*\)");
-
-            public string Name { get; set; }
+            private static readonly Regex REG_PROP = new Regex(@"\([^)]*\)&\&");
             public string Id { get; set; }
+            public List<string> Changes { get; set; }
+            public string Label { get; set; }
+            public Dictionary<string, List<string>> Search { get; set; }
+            public List<string> Styles { get; set; }
+
             public string Unicode { get; set; }
-            public string Created { get; set; }
-
-            public List<string> Aliases { get; set; }
-
-            public List<string> Categories { get; set; }
+            public bool Voted { get; set; }
 
             private string _safeName = null;
 
@@ -129,7 +147,7 @@ namespace FontAwesome.Generate
 
                 if (text.EndsWith("-o") || text.Contains("-o-"))
                     text = text.Replace("-o", "-outline");
-                
+
                 var stringBuilder = new StringBuilder(textInfo.ToTitleCase(text.Replace("-", " ")));
 
                 stringBuilder
@@ -150,7 +168,7 @@ namespace FontAwesome.Generate
                         break;
                     }
                 }
-                
+
                 if (hasMatch)
                 {
                     stringBuilder.Insert(0, "Hand");
@@ -158,7 +176,7 @@ namespace FontAwesome.Generate
 
                 if (char.IsDigit(stringBuilder[0]))
                     stringBuilder.Insert(0, '_');
-                
+
                 return stringBuilder.ToString();
             }
         }

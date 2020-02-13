@@ -19,3149 +19,2819 @@ namespace FontAwesome.UWP {
 	public enum FontAwesomeIcon {
 		///<summary>Set this value to show no icon.</summary>
 		None = 0x0,
-		///<summary>Glass (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/glass/" />
-		[Description("Glass"),IconId("glass"),IconCategory("Web Application Icons")]
-		Glass = 0xf000,
-		///<summary>Music (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/music/" />
-		[Description("Music"),IconId("music"),IconCategory("Web Application Icons")]
-		Music = 0xf001,
-		///<summary>Search (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/search/" />
-		[Description("Search"),IconId("search"),IconCategory("Web Application Icons")]
-		Search = 0xf002,
-		///<summary>Envelope Outlined (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/envelope-o/" />
-		[Description("Envelope Outlined"),IconId("envelope-o"),IconCategory("Web Application Icons")]
-		EnvelopeOutline = 0xf003,
-		///<summary>Heart (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/heart/" />
-		[Description("Heart"),IconId("heart"),IconCategory("Web Application Icons"),IconCategory("Medical Icons")]
-		Heart = 0xf004,
-		///<summary>Star (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/star/" />
-		[Description("Star"),IconId("star"),IconCategory("Web Application Icons")]
-		Star = 0xf005,
-		///<summary>Star Outlined (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/star-o/" />
-		[Description("Star Outlined"),IconId("star-o"),IconCategory("Web Application Icons")]
-		StarOutline = 0xf006,
-		///<summary>User (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/user/" />
-		[Description("User"),IconId("user"),IconCategory("Web Application Icons")]
-		User = 0xf007,
-		///<summary>Film (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/film/" />
-		[Description("Film"),IconId("film"),IconCategory("Web Application Icons")]
-		Film = 0xf008,
-		///<summary>th-large (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/th-large/" />
-		[Description("th-large"),IconId("th-large"),IconCategory("Text Editor Icons")]
-		ThLarge = 0xf009,
-		///<summary>th (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/th/" />
-		[Description("th"),IconId("th"),IconCategory("Text Editor Icons")]
-		Th = 0xf00a,
-		///<summary>th-list (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/th-list/" />
-		[Description("th-list"),IconId("th-list"),IconCategory("Text Editor Icons")]
-		ThList = 0xf00b,
-		///<summary>Check (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/check/" />
-		[Description("Check"),IconId("check"),IconCategory("Web Application Icons")]
-		Check = 0xf00c,
-		///<summary>Times (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/times/" />
-		[Description("Times"),IconId("times"),IconCategory("Web Application Icons")]
-		Times = 0xf00d,
-		///<summary>Alias of: Times</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Times" />
-		[IconAlias]
-		Remove = Times,
-		///<summary>Alias of: Times</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Times" />
-		[IconAlias]
-		Close = Times,
-		///<summary>Search Plus (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/search-plus/" />
-		[Description("Search Plus"),IconId("search-plus"),IconCategory("Web Application Icons")]
-		SearchPlus = 0xf00e,
-		///<summary>Search Minus (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/search-minus/" />
-		[Description("Search Minus"),IconId("search-minus"),IconCategory("Web Application Icons")]
-		SearchMinus = 0xf010,
-		///<summary>Power Off (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/power-off/" />
-		[Description("Power Off"),IconId("power-off"),IconCategory("Web Application Icons")]
-		PowerOff = 0xf011,
-		///<summary>signal (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/signal/" />
-		[Description("signal"),IconId("signal"),IconCategory("Web Application Icons")]
-		Signal = 0xf012,
-		///<summary>cog (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/cog/" />
-		[Description("cog"),IconId("cog"),IconCategory("Web Application Icons"),IconCategory("Spinner Icons")]
-		Cog = 0xf013,
-		///<summary>Alias of: Cog</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Cog" />
-		[IconAlias]
-		Gear = Cog,
-		///<summary>Trash Outlined (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/trash-o/" />
-		[Description("Trash Outlined"),IconId("trash-o"),IconCategory("Web Application Icons")]
-		TrashOutline = 0xf014,
-		///<summary>home (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/home/" />
-		[Description("home"),IconId("home"),IconCategory("Web Application Icons")]
-		Home = 0xf015,
-		///<summary>File Outlined (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/file-o/" />
-		[Description("File Outlined"),IconId("file-o"),IconCategory("Text Editor Icons"),IconCategory("File Type Icons")]
-		FileOutline = 0xf016,
-		///<summary>Clock Outlined (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/clock-o/" />
-		[Description("Clock Outlined"),IconId("clock-o"),IconCategory("Web Application Icons")]
-		ClockOutline = 0xf017,
-		///<summary>road (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/road/" />
-		[Description("road"),IconId("road"),IconCategory("Web Application Icons")]
-		Road = 0xf018,
-		///<summary>Download (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/download/" />
-		[Description("Download"),IconId("download"),IconCategory("Web Application Icons")]
-		Download = 0xf019,
-		///<summary>Arrow Circle Outlined Down (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/arrow-circle-o-down/" />
-		[Description("Arrow Circle Outlined Down"),IconId("arrow-circle-o-down"),IconCategory("Directional Icons")]
-		ArrowCircleOutlineDown = 0xf01a,
-		///<summary>Arrow Circle Outlined Up (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/arrow-circle-o-up/" />
-		[Description("Arrow Circle Outlined Up"),IconId("arrow-circle-o-up"),IconCategory("Directional Icons")]
-		ArrowCircleOutlineUp = 0xf01b,
-		///<summary>inbox (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/inbox/" />
-		[Description("inbox"),IconId("inbox"),IconCategory("Web Application Icons")]
-		Inbox = 0xf01c,
-		///<summary>Play Circle Outlined (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/play-circle-o/" />
-		[Description("Play Circle Outlined"),IconId("play-circle-o"),IconCategory("Video Player Icons")]
-		PlayCircleOutline = 0xf01d,
-		///<summary>Repeat (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/repeat/" />
-		[Description("Repeat"),IconId("repeat"),IconCategory("Text Editor Icons")]
-		Repeat = 0xf01e,
-		///<summary>Alias of: Repeat</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Repeat" />
-		[IconAlias]
-		RotateRight = Repeat,
-		///<summary>refresh (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/refresh/" />
-		[Description("refresh"),IconId("refresh"),IconCategory("Web Application Icons"),IconCategory("Spinner Icons")]
-		Refresh = 0xf021,
-		///<summary>list-alt (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/list-alt/" />
-		[Description("list-alt"),IconId("list-alt"),IconCategory("Text Editor Icons")]
-		ListAlt = 0xf022,
-		///<summary>lock (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/lock/" />
-		[Description("lock"),IconId("lock"),IconCategory("Web Application Icons")]
-		Lock = 0xf023,
-		///<summary>flag (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/flag/" />
-		[Description("flag"),IconId("flag"),IconCategory("Web Application Icons")]
-		Flag = 0xf024,
-		///<summary>headphones (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/headphones/" />
-		[Description("headphones"),IconId("headphones"),IconCategory("Web Application Icons")]
-		Headphones = 0xf025,
-		///<summary>volume-off (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/volume-off/" />
-		[Description("volume-off"),IconId("volume-off"),IconCategory("Web Application Icons")]
-		VolumeOff = 0xf026,
-		///<summary>volume-down (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/volume-down/" />
-		[Description("volume-down"),IconId("volume-down"),IconCategory("Web Application Icons")]
-		VolumeDown = 0xf027,
-		///<summary>volume-up (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/volume-up/" />
-		[Description("volume-up"),IconId("volume-up"),IconCategory("Web Application Icons")]
-		VolumeUp = 0xf028,
-		///<summary>qrcode (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/qrcode/" />
-		[Description("qrcode"),IconId("qrcode"),IconCategory("Web Application Icons")]
-		Qrcode = 0xf029,
-		///<summary>barcode (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/barcode/" />
-		[Description("barcode"),IconId("barcode"),IconCategory("Web Application Icons")]
-		Barcode = 0xf02a,
-		///<summary>tag (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/tag/" />
-		[Description("tag"),IconId("tag"),IconCategory("Web Application Icons")]
-		Tag = 0xf02b,
-		///<summary>tags (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/tags/" />
-		[Description("tags"),IconId("tags"),IconCategory("Web Application Icons")]
-		Tags = 0xf02c,
-		///<summary>book (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/book/" />
-		[Description("book"),IconId("book"),IconCategory("Web Application Icons")]
-		Book = 0xf02d,
-		///<summary>bookmark (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/bookmark/" />
-		[Description("bookmark"),IconId("bookmark"),IconCategory("Web Application Icons")]
-		Bookmark = 0xf02e,
-		///<summary>print (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/print/" />
-		[Description("print"),IconId("print"),IconCategory("Web Application Icons")]
-		Print = 0xf02f,
-		///<summary>camera (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/camera/" />
-		[Description("camera"),IconId("camera"),IconCategory("Web Application Icons")]
-		Camera = 0xf030,
-		///<summary>font (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/font/" />
-		[Description("font"),IconId("font"),IconCategory("Text Editor Icons")]
-		Font = 0xf031,
-		///<summary>bold (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/bold/" />
-		[Description("bold"),IconId("bold"),IconCategory("Text Editor Icons")]
-		Bold = 0xf032,
-		///<summary>italic (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/italic/" />
-		[Description("italic"),IconId("italic"),IconCategory("Text Editor Icons")]
-		Italic = 0xf033,
-		///<summary>text-height (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/text-height/" />
-		[Description("text-height"),IconId("text-height"),IconCategory("Text Editor Icons")]
-		TextHeight = 0xf034,
-		///<summary>text-width (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/text-width/" />
-		[Description("text-width"),IconId("text-width"),IconCategory("Text Editor Icons")]
-		TextWidth = 0xf035,
-		///<summary>align-left (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/align-left/" />
-		[Description("align-left"),IconId("align-left"),IconCategory("Text Editor Icons")]
-		AlignLeft = 0xf036,
-		///<summary>align-center (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/align-center/" />
-		[Description("align-center"),IconId("align-center"),IconCategory("Text Editor Icons")]
-		AlignCenter = 0xf037,
-		///<summary>align-right (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/align-right/" />
-		[Description("align-right"),IconId("align-right"),IconCategory("Text Editor Icons")]
-		AlignRight = 0xf038,
-		///<summary>align-justify (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/align-justify/" />
-		[Description("align-justify"),IconId("align-justify"),IconCategory("Text Editor Icons")]
-		AlignJustify = 0xf039,
-		///<summary>list (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/list/" />
-		[Description("list"),IconId("list"),IconCategory("Text Editor Icons")]
-		List = 0xf03a,
-		///<summary>Outdent (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/outdent/" />
-		[Description("Outdent"),IconId("outdent"),IconCategory("Text Editor Icons")]
-		Outdent = 0xf03b,
-		///<summary>Alias of: Outdent</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Outdent" />
-		[IconAlias]
-		Dedent = Outdent,
-		///<summary>Indent (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/indent/" />
-		[Description("Indent"),IconId("indent"),IconCategory("Text Editor Icons")]
-		Indent = 0xf03c,
-		///<summary>Video Camera (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/video-camera/" />
-		[Description("Video Camera"),IconId("video-camera"),IconCategory("Web Application Icons")]
-		VideoCamera = 0xf03d,
-		///<summary>Picture Outlined (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/picture-o/" />
-		[Description("Picture Outlined"),IconId("picture-o"),IconCategory("Web Application Icons")]
-		PictureOutline = 0xf03e,
-		///<summary>Alias of: PictureOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.PictureOutline" />
-		[IconAlias]
-		Photo = PictureOutline,
-		///<summary>Alias of: PictureOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.PictureOutline" />
-		[IconAlias]
-		Image = PictureOutline,
-		///<summary>pencil (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/pencil/" />
-		[Description("pencil"),IconId("pencil"),IconCategory("Web Application Icons")]
-		Pencil = 0xf040,
-		///<summary>map-marker (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/map-marker/" />
-		[Description("map-marker"),IconId("map-marker"),IconCategory("Web Application Icons")]
-		MapMarker = 0xf041,
-		///<summary>adjust (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/adjust/" />
-		[Description("adjust"),IconId("adjust"),IconCategory("Web Application Icons")]
-		Adjust = 0xf042,
-		///<summary>tint (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/tint/" />
-		[Description("tint"),IconId("tint"),IconCategory("Web Application Icons")]
-		Tint = 0xf043,
-		///<summary>Pencil Square Outlined (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/pencil-square-o/" />
-		[Description("Pencil Square Outlined"),IconId("pencil-square-o"),IconCategory("Web Application Icons")]
-		PencilSquareOutline = 0xf044,
-		///<summary>Alias of: PencilSquareOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.PencilSquareOutline" />
-		[IconAlias]
-		Edit = PencilSquareOutline,
-		///<summary>Share Square Outlined (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/share-square-o/" />
-		[Description("Share Square Outlined"),IconId("share-square-o"),IconCategory("Web Application Icons")]
-		ShareSquareOutline = 0xf045,
-		///<summary>Check Square Outlined (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/check-square-o/" />
-		[Description("Check Square Outlined"),IconId("check-square-o"),IconCategory("Web Application Icons"),IconCategory("Form Control Icons")]
-		CheckSquareOutline = 0xf046,
-		///<summary>Arrows (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/arrows/" />
-		[Description("Arrows"),IconId("arrows"),IconCategory("Web Application Icons"),IconCategory("Directional Icons")]
-		Arrows = 0xf047,
-		///<summary>step-backward (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/step-backward/" />
-		[Description("step-backward"),IconId("step-backward"),IconCategory("Video Player Icons")]
-		StepBackward = 0xf048,
-		///<summary>fast-backward (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/fast-backward/" />
-		[Description("fast-backward"),IconId("fast-backward"),IconCategory("Video Player Icons")]
-		FastBackward = 0xf049,
-		///<summary>backward (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/backward/" />
-		[Description("backward"),IconId("backward"),IconCategory("Video Player Icons")]
-		Backward = 0xf04a,
-		///<summary>play (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/play/" />
-		[Description("play"),IconId("play"),IconCategory("Video Player Icons")]
-		Play = 0xf04b,
-		///<summary>pause (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/pause/" />
-		[Description("pause"),IconId("pause"),IconCategory("Video Player Icons")]
-		Pause = 0xf04c,
-		///<summary>stop (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/stop/" />
-		[Description("stop"),IconId("stop"),IconCategory("Video Player Icons")]
-		Stop = 0xf04d,
-		///<summary>forward (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/forward/" />
-		[Description("forward"),IconId("forward"),IconCategory("Video Player Icons")]
-		Forward = 0xf04e,
-		///<summary>fast-forward (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/fast-forward/" />
-		[Description("fast-forward"),IconId("fast-forward"),IconCategory("Video Player Icons")]
-		FastForward = 0xf050,
-		///<summary>step-forward (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/step-forward/" />
-		[Description("step-forward"),IconId("step-forward"),IconCategory("Video Player Icons")]
-		StepForward = 0xf051,
-		///<summary>eject (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/eject/" />
-		[Description("eject"),IconId("eject"),IconCategory("Video Player Icons")]
-		Eject = 0xf052,
-		///<summary>chevron-left (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/chevron-left/" />
-		[Description("chevron-left"),IconId("chevron-left"),IconCategory("Directional Icons")]
-		ChevronLeft = 0xf053,
-		///<summary>chevron-right (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/chevron-right/" />
-		[Description("chevron-right"),IconId("chevron-right"),IconCategory("Directional Icons")]
-		ChevronRight = 0xf054,
-		///<summary>Plus Circle (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/plus-circle/" />
-		[Description("Plus Circle"),IconId("plus-circle"),IconCategory("Web Application Icons")]
-		PlusCircle = 0xf055,
-		///<summary>Minus Circle (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/minus-circle/" />
-		[Description("Minus Circle"),IconId("minus-circle"),IconCategory("Web Application Icons")]
-		MinusCircle = 0xf056,
-		///<summary>Times Circle (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/times-circle/" />
-		[Description("Times Circle"),IconId("times-circle"),IconCategory("Web Application Icons")]
-		TimesCircle = 0xf057,
-		///<summary>Check Circle (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/check-circle/" />
-		[Description("Check Circle"),IconId("check-circle"),IconCategory("Web Application Icons")]
-		CheckCircle = 0xf058,
-		///<summary>Question Circle (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/question-circle/" />
-		[Description("Question Circle"),IconId("question-circle"),IconCategory("Web Application Icons")]
-		QuestionCircle = 0xf059,
-		///<summary>Info Circle (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/info-circle/" />
-		[Description("Info Circle"),IconId("info-circle"),IconCategory("Web Application Icons")]
-		InfoCircle = 0xf05a,
-		///<summary>Crosshairs (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/crosshairs/" />
-		[Description("Crosshairs"),IconId("crosshairs"),IconCategory("Web Application Icons")]
-		Crosshairs = 0xf05b,
-		///<summary>Times Circle Outlined (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/times-circle-o/" />
-		[Description("Times Circle Outlined"),IconId("times-circle-o"),IconCategory("Web Application Icons")]
-		TimesCircleOutline = 0xf05c,
-		///<summary>Check Circle Outlined (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/check-circle-o/" />
-		[Description("Check Circle Outlined"),IconId("check-circle-o"),IconCategory("Web Application Icons")]
-		CheckCircleOutline = 0xf05d,
-		///<summary>ban (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/ban/" />
-		[Description("ban"),IconId("ban"),IconCategory("Web Application Icons")]
-		Ban = 0xf05e,
-		///<summary>arrow-left (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/arrow-left/" />
-		[Description("arrow-left"),IconId("arrow-left"),IconCategory("Directional Icons")]
-		ArrowLeft = 0xf060,
-		///<summary>arrow-right (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/arrow-right/" />
-		[Description("arrow-right"),IconId("arrow-right"),IconCategory("Directional Icons")]
-		ArrowRight = 0xf061,
-		///<summary>arrow-up (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/arrow-up/" />
-		[Description("arrow-up"),IconId("arrow-up"),IconCategory("Directional Icons")]
-		ArrowUp = 0xf062,
-		///<summary>arrow-down (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/arrow-down/" />
-		[Description("arrow-down"),IconId("arrow-down"),IconCategory("Directional Icons")]
-		ArrowDown = 0xf063,
-		///<summary>Share (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/share/" />
-		[Description("Share"),IconId("share"),IconCategory("Web Application Icons")]
-		Share = 0xf064,
-		///<summary>Alias of: Share</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Share" />
-		[IconAlias]
-		MailForward = Share,
-		///<summary>Expand (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/expand/" />
-		[Description("Expand"),IconId("expand"),IconCategory("Video Player Icons")]
-		Expand = 0xf065,
-		///<summary>Compress (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/compress/" />
-		[Description("Compress"),IconId("compress"),IconCategory("Video Player Icons")]
-		Compress = 0xf066,
-		///<summary>plus (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/plus/" />
-		[Description("plus"),IconId("plus"),IconCategory("Web Application Icons")]
-		Plus = 0xf067,
-		///<summary>minus (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/minus/" />
-		[Description("minus"),IconId("minus"),IconCategory("Web Application Icons")]
-		Minus = 0xf068,
-		///<summary>asterisk (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/asterisk/" />
-		[Description("asterisk"),IconId("asterisk"),IconCategory("Web Application Icons")]
-		Asterisk = 0xf069,
-		///<summary>Exclamation Circle (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/exclamation-circle/" />
-		[Description("Exclamation Circle"),IconId("exclamation-circle"),IconCategory("Web Application Icons")]
-		ExclamationCircle = 0xf06a,
-		///<summary>gift (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/gift/" />
-		[Description("gift"),IconId("gift"),IconCategory("Web Application Icons")]
-		Gift = 0xf06b,
-		///<summary>leaf (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/leaf/" />
-		[Description("leaf"),IconId("leaf"),IconCategory("Web Application Icons")]
-		Leaf = 0xf06c,
-		///<summary>fire (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/fire/" />
-		[Description("fire"),IconId("fire"),IconCategory("Web Application Icons")]
-		Fire = 0xf06d,
-		///<summary>Eye (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/eye/" />
-		[Description("Eye"),IconId("eye"),IconCategory("Web Application Icons")]
-		Eye = 0xf06e,
-		///<summary>Eye Slash (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/eye-slash/" />
-		[Description("Eye Slash"),IconId("eye-slash"),IconCategory("Web Application Icons")]
-		EyeSlash = 0xf070,
-		///<summary>Exclamation Triangle (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/exclamation-triangle/" />
-		[Description("Exclamation Triangle"),IconId("exclamation-triangle"),IconCategory("Web Application Icons")]
-		ExclamationTriangle = 0xf071,
-		///<summary>Alias of: ExclamationTriangle</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.ExclamationTriangle" />
-		[IconAlias]
-		Warning = ExclamationTriangle,
-		///<summary>plane (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/plane/" />
-		[Description("plane"),IconId("plane"),IconCategory("Web Application Icons"),IconCategory("Transportation Icons")]
-		Plane = 0xf072,
-		///<summary>calendar (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/calendar/" />
-		[Description("calendar"),IconId("calendar"),IconCategory("Web Application Icons")]
-		Calendar = 0xf073,
-		///<summary>random (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/random/" />
-		[Description("random"),IconId("random"),IconCategory("Web Application Icons"),IconCategory("Video Player Icons")]
-		Random = 0xf074,
-		///<summary>comment (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/comment/" />
-		[Description("comment"),IconId("comment"),IconCategory("Web Application Icons")]
-		Comment = 0xf075,
-		///<summary>magnet (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/magnet/" />
-		[Description("magnet"),IconId("magnet"),IconCategory("Web Application Icons")]
-		Magnet = 0xf076,
-		///<summary>chevron-up (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/chevron-up/" />
-		[Description("chevron-up"),IconId("chevron-up"),IconCategory("Directional Icons")]
-		ChevronUp = 0xf077,
-		///<summary>chevron-down (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/chevron-down/" />
-		[Description("chevron-down"),IconId("chevron-down"),IconCategory("Directional Icons")]
-		ChevronDown = 0xf078,
-		///<summary>retweet (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/retweet/" />
-		[Description("retweet"),IconId("retweet"),IconCategory("Web Application Icons")]
-		Retweet = 0xf079,
-		///<summary>shopping-cart (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/shopping-cart/" />
-		[Description("shopping-cart"),IconId("shopping-cart"),IconCategory("Web Application Icons")]
-		ShoppingCart = 0xf07a,
-		///<summary>Folder (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/folder/" />
-		[Description("Folder"),IconId("folder"),IconCategory("Web Application Icons")]
-		Folder = 0xf07b,
-		///<summary>Folder Open (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/folder-open/" />
-		[Description("Folder Open"),IconId("folder-open"),IconCategory("Web Application Icons")]
-		FolderOpen = 0xf07c,
-		///<summary>Arrows Vertical (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/arrows-v/" />
-		[Description("Arrows Vertical"),IconId("arrows-v"),IconCategory("Web Application Icons"),IconCategory("Directional Icons")]
-		ArrowsV = 0xf07d,
-		///<summary>Arrows Horizontal (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/arrows-h/" />
-		[Description("Arrows Horizontal"),IconId("arrows-h"),IconCategory("Web Application Icons"),IconCategory("Directional Icons")]
-		ArrowsH = 0xf07e,
-		///<summary>Bar Chart (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/bar-chart/" />
-		[Description("Bar Chart"),IconId("bar-chart"),IconCategory("Web Application Icons"),IconCategory("Chart Icons")]
-		BarChart = 0xf080,
-		///<summary>Alias of: BarChart</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.BarChart" />
-		[IconAlias]
-		BarChartOutline = BarChart,
-		///<summary>Twitter Square (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/twitter-square/" />
-		[Description("Twitter Square"),IconId("twitter-square"),IconCategory("Brand Icons")]
-		TwitterSquare = 0xf081,
-		///<summary>Facebook Square (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/facebook-square/" />
-		[Description("Facebook Square"),IconId("facebook-square"),IconCategory("Brand Icons")]
-		FacebookSquare = 0xf082,
-		///<summary>camera-retro (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/camera-retro/" />
-		[Description("camera-retro"),IconId("camera-retro"),IconCategory("Web Application Icons")]
-		CameraRetro = 0xf083,
-		///<summary>key (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/key/" />
-		[Description("key"),IconId("key"),IconCategory("Web Application Icons")]
-		Key = 0xf084,
-		///<summary>cogs (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/cogs/" />
-		[Description("cogs"),IconId("cogs"),IconCategory("Web Application Icons")]
-		Cogs = 0xf085,
-		///<summary>Alias of: Cogs</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Cogs" />
-		[IconAlias]
-		Gears = Cogs,
-		///<summary>comments (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/comments/" />
-		[Description("comments"),IconId("comments"),IconCategory("Web Application Icons")]
-		Comments = 0xf086,
-		///<summary>Thumbs Up Outlined (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/thumbs-o-up/" />
-		[Description("Thumbs Up Outlined"),IconId("thumbs-o-up"),IconCategory("Web Application Icons"),IconCategory("Hand Icons")]
-		ThumbsOutlineUp = 0xf087,
-		///<summary>Thumbs Down Outlined (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/thumbs-o-down/" />
-		[Description("Thumbs Down Outlined"),IconId("thumbs-o-down"),IconCategory("Web Application Icons"),IconCategory("Hand Icons")]
-		ThumbsOutlineDown = 0xf088,
-		///<summary>star-half (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/star-half/" />
-		[Description("star-half"),IconId("star-half"),IconCategory("Web Application Icons")]
-		StarHalf = 0xf089,
-		///<summary>Heart Outlined (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/heart-o/" />
-		[Description("Heart Outlined"),IconId("heart-o"),IconCategory("Web Application Icons"),IconCategory("Medical Icons")]
-		HeartOutline = 0xf08a,
-		///<summary>Sign Out (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/sign-out/" />
-		[Description("Sign Out"),IconId("sign-out"),IconCategory("Web Application Icons")]
-		SignOut = 0xf08b,
-		///<summary>LinkedIn Square (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/linkedin-square/" />
-		[Description("LinkedIn Square"),IconId("linkedin-square"),IconCategory("Brand Icons")]
-		LinkedinSquare = 0xf08c,
-		///<summary>Thumb Tack (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/thumb-tack/" />
-		[Description("Thumb Tack"),IconId("thumb-tack"),IconCategory("Web Application Icons")]
-		ThumbTack = 0xf08d,
-		///<summary>External Link (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/external-link/" />
-		[Description("External Link"),IconId("external-link"),IconCategory("Web Application Icons")]
-		ExternalLink = 0xf08e,
-		///<summary>Sign In (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/sign-in/" />
-		[Description("Sign In"),IconId("sign-in"),IconCategory("Web Application Icons")]
-		SignIn = 0xf090,
-		///<summary>trophy (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/trophy/" />
-		[Description("trophy"),IconId("trophy"),IconCategory("Web Application Icons")]
-		Trophy = 0xf091,
-		///<summary>GitHub Square (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/github-square/" />
-		[Description("GitHub Square"),IconId("github-square"),IconCategory("Brand Icons")]
-		GithubSquare = 0xf092,
-		///<summary>Upload (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/upload/" />
-		[Description("Upload"),IconId("upload"),IconCategory("Web Application Icons")]
-		Upload = 0xf093,
-		///<summary>Lemon Outlined (created: 1.0)</summary>
-		///<see href="http://fontawesome.io/icon/lemon-o/" />
-		[Description("Lemon Outlined"),IconId("lemon-o"),IconCategory("Web Application Icons")]
-		LemonOutline = 0xf094,
-		///<summary>Phone (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/phone/" />
-		[Description("Phone"),IconId("phone"),IconCategory("Web Application Icons")]
-		Phone = 0xf095,
-		///<summary>Square Outlined (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/square-o/" />
-		[Description("Square Outlined"),IconId("square-o"),IconCategory("Web Application Icons"),IconCategory("Form Control Icons")]
-		SquareOutline = 0xf096,
-		///<summary>Bookmark Outlined (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/bookmark-o/" />
-		[Description("Bookmark Outlined"),IconId("bookmark-o"),IconCategory("Web Application Icons")]
-		BookmarkOutline = 0xf097,
-		///<summary>Phone Square (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/phone-square/" />
-		[Description("Phone Square"),IconId("phone-square"),IconCategory("Web Application Icons")]
-		PhoneSquare = 0xf098,
-		///<summary>Twitter (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/twitter/" />
-		[Description("Twitter"),IconId("twitter"),IconCategory("Brand Icons")]
-		Twitter = 0xf099,
-		///<summary>Facebook (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/facebook/" />
-		[Description("Facebook"),IconId("facebook"),IconCategory("Brand Icons")]
-		Facebook = 0xf09a,
-		///<summary>Alias of: Facebook</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Facebook" />
-		[IconAlias]
-		FacebookF = Facebook,
-		///<summary>GitHub (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/github/" />
-		[Description("GitHub"),IconId("github"),IconCategory("Brand Icons")]
-		Github = 0xf09b,
-		///<summary>unlock (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/unlock/" />
-		[Description("unlock"),IconId("unlock"),IconCategory("Web Application Icons")]
-		Unlock = 0xf09c,
-		///<summary>credit-card (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/credit-card/" />
-		[Description("credit-card"),IconId("credit-card"),IconCategory("Web Application Icons"),IconCategory("Payment Icons")]
-		CreditCard = 0xf09d,
-		///<summary>rss (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/rss/" />
-		[Description("rss"),IconId("rss"),IconCategory("Web Application Icons")]
-		Rss = 0xf09e,
-		///<summary>Alias of: Rss</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Rss" />
-		[IconAlias]
-		Feed = Rss,
-		///<summary>HDD (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/hdd-o/" />
-		[Description("HDD"),IconId("hdd-o"),IconCategory("Web Application Icons")]
-		HddOutline = 0xf0a0,
-		///<summary>bullhorn (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/bullhorn/" />
-		[Description("bullhorn"),IconId("bullhorn"),IconCategory("Web Application Icons")]
-		Bullhorn = 0xf0a1,
-		///<summary>bell (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/bell/" />
-		[Description("bell"),IconId("bell"),IconCategory("Web Application Icons")]
-		Bell = 0xf0f3,
-		///<summary>certificate (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/certificate/" />
-		[Description("certificate"),IconId("certificate"),IconCategory("Web Application Icons")]
-		Certificate = 0xf0a3,
-		///<summary>Hand Outlined Right (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/hand-o-right/" />
-		[Description("Hand Outlined Right"),IconId("hand-o-right"),IconCategory("Directional Icons"),IconCategory("Hand Icons")]
-		HandOutlineRight = 0xf0a4,
-		///<summary>Hand Outlined Left (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/hand-o-left/" />
-		[Description("Hand Outlined Left"),IconId("hand-o-left"),IconCategory("Directional Icons"),IconCategory("Hand Icons")]
-		HandOutlineLeft = 0xf0a5,
-		///<summary>Hand Outlined Up (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/hand-o-up/" />
-		[Description("Hand Outlined Up"),IconId("hand-o-up"),IconCategory("Directional Icons"),IconCategory("Hand Icons")]
-		HandOutlineUp = 0xf0a6,
-		///<summary>Hand Outlined Down (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/hand-o-down/" />
-		[Description("Hand Outlined Down"),IconId("hand-o-down"),IconCategory("Directional Icons"),IconCategory("Hand Icons")]
-		HandOutlineDown = 0xf0a7,
-		///<summary>Arrow Circle Left (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/arrow-circle-left/" />
-		[Description("Arrow Circle Left"),IconId("arrow-circle-left"),IconCategory("Directional Icons")]
-		ArrowCircleLeft = 0xf0a8,
-		///<summary>Arrow Circle Right (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/arrow-circle-right/" />
-		[Description("Arrow Circle Right"),IconId("arrow-circle-right"),IconCategory("Directional Icons")]
-		ArrowCircleRight = 0xf0a9,
-		///<summary>Arrow Circle Up (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/arrow-circle-up/" />
-		[Description("Arrow Circle Up"),IconId("arrow-circle-up"),IconCategory("Directional Icons")]
-		ArrowCircleUp = 0xf0aa,
-		///<summary>Arrow Circle Down (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/arrow-circle-down/" />
-		[Description("Arrow Circle Down"),IconId("arrow-circle-down"),IconCategory("Directional Icons")]
-		ArrowCircleDown = 0xf0ab,
-		///<summary>Globe (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/globe/" />
-		[Description("Globe"),IconId("globe"),IconCategory("Web Application Icons")]
-		Globe = 0xf0ac,
-		///<summary>Wrench (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/wrench/" />
-		[Description("Wrench"),IconId("wrench"),IconCategory("Web Application Icons")]
-		Wrench = 0xf0ad,
-		///<summary>Tasks (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/tasks/" />
-		[Description("Tasks"),IconId("tasks"),IconCategory("Web Application Icons")]
-		Tasks = 0xf0ae,
-		///<summary>Filter (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/filter/" />
-		[Description("Filter"),IconId("filter"),IconCategory("Web Application Icons")]
-		Filter = 0xf0b0,
-		///<summary>Briefcase (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/briefcase/" />
-		[Description("Briefcase"),IconId("briefcase"),IconCategory("Web Application Icons")]
-		Briefcase = 0xf0b1,
-		///<summary>Arrows Alt (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/arrows-alt/" />
-		[Description("Arrows Alt"),IconId("arrows-alt"),IconCategory("Video Player Icons"),IconCategory("Directional Icons")]
-		ArrowsAlt = 0xf0b2,
-		///<summary>Users (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/users/" />
-		[Description("Users"),IconId("users"),IconCategory("Web Application Icons")]
-		Users = 0xf0c0,
-		///<summary>Alias of: Users</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Users" />
-		[IconAlias]
-		Group = Users,
-		///<summary>Link (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/link/" />
-		[Description("Link"),IconId("link"),IconCategory("Text Editor Icons")]
-		Link = 0xf0c1,
-		///<summary>Alias of: Link</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Link" />
-		[IconAlias]
-		Chain = Link,
-		///<summary>Cloud (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/cloud/" />
-		[Description("Cloud"),IconId("cloud"),IconCategory("Web Application Icons")]
-		Cloud = 0xf0c2,
-		///<summary>Flask (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/flask/" />
-		[Description("Flask"),IconId("flask"),IconCategory("Web Application Icons")]
-		Flask = 0xf0c3,
-		///<summary>Scissors (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/scissors/" />
-		[Description("Scissors"),IconId("scissors"),IconCategory("Text Editor Icons")]
-		Scissors = 0xf0c4,
-		///<summary>Alias of: Scissors</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Scissors" />
-		[IconAlias]
-		Cut = Scissors,
-		///<summary>Files Outlined (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/files-o/" />
-		[Description("Files Outlined"),IconId("files-o"),IconCategory("Text Editor Icons")]
-		FilesOutline = 0xf0c5,
-		///<summary>Alias of: FilesOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.FilesOutline" />
-		[IconAlias]
-		Copy = FilesOutline,
-		///<summary>Paperclip (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/paperclip/" />
-		[Description("Paperclip"),IconId("paperclip"),IconCategory("Text Editor Icons")]
-		Paperclip = 0xf0c6,
-		///<summary>Floppy Outlined (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/floppy-o/" />
-		[Description("Floppy Outlined"),IconId("floppy-o"),IconCategory("Text Editor Icons")]
-		FloppyOutline = 0xf0c7,
-		///<summary>Alias of: FloppyOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.FloppyOutline" />
-		[IconAlias]
-		Save = FloppyOutline,
-		///<summary>Square (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/square/" />
-		[Description("Square"),IconId("square"),IconCategory("Web Application Icons"),IconCategory("Form Control Icons")]
-		Square = 0xf0c8,
-		///<summary>Bars (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/bars/" />
-		[Description("Bars"),IconId("bars"),IconCategory("Web Application Icons")]
-		Bars = 0xf0c9,
-		///<summary>Alias of: Bars</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Bars" />
-		[IconAlias]
-		Navicon = Bars,
-		///<summary>Alias of: Bars</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Bars" />
-		[IconAlias]
-		Reorder = Bars,
-		///<summary>list-ul (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/list-ul/" />
-		[Description("list-ul"),IconId("list-ul"),IconCategory("Text Editor Icons")]
-		ListUl = 0xf0ca,
-		///<summary>list-ol (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/list-ol/" />
-		[Description("list-ol"),IconId("list-ol"),IconCategory("Text Editor Icons")]
-		ListOl = 0xf0cb,
-		///<summary>Strikethrough (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/strikethrough/" />
-		[Description("Strikethrough"),IconId("strikethrough"),IconCategory("Text Editor Icons")]
-		Strikethrough = 0xf0cc,
-		///<summary>Underline (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/underline/" />
-		[Description("Underline"),IconId("underline"),IconCategory("Text Editor Icons")]
-		Underline = 0xf0cd,
-		///<summary>table (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/table/" />
-		[Description("table"),IconId("table"),IconCategory("Text Editor Icons")]
-		Table = 0xf0ce,
-		///<summary>magic (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/magic/" />
-		[Description("magic"),IconId("magic"),IconCategory("Web Application Icons")]
-		Magic = 0xf0d0,
-		///<summary>truck (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/truck/" />
-		[Description("truck"),IconId("truck"),IconCategory("Web Application Icons"),IconCategory("Transportation Icons")]
-		Truck = 0xf0d1,
-		///<summary>Pinterest (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/pinterest/" />
-		[Description("Pinterest"),IconId("pinterest"),IconCategory("Brand Icons")]
-		Pinterest = 0xf0d2,
-		///<summary>Pinterest Square (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/pinterest-square/" />
-		[Description("Pinterest Square"),IconId("pinterest-square"),IconCategory("Brand Icons")]
-		PinterestSquare = 0xf0d3,
-		///<summary>Google Plus Square (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/google-plus-square/" />
-		[Description("Google Plus Square"),IconId("google-plus-square"),IconCategory("Brand Icons")]
-		GooglePlusSquare = 0xf0d4,
-		///<summary>Google Plus (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/google-plus/" />
-		[Description("Google Plus"),IconId("google-plus"),IconCategory("Brand Icons")]
-		GooglePlus = 0xf0d5,
-		///<summary>Money (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/money/" />
-		[Description("Money"),IconId("money"),IconCategory("Web Application Icons"),IconCategory("Currency Icons")]
-		Money = 0xf0d6,
-		///<summary>Caret Down (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/caret-down/" />
-		[Description("Caret Down"),IconId("caret-down"),IconCategory("Directional Icons")]
-		CaretDown = 0xf0d7,
-		///<summary>Caret Up (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/caret-up/" />
-		[Description("Caret Up"),IconId("caret-up"),IconCategory("Directional Icons")]
-		CaretUp = 0xf0d8,
-		///<summary>Caret Left (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/caret-left/" />
-		[Description("Caret Left"),IconId("caret-left"),IconCategory("Directional Icons")]
-		CaretLeft = 0xf0d9,
-		///<summary>Caret Right (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/caret-right/" />
-		[Description("Caret Right"),IconId("caret-right"),IconCategory("Directional Icons")]
-		CaretRight = 0xf0da,
-		///<summary>Columns (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/columns/" />
-		[Description("Columns"),IconId("columns"),IconCategory("Text Editor Icons")]
-		Columns = 0xf0db,
-		///<summary>Sort (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/sort/" />
-		[Description("Sort"),IconId("sort"),IconCategory("Web Application Icons")]
-		Sort = 0xf0dc,
-		///<summary>Alias of: Sort</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Sort" />
-		[IconAlias]
-		Unsorted = Sort,
-		///<summary>Sort Descending (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/sort-desc/" />
-		[Description("Sort Descending"),IconId("sort-desc"),IconCategory("Web Application Icons")]
-		SortDesc = 0xf0dd,
-		///<summary>Alias of: SortDesc</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.SortDesc" />
-		[IconAlias]
-		SortDown = SortDesc,
-		///<summary>Sort Ascending (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/sort-asc/" />
-		[Description("Sort Ascending"),IconId("sort-asc"),IconCategory("Web Application Icons")]
-		SortAsc = 0xf0de,
-		///<summary>Alias of: SortAsc</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.SortAsc" />
-		[IconAlias]
-		SortUp = SortAsc,
-		///<summary>Envelope (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/envelope/" />
-		[Description("Envelope"),IconId("envelope"),IconCategory("Web Application Icons")]
-		Envelope = 0xf0e0,
-		///<summary>LinkedIn (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/linkedin/" />
-		[Description("LinkedIn"),IconId("linkedin"),IconCategory("Brand Icons")]
-		Linkedin = 0xf0e1,
-		///<summary>Undo (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/undo/" />
-		[Description("Undo"),IconId("undo"),IconCategory("Text Editor Icons")]
-		Undo = 0xf0e2,
-		///<summary>Alias of: Undo</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Undo" />
-		[IconAlias]
-		RotateLeft = Undo,
-		///<summary>Gavel (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/gavel/" />
-		[Description("Gavel"),IconId("gavel"),IconCategory("Web Application Icons")]
-		Gavel = 0xf0e3,
-		///<summary>Alias of: Gavel</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Gavel" />
-		[IconAlias]
-		Legal = Gavel,
-		///<summary>Tachometer (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/tachometer/" />
-		[Description("Tachometer"),IconId("tachometer"),IconCategory("Web Application Icons")]
-		Tachometer = 0xf0e4,
-		///<summary>Alias of: Tachometer</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Tachometer" />
-		[IconAlias]
-		Dashboard = Tachometer,
-		///<summary>comment-o (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/comment-o/" />
-		[Description("comment-o"),IconId("comment-o"),IconCategory("Web Application Icons")]
-		CommentOutline = 0xf0e5,
-		///<summary>comments-o (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/comments-o/" />
-		[Description("comments-o"),IconId("comments-o"),IconCategory("Web Application Icons")]
-		CommentsOutline = 0xf0e6,
-		///<summary>Lightning Bolt (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/bolt/" />
-		[Description("Lightning Bolt"),IconId("bolt"),IconCategory("Web Application Icons")]
-		Bolt = 0xf0e7,
-		///<summary>Alias of: Bolt</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Bolt" />
-		[IconAlias]
-		Flash = Bolt,
-		///<summary>Sitemap (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/sitemap/" />
-		[Description("Sitemap"),IconId("sitemap"),IconCategory("Web Application Icons")]
-		Sitemap = 0xf0e8,
-		///<summary>Umbrella (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/umbrella/" />
-		[Description("Umbrella"),IconId("umbrella"),IconCategory("Web Application Icons")]
-		Umbrella = 0xf0e9,
-		///<summary>Clipboard (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/clipboard/" />
-		[Description("Clipboard"),IconId("clipboard"),IconCategory("Text Editor Icons")]
-		Clipboard = 0xf0ea,
-		///<summary>Alias of: Clipboard</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Clipboard" />
-		[IconAlias]
-		Paste = Clipboard,
-		///<summary>Lightbulb Outlined (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/lightbulb-o/" />
-		[Description("Lightbulb Outlined"),IconId("lightbulb-o"),IconCategory("Web Application Icons")]
-		LightbulbOutline = 0xf0eb,
-		///<summary>Exchange (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/exchange/" />
-		[Description("Exchange"),IconId("exchange"),IconCategory("Web Application Icons"),IconCategory("Directional Icons")]
-		Exchange = 0xf0ec,
-		///<summary>Cloud Download (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/cloud-download/" />
-		[Description("Cloud Download"),IconId("cloud-download"),IconCategory("Web Application Icons")]
-		CloudDownload = 0xf0ed,
-		///<summary>Cloud Upload (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/cloud-upload/" />
-		[Description("Cloud Upload"),IconId("cloud-upload"),IconCategory("Web Application Icons")]
-		CloudUpload = 0xf0ee,
-		///<summary>user-md (created: 2.0)</summary>
-		///<see href="http://fontawesome.io/icon/user-md/" />
-		[Description("user-md"),IconId("user-md"),IconCategory("Medical Icons")]
-		UserMd = 0xf0f0,
-		///<summary>Stethoscope (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/stethoscope/" />
-		[Description("Stethoscope"),IconId("stethoscope"),IconCategory("Medical Icons")]
-		Stethoscope = 0xf0f1,
-		///<summary>Suitcase (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/suitcase/" />
-		[Description("Suitcase"),IconId("suitcase"),IconCategory("Web Application Icons")]
-		Suitcase = 0xf0f2,
-		///<summary>Bell Outlined (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/bell-o/" />
-		[Description("Bell Outlined"),IconId("bell-o"),IconCategory("Web Application Icons")]
-		BellOutline = 0xf0a2,
-		///<summary>Coffee (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/coffee/" />
-		[Description("Coffee"),IconId("coffee"),IconCategory("Web Application Icons")]
-		Coffee = 0xf0f4,
-		///<summary>Cutlery (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/cutlery/" />
-		[Description("Cutlery"),IconId("cutlery"),IconCategory("Web Application Icons")]
-		Cutlery = 0xf0f5,
-		///<summary>File Text Outlined (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/file-text-o/" />
-		[Description("File Text Outlined"),IconId("file-text-o"),IconCategory("Text Editor Icons"),IconCategory("File Type Icons")]
-		FileTextOutline = 0xf0f6,
-		///<summary>Building Outlined (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/building-o/" />
-		[Description("Building Outlined"),IconId("building-o"),IconCategory("Web Application Icons")]
-		BuildingOutline = 0xf0f7,
-		///<summary>hospital Outlined (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/hospital-o/" />
-		[Description("hospital Outlined"),IconId("hospital-o"),IconCategory("Medical Icons")]
-		HospitalOutline = 0xf0f8,
-		///<summary>ambulance (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/ambulance/" />
-		[Description("ambulance"),IconId("ambulance"),IconCategory("Medical Icons"),IconCategory("Transportation Icons")]
-		Ambulance = 0xf0f9,
-		///<summary>medkit (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/medkit/" />
-		[Description("medkit"),IconId("medkit"),IconCategory("Medical Icons")]
-		Medkit = 0xf0fa,
-		///<summary>fighter-jet (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/fighter-jet/" />
-		[Description("fighter-jet"),IconId("fighter-jet"),IconCategory("Web Application Icons"),IconCategory("Transportation Icons")]
-		FighterJet = 0xf0fb,
-		///<summary>beer (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/beer/" />
-		[Description("beer"),IconId("beer"),IconCategory("Web Application Icons")]
-		Beer = 0xf0fc,
-		///<summary>H Square (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/h-square/" />
-		[Description("H Square"),IconId("h-square"),IconCategory("Medical Icons")]
-		HSquare = 0xf0fd,
-		///<summary>Plus Square (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/plus-square/" />
-		[Description("Plus Square"),IconId("plus-square"),IconCategory("Medical Icons"),IconCategory("Web Application Icons"),IconCategory("Form Control Icons")]
-		PlusSquare = 0xf0fe,
-		///<summary>Angle Double Left (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/angle-double-left/" />
-		[Description("Angle Double Left"),IconId("angle-double-left"),IconCategory("Directional Icons")]
-		AngleDoubleLeft = 0xf100,
-		///<summary>Angle Double Right (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/angle-double-right/" />
-		[Description("Angle Double Right"),IconId("angle-double-right"),IconCategory("Directional Icons")]
-		AngleDoubleRight = 0xf101,
-		///<summary>Angle Double Up (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/angle-double-up/" />
-		[Description("Angle Double Up"),IconId("angle-double-up"),IconCategory("Directional Icons")]
-		AngleDoubleUp = 0xf102,
-		///<summary>Angle Double Down (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/angle-double-down/" />
-		[Description("Angle Double Down"),IconId("angle-double-down"),IconCategory("Directional Icons")]
-		AngleDoubleDown = 0xf103,
-		///<summary>angle-left (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/angle-left/" />
-		[Description("angle-left"),IconId("angle-left"),IconCategory("Directional Icons")]
-		AngleLeft = 0xf104,
-		///<summary>angle-right (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/angle-right/" />
-		[Description("angle-right"),IconId("angle-right"),IconCategory("Directional Icons")]
-		AngleRight = 0xf105,
-		///<summary>angle-up (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/angle-up/" />
-		[Description("angle-up"),IconId("angle-up"),IconCategory("Directional Icons")]
-		AngleUp = 0xf106,
-		///<summary>angle-down (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/angle-down/" />
-		[Description("angle-down"),IconId("angle-down"),IconCategory("Directional Icons")]
-		AngleDown = 0xf107,
-		///<summary>Desktop (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/desktop/" />
-		[Description("Desktop"),IconId("desktop"),IconCategory("Web Application Icons")]
-		Desktop = 0xf108,
-		///<summary>Laptop (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/laptop/" />
-		[Description("Laptop"),IconId("laptop"),IconCategory("Web Application Icons")]
-		Laptop = 0xf109,
-		///<summary>tablet (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/tablet/" />
-		[Description("tablet"),IconId("tablet"),IconCategory("Web Application Icons")]
-		Tablet = 0xf10a,
-		///<summary>Mobile Phone (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/mobile/" />
-		[Description("Mobile Phone"),IconId("mobile"),IconCategory("Web Application Icons")]
-		Mobile = 0xf10b,
-		///<summary>Alias of: Mobile</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Mobile" />
-		[IconAlias]
-		MobilePhone = Mobile,
-		///<summary>Circle Outlined (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/circle-o/" />
-		[Description("Circle Outlined"),IconId("circle-o"),IconCategory("Web Application Icons"),IconCategory("Form Control Icons")]
-		CircleOutline = 0xf10c,
-		///<summary>quote-left (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/quote-left/" />
-		[Description("quote-left"),IconId("quote-left"),IconCategory("Web Application Icons")]
-		QuoteLeft = 0xf10d,
-		///<summary>quote-right (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/quote-right/" />
-		[Description("quote-right"),IconId("quote-right"),IconCategory("Web Application Icons")]
-		QuoteRight = 0xf10e,
-		///<summary>Spinner (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/spinner/" />
-		[Description("Spinner"),IconId("spinner"),IconCategory("Web Application Icons"),IconCategory("Spinner Icons")]
-		Spinner = 0xf110,
-		///<summary>Circle (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/circle/" />
-		[Description("Circle"),IconId("circle"),IconCategory("Web Application Icons"),IconCategory("Form Control Icons")]
-		Circle = 0xf111,
-		///<summary>Reply (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/reply/" />
-		[Description("Reply"),IconId("reply"),IconCategory("Web Application Icons")]
-		Reply = 0xf112,
-		///<summary>Alias of: Reply</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Reply" />
-		[IconAlias]
-		MailReply = Reply,
-		///<summary>GitHub Alt (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/github-alt/" />
-		[Description("GitHub Alt"),IconId("github-alt"),IconCategory("Brand Icons")]
-		GithubAlt = 0xf113,
-		///<summary>Folder Outlined (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/folder-o/" />
-		[Description("Folder Outlined"),IconId("folder-o"),IconCategory("Web Application Icons")]
-		FolderOutline = 0xf114,
-		///<summary>Folder Open Outlined (created: 3.0)</summary>
-		///<see href="http://fontawesome.io/icon/folder-open-o/" />
-		[Description("Folder Open Outlined"),IconId("folder-open-o"),IconCategory("Web Application Icons")]
-		FolderOutlinepenOutline = 0xf115,
-		///<summary>Smile Outlined (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/smile-o/" />
-		[Description("Smile Outlined"),IconId("smile-o"),IconCategory("Web Application Icons")]
-		SmileOutline = 0xf118,
-		///<summary>Frown Outlined (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/frown-o/" />
-		[Description("Frown Outlined"),IconId("frown-o"),IconCategory("Web Application Icons")]
-		FrownOutline = 0xf119,
-		///<summary>Meh Outlined (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/meh-o/" />
-		[Description("Meh Outlined"),IconId("meh-o"),IconCategory("Web Application Icons")]
-		MehOutline = 0xf11a,
-		///<summary>Gamepad (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/gamepad/" />
-		[Description("Gamepad"),IconId("gamepad"),IconCategory("Web Application Icons")]
-		Gamepad = 0xf11b,
-		///<summary>Keyboard Outlined (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/keyboard-o/" />
-		[Description("Keyboard Outlined"),IconId("keyboard-o"),IconCategory("Web Application Icons")]
-		KeyboardOutline = 0xf11c,
-		///<summary>Flag Outlined (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/flag-o/" />
-		[Description("Flag Outlined"),IconId("flag-o"),IconCategory("Web Application Icons")]
-		FlagOutline = 0xf11d,
-		///<summary>flag-checkered (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/flag-checkered/" />
-		[Description("flag-checkered"),IconId("flag-checkered"),IconCategory("Web Application Icons")]
-		FlagCheckered = 0xf11e,
-		///<summary>Terminal (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/terminal/" />
-		[Description("Terminal"),IconId("terminal"),IconCategory("Web Application Icons")]
-		Terminal = 0xf120,
-		///<summary>Code (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/code/" />
-		[Description("Code"),IconId("code"),IconCategory("Web Application Icons")]
-		Code = 0xf121,
-		///<summary>reply-all (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/reply-all/" />
-		[Description("reply-all"),IconId("reply-all"),IconCategory("Web Application Icons")]
-		ReplyAll = 0xf122,
-		///<summary>Alias of: ReplyAll</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.ReplyAll" />
-		[IconAlias]
-		MailReplyAll = ReplyAll,
-		///<summary>Star Half Outlined (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/star-half-o/" />
-		[Description("Star Half Outlined"),IconId("star-half-o"),IconCategory("Web Application Icons")]
-		StarHalfOutline = 0xf123,
-		///<summary>Alias of: StarHalfOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.StarHalfOutline" />
-		[IconAlias]
-		StarHalfEmpty = StarHalfOutline,
-		///<summary>Alias of: StarHalfOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.StarHalfOutline" />
-		[IconAlias]
-		StarHalfFull = StarHalfOutline,
-		///<summary>location-arrow (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/location-arrow/" />
-		[Description("location-arrow"),IconId("location-arrow"),IconCategory("Web Application Icons")]
-		LocationArrow = 0xf124,
-		///<summary>crop (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/crop/" />
-		[Description("crop"),IconId("crop"),IconCategory("Web Application Icons")]
-		Crop = 0xf125,
-		///<summary>code-fork (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/code-fork/" />
-		[Description("code-fork"),IconId("code-fork"),IconCategory("Web Application Icons")]
-		CodeFork = 0xf126,
-		///<summary>Chain Broken (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/chain-broken/" />
-		[Description("Chain Broken"),IconId("chain-broken"),IconCategory("Text Editor Icons")]
-		ChainBroken = 0xf127,
-		///<summary>Alias of: ChainBroken</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.ChainBroken" />
-		[IconAlias]
-		Unlink = ChainBroken,
-		///<summary>Question (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/question/" />
-		[Description("Question"),IconId("question"),IconCategory("Web Application Icons")]
-		Question = 0xf128,
-		///<summary>Info (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/info/" />
-		[Description("Info"),IconId("info"),IconCategory("Web Application Icons")]
-		Info = 0xf129,
-		///<summary>exclamation (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/exclamation/" />
-		[Description("exclamation"),IconId("exclamation"),IconCategory("Web Application Icons")]
-		Exclamation = 0xf12a,
-		///<summary>superscript (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/superscript/" />
-		[Description("superscript"),IconId("superscript"),IconCategory("Text Editor Icons")]
-		Superscript = 0xf12b,
-		///<summary>subscript (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/subscript/" />
-		[Description("subscript"),IconId("subscript"),IconCategory("Text Editor Icons")]
-		Subscript = 0xf12c,
-		///<summary>eraser (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/eraser/" />
-		[Description("eraser"),IconId("eraser"),IconCategory("Text Editor Icons"),IconCategory("Web Application Icons")]
-		Eraser = 0xf12d,
-		///<summary>Puzzle Piece (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/puzzle-piece/" />
-		[Description("Puzzle Piece"),IconId("puzzle-piece"),IconCategory("Web Application Icons")]
-		PuzzlePiece = 0xf12e,
-		///<summary>microphone (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/microphone/" />
-		[Description("microphone"),IconId("microphone"),IconCategory("Web Application Icons")]
-		Microphone = 0xf130,
-		///<summary>Microphone Slash (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/microphone-slash/" />
-		[Description("Microphone Slash"),IconId("microphone-slash"),IconCategory("Web Application Icons")]
-		MicrophoneSlash = 0xf131,
-		///<summary>shield (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/shield/" />
-		[Description("shield"),IconId("shield"),IconCategory("Web Application Icons")]
-		Shield = 0xf132,
-		///<summary>calendar-o (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/calendar-o/" />
-		[Description("calendar-o"),IconId("calendar-o"),IconCategory("Web Application Icons")]
-		CalendarOutline = 0xf133,
-		///<summary>fire-extinguisher (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/fire-extinguisher/" />
-		[Description("fire-extinguisher"),IconId("fire-extinguisher"),IconCategory("Web Application Icons")]
-		FireExtinguisher = 0xf134,
-		///<summary>rocket (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/rocket/" />
-		[Description("rocket"),IconId("rocket"),IconCategory("Web Application Icons"),IconCategory("Transportation Icons")]
-		Rocket = 0xf135,
-		///<summary>MaxCDN (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/maxcdn/" />
-		[Description("MaxCDN"),IconId("maxcdn"),IconCategory("Brand Icons")]
-		Maxcdn = 0xf136,
-		///<summary>Chevron Circle Left (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/chevron-circle-left/" />
-		[Description("Chevron Circle Left"),IconId("chevron-circle-left"),IconCategory("Directional Icons")]
-		ChevronCircleLeft = 0xf137,
-		///<summary>Chevron Circle Right (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/chevron-circle-right/" />
-		[Description("Chevron Circle Right"),IconId("chevron-circle-right"),IconCategory("Directional Icons")]
-		ChevronCircleRight = 0xf138,
-		///<summary>Chevron Circle Up (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/chevron-circle-up/" />
-		[Description("Chevron Circle Up"),IconId("chevron-circle-up"),IconCategory("Directional Icons")]
-		ChevronCircleUp = 0xf139,
-		///<summary>Chevron Circle Down (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/chevron-circle-down/" />
-		[Description("Chevron Circle Down"),IconId("chevron-circle-down"),IconCategory("Directional Icons")]
-		ChevronCircleDown = 0xf13a,
-		///<summary>HTML 5 Logo (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/html5/" />
-		[Description("HTML 5 Logo"),IconId("html5"),IconCategory("Brand Icons")]
-		Html5 = 0xf13b,
-		///<summary>CSS 3 Logo (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/css3/" />
-		[Description("CSS 3 Logo"),IconId("css3"),IconCategory("Brand Icons")]
-		Css3 = 0xf13c,
-		///<summary>Anchor (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/anchor/" />
-		[Description("Anchor"),IconId("anchor"),IconCategory("Web Application Icons")]
-		Anchor = 0xf13d,
-		///<summary>Unlock Alt (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/unlock-alt/" />
-		[Description("Unlock Alt"),IconId("unlock-alt"),IconCategory("Web Application Icons")]
-		UnlockAlt = 0xf13e,
-		///<summary>Bullseye (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/bullseye/" />
-		[Description("Bullseye"),IconId("bullseye"),IconCategory("Web Application Icons")]
-		Bullseye = 0xf140,
-		///<summary>Ellipsis Horizontal (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/ellipsis-h/" />
-		[Description("Ellipsis Horizontal"),IconId("ellipsis-h"),IconCategory("Web Application Icons")]
-		EllipsisH = 0xf141,
-		///<summary>Ellipsis Vertical (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/ellipsis-v/" />
-		[Description("Ellipsis Vertical"),IconId("ellipsis-v"),IconCategory("Web Application Icons")]
-		EllipsisV = 0xf142,
-		///<summary>RSS Square (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/rss-square/" />
-		[Description("RSS Square"),IconId("rss-square"),IconCategory("Web Application Icons")]
-		RssSquare = 0xf143,
-		///<summary>Play Circle (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/play-circle/" />
-		[Description("Play Circle"),IconId("play-circle"),IconCategory("Video Player Icons")]
-		PlayCircle = 0xf144,
-		///<summary>Ticket (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/ticket/" />
-		[Description("Ticket"),IconId("ticket"),IconCategory("Web Application Icons")]
-		Ticket = 0xf145,
-		///<summary>Minus Square (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/minus-square/" />
-		[Description("Minus Square"),IconId("minus-square"),IconCategory("Web Application Icons"),IconCategory("Form Control Icons")]
-		MinusSquare = 0xf146,
-		///<summary>Minus Square Outlined (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/minus-square-o/" />
-		[Description("Minus Square Outlined"),IconId("minus-square-o"),IconCategory("Web Application Icons"),IconCategory("Form Control Icons")]
-		MinusSquareOutline = 0xf147,
-		///<summary>Level Up (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/level-up/" />
-		[Description("Level Up"),IconId("level-up"),IconCategory("Web Application Icons")]
-		LevelUp = 0xf148,
-		///<summary>Level Down (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/level-down/" />
-		[Description("Level Down"),IconId("level-down"),IconCategory("Web Application Icons")]
-		LevelDown = 0xf149,
-		///<summary>Check Square (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/check-square/" />
-		[Description("Check Square"),IconId("check-square"),IconCategory("Web Application Icons"),IconCategory("Form Control Icons")]
-		CheckSquare = 0xf14a,
-		///<summary>Pencil Square (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/pencil-square/" />
-		[Description("Pencil Square"),IconId("pencil-square"),IconCategory("Web Application Icons")]
-		PencilSquare = 0xf14b,
-		///<summary>External Link Square (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/external-link-square/" />
-		[Description("External Link Square"),IconId("external-link-square"),IconCategory("Web Application Icons")]
-		ExternalLinkSquare = 0xf14c,
-		///<summary>Share Square (created: 3.1)</summary>
-		///<see href="http://fontawesome.io/icon/share-square/" />
-		[Description("Share Square"),IconId("share-square"),IconCategory("Web Application Icons")]
-		ShareSquare = 0xf14d,
-		///<summary>Compass (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/compass/" />
-		[Description("Compass"),IconId("compass"),IconCategory("Web Application Icons")]
-		Compass = 0xf14e,
-		///<summary>Caret Square Outlined Down (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/caret-square-o-down/" />
-		[Description("Caret Square Outlined Down"),IconId("caret-square-o-down"),IconCategory("Web Application Icons"),IconCategory("Directional Icons")]
-		CaretSquareOutlineDown = 0xf150,
-		///<summary>Alias of: CaretSquareOutlineDown</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.CaretSquareOutlineDown" />
-		[IconAlias]
-		ToggleDown = CaretSquareOutlineDown,
-		///<summary>Caret Square Outlined Up (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/caret-square-o-up/" />
-		[Description("Caret Square Outlined Up"),IconId("caret-square-o-up"),IconCategory("Web Application Icons"),IconCategory("Directional Icons")]
-		CaretSquareOutlineUp = 0xf151,
-		///<summary>Alias of: CaretSquareOutlineUp</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.CaretSquareOutlineUp" />
-		[IconAlias]
-		ToggleUp = CaretSquareOutlineUp,
-		///<summary>Caret Square Outlined Right (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/caret-square-o-right/" />
-		[Description("Caret Square Outlined Right"),IconId("caret-square-o-right"),IconCategory("Web Application Icons"),IconCategory("Directional Icons")]
-		CaretSquareOutlineRight = 0xf152,
-		///<summary>Alias of: CaretSquareOutlineRight</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.CaretSquareOutlineRight" />
-		[IconAlias]
-		ToggleRight = CaretSquareOutlineRight,
-		///<summary>Euro (EUR) (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/eur/" />
-		[Description("Euro (EUR)"),IconId("eur"),IconCategory("Currency Icons")]
-		Eur = 0xf153,
-		///<summary>Alias of: Eur</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Eur" />
-		[IconAlias]
-		Euro = Eur,
-		///<summary>GBP (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/gbp/" />
-		[Description("GBP"),IconId("gbp"),IconCategory("Currency Icons")]
-		Gbp = 0xf154,
-		///<summary>US Dollar (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/usd/" />
-		[Description("US Dollar"),IconId("usd"),IconCategory("Currency Icons")]
-		Usd = 0xf155,
-		///<summary>Alias of: Usd</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Usd" />
-		[IconAlias]
-		Dollar = Usd,
-		///<summary>Indian Rupee (INR) (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/inr/" />
-		[Description("Indian Rupee (INR)"),IconId("inr"),IconCategory("Currency Icons")]
-		Inr = 0xf156,
-		///<summary>Alias of: Inr</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Inr" />
-		[IconAlias]
-		Rupee = Inr,
-		///<summary>Japanese Yen (JPY) (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/jpy/" />
-		[Description("Japanese Yen (JPY)"),IconId("jpy"),IconCategory("Currency Icons")]
-		Jpy = 0xf157,
-		///<summary>Alias of: Jpy</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Jpy" />
-		[IconAlias]
-		Cny = Jpy,
-		///<summary>Alias of: Jpy</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Jpy" />
-		[IconAlias]
-		Rmb = Jpy,
-		///<summary>Alias of: Jpy</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Jpy" />
-		[IconAlias]
-		Yen = Jpy,
-		///<summary>Russian Ruble (RUB) (created: 4.0)</summary>
-		///<see href="http://fontawesome.io/icon/rub/" />
-		[Description("Russian Ruble (RUB)"),IconId("rub"),IconCategory("Currency Icons")]
-		Rub = 0xf158,
-		///<summary>Alias of: Rub</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Rub" />
-		[IconAlias]
-		Ruble = Rub,
-		///<summary>Alias of: Rub</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Rub" />
-		[IconAlias]
-		Rouble = Rub,
-		///<summary>Korean Won (KRW) (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/krw/" />
-		[Description("Korean Won (KRW)"),IconId("krw"),IconCategory("Currency Icons")]
-		Krw = 0xf159,
-		///<summary>Alias of: Krw</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Krw" />
-		[IconAlias]
-		Won = Krw,
-		///<summary>Bitcoin (BTC) (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/btc/" />
-		[Description("Bitcoin (BTC)"),IconId("btc"),IconCategory("Currency Icons"),IconCategory("Brand Icons")]
-		Btc = 0xf15a,
-		///<summary>Alias of: Btc</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Btc" />
-		[IconAlias]
-		Bitcoin = Btc,
-		///<summary>File (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/file/" />
-		[Description("File"),IconId("file"),IconCategory("Text Editor Icons"),IconCategory("File Type Icons")]
-		File = 0xf15b,
-		///<summary>File Text (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/file-text/" />
-		[Description("File Text"),IconId("file-text"),IconCategory("Text Editor Icons"),IconCategory("File Type Icons")]
-		FileText = 0xf15c,
-		///<summary>Sort Alpha Ascending (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/sort-alpha-asc/" />
-		[Description("Sort Alpha Ascending"),IconId("sort-alpha-asc"),IconCategory("Web Application Icons")]
-		SortAlphaAsc = 0xf15d,
-		///<summary>Sort Alpha Descending (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/sort-alpha-desc/" />
-		[Description("Sort Alpha Descending"),IconId("sort-alpha-desc"),IconCategory("Web Application Icons")]
-		SortAlphaDesc = 0xf15e,
-		///<summary>Sort Amount Ascending (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/sort-amount-asc/" />
-		[Description("Sort Amount Ascending"),IconId("sort-amount-asc"),IconCategory("Web Application Icons")]
-		SortAmountAsc = 0xf160,
-		///<summary>Sort Amount Descending (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/sort-amount-desc/" />
-		[Description("Sort Amount Descending"),IconId("sort-amount-desc"),IconCategory("Web Application Icons")]
-		SortAmountDesc = 0xf161,
-		///<summary>Sort Numeric Ascending (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/sort-numeric-asc/" />
-		[Description("Sort Numeric Ascending"),IconId("sort-numeric-asc"),IconCategory("Web Application Icons")]
-		SortNumericAsc = 0xf162,
-		///<summary>Sort Numeric Descending (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/sort-numeric-desc/" />
-		[Description("Sort Numeric Descending"),IconId("sort-numeric-desc"),IconCategory("Web Application Icons")]
-		SortNumericDesc = 0xf163,
-		///<summary>thumbs-up (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/thumbs-up/" />
-		[Description("thumbs-up"),IconId("thumbs-up"),IconCategory("Web Application Icons"),IconCategory("Hand Icons")]
-		ThumbsUp = 0xf164,
-		///<summary>thumbs-down (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/thumbs-down/" />
-		[Description("thumbs-down"),IconId("thumbs-down"),IconCategory("Web Application Icons"),IconCategory("Hand Icons")]
-		ThumbsDown = 0xf165,
-		///<summary>YouTube Square (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/youtube-square/" />
-		[Description("YouTube Square"),IconId("youtube-square"),IconCategory("Brand Icons")]
-		YoutubeSquare = 0xf166,
-		///<summary>YouTube (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/youtube/" />
-		[Description("YouTube"),IconId("youtube"),IconCategory("Brand Icons")]
-		Youtube = 0xf167,
-		///<summary>Xing (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/xing/" />
-		[Description("Xing"),IconId("xing"),IconCategory("Brand Icons")]
-		Xing = 0xf168,
-		///<summary>Xing Square (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/xing-square/" />
-		[Description("Xing Square"),IconId("xing-square"),IconCategory("Brand Icons")]
-		XingSquare = 0xf169,
-		///<summary>YouTube Play (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/youtube-play/" />
-		[Description("YouTube Play"),IconId("youtube-play"),IconCategory("Brand Icons"),IconCategory("Video Player Icons")]
-		YoutubePlay = 0xf16a,
-		///<summary>Dropbox (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/dropbox/" />
-		[Description("Dropbox"),IconId("dropbox"),IconCategory("Brand Icons")]
-		Dropbox = 0xf16b,
-		///<summary>Stack Overflow (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/stack-overflow/" />
-		[Description("Stack Overflow"),IconId("stack-overflow"),IconCategory("Brand Icons")]
-		StackOverflow = 0xf16c,
-		///<summary>Instagram (created: 4.6)</summary>
-		///<see href="http://fontawesome.io/icon/instagram/" />
-		[Description("Instagram"),IconId("instagram"),IconCategory("Brand Icons")]
-		Instagram = 0xf16d,
-		///<summary>Flickr (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/flickr/" />
-		[Description("Flickr"),IconId("flickr"),IconCategory("Brand Icons")]
-		Flickr = 0xf16e,
-		///<summary>App.net (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/adn/" />
-		[Description("App.net"),IconId("adn"),IconCategory("Brand Icons")]
-		Adn = 0xf170,
-		///<summary>Bitbucket (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/bitbucket/" />
-		[Description("Bitbucket"),IconId("bitbucket"),IconCategory("Brand Icons")]
-		Bitbucket = 0xf171,
-		///<summary>Bitbucket Square (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/bitbucket-square/" />
-		[Description("Bitbucket Square"),IconId("bitbucket-square"),IconCategory("Brand Icons")]
-		BitbucketSquare = 0xf172,
-		///<summary>Tumblr (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/tumblr/" />
-		[Description("Tumblr"),IconId("tumblr"),IconCategory("Brand Icons")]
-		Tumblr = 0xf173,
-		///<summary>Tumblr Square (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/tumblr-square/" />
-		[Description("Tumblr Square"),IconId("tumblr-square"),IconCategory("Brand Icons")]
-		TumblrSquare = 0xf174,
-		///<summary>Long Arrow Down (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/long-arrow-down/" />
-		[Description("Long Arrow Down"),IconId("long-arrow-down"),IconCategory("Directional Icons")]
-		LongArrowDown = 0xf175,
-		///<summary>Long Arrow Up (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/long-arrow-up/" />
-		[Description("Long Arrow Up"),IconId("long-arrow-up"),IconCategory("Directional Icons")]
-		LongArrowUp = 0xf176,
-		///<summary>Long Arrow Left (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/long-arrow-left/" />
-		[Description("Long Arrow Left"),IconId("long-arrow-left"),IconCategory("Directional Icons")]
-		LongArrowLeft = 0xf177,
-		///<summary>Long Arrow Right (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/long-arrow-right/" />
-		[Description("Long Arrow Right"),IconId("long-arrow-right"),IconCategory("Directional Icons")]
-		LongArrowRight = 0xf178,
-		///<summary>Apple (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/apple/" />
-		[Description("Apple"),IconId("apple"),IconCategory("Brand Icons")]
-		Apple = 0xf179,
-		///<summary>Windows (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/windows/" />
-		[Description("Windows"),IconId("windows"),IconCategory("Brand Icons")]
-		Windows = 0xf17a,
-		///<summary>Android (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/android/" />
-		[Description("Android"),IconId("android"),IconCategory("Brand Icons")]
-		Android = 0xf17b,
-		///<summary>Linux (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/linux/" />
-		[Description("Linux"),IconId("linux"),IconCategory("Brand Icons")]
-		Linux = 0xf17c,
-		///<summary>Dribbble (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/dribbble/" />
-		[Description("Dribbble"),IconId("dribbble"),IconCategory("Brand Icons")]
-		Dribbble = 0xf17d,
-		///<summary>Skype (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/skype/" />
-		[Description("Skype"),IconId("skype"),IconCategory("Brand Icons")]
-		Skype = 0xf17e,
-		///<summary>Foursquare (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/foursquare/" />
-		[Description("Foursquare"),IconId("foursquare"),IconCategory("Brand Icons")]
-		Foursquare = 0xf180,
-		///<summary>Trello (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/trello/" />
-		[Description("Trello"),IconId("trello"),IconCategory("Brand Icons")]
-		Trello = 0xf181,
-		///<summary>Female (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/female/" />
-		[Description("Female"),IconId("female"),IconCategory("Web Application Icons")]
-		Female = 0xf182,
-		///<summary>Male (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/male/" />
-		[Description("Male"),IconId("male"),IconCategory("Web Application Icons")]
-		Male = 0xf183,
-		///<summary>Gratipay (Gittip) (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/gratipay/" />
-		[Description("Gratipay (Gittip)"),IconId("gratipay"),IconCategory("Brand Icons")]
-		Gratipay = 0xf184,
-		///<summary>Alias of: Gratipay</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Gratipay" />
-		[IconAlias]
-		Gittip = Gratipay,
-		///<summary>Sun Outlined (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/sun-o/" />
-		[Description("Sun Outlined"),IconId("sun-o"),IconCategory("Web Application Icons")]
-		SunOutline = 0xf185,
-		///<summary>Moon Outlined (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/moon-o/" />
-		[Description("Moon Outlined"),IconId("moon-o"),IconCategory("Web Application Icons")]
-		MoonOutline = 0xf186,
-		///<summary>Archive (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/archive/" />
-		[Description("Archive"),IconId("archive"),IconCategory("Web Application Icons")]
-		Archive = 0xf187,
-		///<summary>Bug (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/bug/" />
-		[Description("Bug"),IconId("bug"),IconCategory("Web Application Icons")]
-		Bug = 0xf188,
-		///<summary>VK (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/vk/" />
-		[Description("VK"),IconId("vk"),IconCategory("Brand Icons")]
-		Vk = 0xf189,
-		///<summary>Weibo (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/weibo/" />
-		[Description("Weibo"),IconId("weibo"),IconCategory("Brand Icons")]
-		Weibo = 0xf18a,
-		///<summary>Renren (created: 3.2)</summary>
-		///<see href="http://fontawesome.io/icon/renren/" />
-		[Description("Renren"),IconId("renren"),IconCategory("Brand Icons")]
-		Renren = 0xf18b,
-		///<summary>Pagelines (created: 4.0)</summary>
-		///<see href="http://fontawesome.io/icon/pagelines/" />
-		[Description("Pagelines"),IconId("pagelines"),IconCategory("Brand Icons")]
-		Pagelines = 0xf18c,
-		///<summary>Stack Exchange (created: 4.0)</summary>
-		///<see href="http://fontawesome.io/icon/stack-exchange/" />
-		[Description("Stack Exchange"),IconId("stack-exchange"),IconCategory("Brand Icons")]
-		StackExchange = 0xf18d,
-		///<summary>Arrow Circle Outlined Right (created: 4.0)</summary>
-		///<see href="http://fontawesome.io/icon/arrow-circle-o-right/" />
-		[Description("Arrow Circle Outlined Right"),IconId("arrow-circle-o-right"),IconCategory("Directional Icons")]
-		ArrowCircleOutlineRight = 0xf18e,
-		///<summary>Arrow Circle Outlined Left (created: 4.0)</summary>
-		///<see href="http://fontawesome.io/icon/arrow-circle-o-left/" />
-		[Description("Arrow Circle Outlined Left"),IconId("arrow-circle-o-left"),IconCategory("Directional Icons")]
-		ArrowCircleOutlineLeft = 0xf190,
-		///<summary>Caret Square Outlined Left (created: 4.0)</summary>
-		///<see href="http://fontawesome.io/icon/caret-square-o-left/" />
-		[Description("Caret Square Outlined Left"),IconId("caret-square-o-left"),IconCategory("Web Application Icons"),IconCategory("Directional Icons")]
-		CaretSquareOutlineLeft = 0xf191,
-		///<summary>Alias of: CaretSquareOutlineLeft</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.CaretSquareOutlineLeft" />
-		[IconAlias]
-		ToggleLeft = CaretSquareOutlineLeft,
-		///<summary>Dot Circle Outlined (created: 4.0)</summary>
-		///<see href="http://fontawesome.io/icon/dot-circle-o/" />
-		[Description("Dot Circle Outlined"),IconId("dot-circle-o"),IconCategory("Web Application Icons"),IconCategory("Form Control Icons")]
-		DotCircleOutline = 0xf192,
-		///<summary>Wheelchair (created: 4.0)</summary>
-		///<see href="http://fontawesome.io/icon/wheelchair/" />
-		[Description("Wheelchair"),IconId("wheelchair"),IconCategory("Web Application Icons"),IconCategory("Medical Icons"),IconCategory("Transportation Icons"),IconCategory("Accessibility Icons")]
-		Wheelchair = 0xf193,
-		///<summary>Vimeo Square (created: 4.0)</summary>
-		///<see href="http://fontawesome.io/icon/vimeo-square/" />
-		[Description("Vimeo Square"),IconId("vimeo-square"),IconCategory("Brand Icons")]
-		VimeoSquare = 0xf194,
-		///<summary>Turkish Lira (TRY) (created: 4.0)</summary>
-		///<see href="http://fontawesome.io/icon/try/" />
-		[Description("Turkish Lira (TRY)"),IconId("try"),IconCategory("Currency Icons")]
-		Try = 0xf195,
-		///<summary>Alias of: Try</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Try" />
-		[IconAlias]
-		TurkishLira = Try,
-		///<summary>Plus Square Outlined (created: 4.0)</summary>
-		///<see href="http://fontawesome.io/icon/plus-square-o/" />
-		[Description("Plus Square Outlined"),IconId("plus-square-o"),IconCategory("Web Application Icons"),IconCategory("Form Control Icons")]
-		PlusSquareOutline = 0xf196,
-		///<summary>Space Shuttle (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/space-shuttle/" />
-		[Description("Space Shuttle"),IconId("space-shuttle"),IconCategory("Web Application Icons"),IconCategory("Transportation Icons")]
-		SpaceShuttle = 0xf197,
-		///<summary>Slack Logo (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/slack/" />
-		[Description("Slack Logo"),IconId("slack"),IconCategory("Brand Icons")]
-		Slack = 0xf198,
-		///<summary>Envelope Square (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/envelope-square/" />
-		[Description("Envelope Square"),IconId("envelope-square"),IconCategory("Web Application Icons")]
-		EnvelopeSquare = 0xf199,
-		///<summary>WordPress Logo (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/wordpress/" />
-		[Description("WordPress Logo"),IconId("wordpress"),IconCategory("Brand Icons")]
-		Wordpress = 0xf19a,
-		///<summary>OpenID (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/openid/" />
-		[Description("OpenID"),IconId("openid"),IconCategory("Brand Icons")]
-		Openid = 0xf19b,
-		///<summary>University (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/university/" />
-		[Description("University"),IconId("university"),IconCategory("Web Application Icons")]
-		University = 0xf19c,
-		///<summary>Alias of: University</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.University" />
-		[IconAlias]
-		Institution = University,
-		///<summary>Alias of: University</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.University" />
-		[IconAlias]
-		Bank = University,
-		///<summary>Graduation Cap (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/graduation-cap/" />
-		[Description("Graduation Cap"),IconId("graduation-cap"),IconCategory("Web Application Icons")]
-		GraduationCap = 0xf19d,
-		///<summary>Alias of: GraduationCap</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.GraduationCap" />
-		[IconAlias]
-		MortarBoard = GraduationCap,
-		///<summary>Yahoo Logo (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/yahoo/" />
-		[Description("Yahoo Logo"),IconId("yahoo"),IconCategory("Brand Icons")]
-		Yahoo = 0xf19e,
-		///<summary>Google Logo (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/google/" />
-		[Description("Google Logo"),IconId("google"),IconCategory("Brand Icons")]
-		Google = 0xf1a0,
-		///<summary>reddit Logo (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/reddit/" />
-		[Description("reddit Logo"),IconId("reddit"),IconCategory("Brand Icons")]
-		Reddit = 0xf1a1,
-		///<summary>reddit Square (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/reddit-square/" />
-		[Description("reddit Square"),IconId("reddit-square"),IconCategory("Brand Icons")]
-		RedditSquare = 0xf1a2,
-		///<summary>StumbleUpon Circle (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/stumbleupon-circle/" />
-		[Description("StumbleUpon Circle"),IconId("stumbleupon-circle"),IconCategory("Brand Icons")]
-		StumbleuponCircle = 0xf1a3,
-		///<summary>StumbleUpon Logo (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/stumbleupon/" />
-		[Description("StumbleUpon Logo"),IconId("stumbleupon"),IconCategory("Brand Icons")]
-		Stumbleupon = 0xf1a4,
-		///<summary>Delicious Logo (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/delicious/" />
-		[Description("Delicious Logo"),IconId("delicious"),IconCategory("Brand Icons")]
-		Delicious = 0xf1a5,
-		///<summary>Digg Logo (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/digg/" />
-		[Description("Digg Logo"),IconId("digg"),IconCategory("Brand Icons")]
-		Digg = 0xf1a6,
-		///<summary>Pied Piper PP Logo (Old) (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/pied-piper-pp/" />
-		[Description("Pied Piper PP Logo (Old)"),IconId("pied-piper-pp"),IconCategory("Brand Icons")]
-		PiedPiperPp = 0xf1a7,
-		///<summary>Pied Piper Alternate Logo (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/pied-piper-alt/" />
-		[Description("Pied Piper Alternate Logo"),IconId("pied-piper-alt"),IconCategory("Brand Icons")]
-		PiedPiperAlt = 0xf1a8,
-		///<summary>Drupal Logo (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/drupal/" />
-		[Description("Drupal Logo"),IconId("drupal"),IconCategory("Brand Icons")]
-		Drupal = 0xf1a9,
-		///<summary>Joomla Logo (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/joomla/" />
-		[Description("Joomla Logo"),IconId("joomla"),IconCategory("Brand Icons")]
-		Joomla = 0xf1aa,
-		///<summary>Language (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/language/" />
-		[Description("Language"),IconId("language"),IconCategory("Web Application Icons")]
-		Language = 0xf1ab,
-		///<summary>Fax (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/fax/" />
-		[Description("Fax"),IconId("fax"),IconCategory("Web Application Icons")]
-		Fax = 0xf1ac,
-		///<summary>Building (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/building/" />
-		[Description("Building"),IconId("building"),IconCategory("Web Application Icons")]
-		Building = 0xf1ad,
-		///<summary>Child (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/child/" />
-		[Description("Child"),IconId("child"),IconCategory("Web Application Icons")]
-		Child = 0xf1ae,
-		///<summary>Paw (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/paw/" />
-		[Description("Paw"),IconId("paw"),IconCategory("Web Application Icons")]
-		Paw = 0xf1b0,
-		///<summary>spoon (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/spoon/" />
-		[Description("spoon"),IconId("spoon"),IconCategory("Web Application Icons")]
-		Spoon = 0xf1b1,
-		///<summary>Cube (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/cube/" />
-		[Description("Cube"),IconId("cube"),IconCategory("Web Application Icons")]
-		Cube = 0xf1b2,
-		///<summary>Cubes (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/cubes/" />
-		[Description("Cubes"),IconId("cubes"),IconCategory("Web Application Icons")]
-		Cubes = 0xf1b3,
-		///<summary>Behance (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/behance/" />
-		[Description("Behance"),IconId("behance"),IconCategory("Brand Icons")]
-		Behance = 0xf1b4,
-		///<summary>Behance Square (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/behance-square/" />
-		[Description("Behance Square"),IconId("behance-square"),IconCategory("Brand Icons")]
-		BehanceSquare = 0xf1b5,
-		///<summary>Steam (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/steam/" />
-		[Description("Steam"),IconId("steam"),IconCategory("Brand Icons")]
-		Steam = 0xf1b6,
-		///<summary>Steam Square (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/steam-square/" />
-		[Description("Steam Square"),IconId("steam-square"),IconCategory("Brand Icons")]
-		SteamSquare = 0xf1b7,
-		///<summary>Recycle (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/recycle/" />
-		[Description("Recycle"),IconId("recycle"),IconCategory("Web Application Icons")]
-		Recycle = 0xf1b8,
-		///<summary>Car (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/car/" />
-		[Description("Car"),IconId("car"),IconCategory("Web Application Icons"),IconCategory("Transportation Icons")]
-		Car = 0xf1b9,
-		///<summary>Alias of: Car</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Car" />
-		[IconAlias]
-		Automobile = Car,
-		///<summary>Taxi (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/taxi/" />
-		[Description("Taxi"),IconId("taxi"),IconCategory("Web Application Icons"),IconCategory("Transportation Icons")]
-		Taxi = 0xf1ba,
-		///<summary>Alias of: Taxi</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Taxi" />
-		[IconAlias]
-		Cab = Taxi,
-		///<summary>Tree (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/tree/" />
-		[Description("Tree"),IconId("tree"),IconCategory("Web Application Icons")]
-		Tree = 0xf1bb,
-		///<summary>Spotify (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/spotify/" />
-		[Description("Spotify"),IconId("spotify"),IconCategory("Brand Icons")]
-		Spotify = 0xf1bc,
-		///<summary>deviantART (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/deviantart/" />
-		[Description("deviantART"),IconId("deviantart"),IconCategory("Brand Icons")]
-		Deviantart = 0xf1bd,
-		///<summary>SoundCloud (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/soundcloud/" />
-		[Description("SoundCloud"),IconId("soundcloud"),IconCategory("Brand Icons")]
-		Soundcloud = 0xf1be,
-		///<summary>Database (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/database/" />
-		[Description("Database"),IconId("database"),IconCategory("Web Application Icons")]
-		Database = 0xf1c0,
-		///<summary>PDF File Outlined (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/file-pdf-o/" />
-		[Description("PDF File Outlined"),IconId("file-pdf-o"),IconCategory("Web Application Icons"),IconCategory("File Type Icons")]
-		FilePdfOutline = 0xf1c1,
-		///<summary>Word File Outlined (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/file-word-o/" />
-		[Description("Word File Outlined"),IconId("file-word-o"),IconCategory("Web Application Icons"),IconCategory("File Type Icons")]
-		FileWordOutline = 0xf1c2,
-		///<summary>Excel File Outlined (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/file-excel-o/" />
-		[Description("Excel File Outlined"),IconId("file-excel-o"),IconCategory("Web Application Icons"),IconCategory("File Type Icons")]
-		FileExcelOutline = 0xf1c3,
-		///<summary>Powerpoint File Outlined (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/file-powerpoint-o/" />
-		[Description("Powerpoint File Outlined"),IconId("file-powerpoint-o"),IconCategory("Web Application Icons"),IconCategory("File Type Icons")]
-		FilePowerpointOutline = 0xf1c4,
-		///<summary>Image File Outlined (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/file-image-o/" />
-		[Description("Image File Outlined"),IconId("file-image-o"),IconCategory("Web Application Icons"),IconCategory("File Type Icons")]
-		FileImageOutline = 0xf1c5,
-		///<summary>Alias of: FileImageOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.FileImageOutline" />
-		[IconAlias]
-		FilePhotoOutline = FileImageOutline,
-		///<summary>Alias of: FileImageOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.FileImageOutline" />
-		[IconAlias]
-		FilePictureOutline = FileImageOutline,
-		///<summary>Archive File Outlined (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/file-archive-o/" />
-		[Description("Archive File Outlined"),IconId("file-archive-o"),IconCategory("Web Application Icons"),IconCategory("File Type Icons")]
-		FileArchiveOutline = 0xf1c6,
-		///<summary>Alias of: FileArchiveOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.FileArchiveOutline" />
-		[IconAlias]
-		FileZipOutline = FileArchiveOutline,
-		///<summary>Audio File Outlined (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/file-audio-o/" />
-		[Description("Audio File Outlined"),IconId("file-audio-o"),IconCategory("Web Application Icons"),IconCategory("File Type Icons")]
-		FileAudioOutline = 0xf1c7,
-		///<summary>Alias of: FileAudioOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.FileAudioOutline" />
-		[IconAlias]
-		FileSoundOutline = FileAudioOutline,
-		///<summary>Video File Outlined (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/file-video-o/" />
-		[Description("Video File Outlined"),IconId("file-video-o"),IconCategory("Web Application Icons"),IconCategory("File Type Icons")]
-		FileVideoOutline = 0xf1c8,
-		///<summary>Alias of: FileVideoOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.FileVideoOutline" />
-		[IconAlias]
-		FileMovieOutline = FileVideoOutline,
-		///<summary>Code File Outlined (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/file-code-o/" />
-		[Description("Code File Outlined"),IconId("file-code-o"),IconCategory("Web Application Icons"),IconCategory("File Type Icons")]
-		FileCodeOutline = 0xf1c9,
-		///<summary>Vine (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/vine/" />
-		[Description("Vine"),IconId("vine"),IconCategory("Brand Icons")]
-		Vine = 0xf1ca,
-		///<summary>Codepen (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/codepen/" />
-		[Description("Codepen"),IconId("codepen"),IconCategory("Brand Icons")]
-		Codepen = 0xf1cb,
-		///<summary>jsFiddle (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/jsfiddle/" />
-		[Description("jsFiddle"),IconId("jsfiddle"),IconCategory("Brand Icons")]
-		Jsfiddle = 0xf1cc,
-		///<summary>Life Ring (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/life-ring/" />
-		[Description("Life Ring"),IconId("life-ring"),IconCategory("Web Application Icons")]
-		LifeRing = 0xf1cd,
-		///<summary>Alias of: LifeRing</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.LifeRing" />
-		[IconAlias]
-		LifeBouy = LifeRing,
-		///<summary>Alias of: LifeRing</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.LifeRing" />
-		[IconAlias]
-		LifeBuoy = LifeRing,
-		///<summary>Alias of: LifeRing</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.LifeRing" />
-		[IconAlias]
-		LifeSaver = LifeRing,
-		///<summary>Alias of: LifeRing</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.LifeRing" />
-		[IconAlias]
-		Support = LifeRing,
-		///<summary>Circle Outlined Notched (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/circle-o-notch/" />
-		[Description("Circle Outlined Notched"),IconId("circle-o-notch"),IconCategory("Web Application Icons"),IconCategory("Spinner Icons")]
-		CircleOutlineNotch = 0xf1ce,
-		///<summary>Rebel Alliance (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/rebel/" />
-		[Description("Rebel Alliance"),IconId("rebel"),IconCategory("Brand Icons")]
-		Rebel = 0xf1d0,
-		///<summary>Alias of: Rebel</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Rebel" />
-		[IconAlias]
-		Ra = Rebel,
-		///<summary>Alias of: Rebel</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Rebel" />
-		[IconAlias]
-		Resistance = Rebel,
-		///<summary>Galactic Empire (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/empire/" />
-		[Description("Galactic Empire"),IconId("empire"),IconCategory("Brand Icons")]
-		Empire = 0xf1d1,
-		///<summary>Alias of: Empire</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Empire" />
-		[IconAlias]
-		Ge = Empire,
-		///<summary>Git Square (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/git-square/" />
-		[Description("Git Square"),IconId("git-square"),IconCategory("Brand Icons")]
-		GitSquare = 0xf1d2,
-		///<summary>Git (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/git/" />
-		[Description("Git"),IconId("git"),IconCategory("Brand Icons")]
-		Git = 0xf1d3,
-		///<summary>Hacker News (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/hacker-news/" />
-		[Description("Hacker News"),IconId("hacker-news"),IconCategory("Brand Icons")]
-		HackerNews = 0xf1d4,
-		///<summary>Alias of: HackerNews</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.HackerNews" />
-		[IconAlias]
-		YCombinatorSquare = HackerNews,
-		///<summary>Alias of: HackerNews</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.HackerNews" />
-		[IconAlias]
-		YcSquare = HackerNews,
-		///<summary>Tencent Weibo (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/tencent-weibo/" />
-		[Description("Tencent Weibo"),IconId("tencent-weibo"),IconCategory("Brand Icons")]
-		TencentWeibo = 0xf1d5,
-		///<summary>QQ (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/qq/" />
-		[Description("QQ"),IconId("qq"),IconCategory("Brand Icons")]
-		Qq = 0xf1d6,
-		///<summary>Weixin (WeChat) (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/weixin/" />
-		[Description("Weixin (WeChat)"),IconId("weixin"),IconCategory("Brand Icons")]
-		Weixin = 0xf1d7,
-		///<summary>Alias of: Weixin</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Weixin" />
-		[IconAlias]
-		Wechat = Weixin,
-		///<summary>Paper Plane (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/paper-plane/" />
-		[Description("Paper Plane"),IconId("paper-plane"),IconCategory("Web Application Icons")]
-		PaperPlane = 0xf1d8,
-		///<summary>Alias of: PaperPlane</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.PaperPlane" />
-		[IconAlias]
-		Send = PaperPlane,
-		///<summary>Paper Plane Outlined (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/paper-plane-o/" />
-		[Description("Paper Plane Outlined"),IconId("paper-plane-o"),IconCategory("Web Application Icons")]
-		PaperPlaneOutline = 0xf1d9,
-		///<summary>Alias of: PaperPlaneOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.PaperPlaneOutline" />
-		[IconAlias]
-		SendOutline = PaperPlaneOutline,
-		///<summary>History (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/history/" />
-		[Description("History"),IconId("history"),IconCategory("Web Application Icons")]
-		History = 0xf1da,
-		///<summary>Circle Outlined Thin (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/circle-thin/" />
-		[Description("Circle Outlined Thin"),IconId("circle-thin"),IconCategory("Web Application Icons")]
-		CircleThin = 0xf1db,
-		///<summary>header (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/header/" />
-		[Description("header"),IconId("header"),IconCategory("Text Editor Icons")]
-		Header = 0xf1dc,
-		///<summary>paragraph (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/paragraph/" />
-		[Description("paragraph"),IconId("paragraph"),IconCategory("Text Editor Icons")]
-		Paragraph = 0xf1dd,
-		///<summary>Sliders (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/sliders/" />
-		[Description("Sliders"),IconId("sliders"),IconCategory("Web Application Icons")]
-		Sliders = 0xf1de,
-		///<summary>Share Alt (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/share-alt/" />
-		[Description("Share Alt"),IconId("share-alt"),IconCategory("Web Application Icons"),IconCategory("Brand Icons")]
-		ShareAlt = 0xf1e0,
-		///<summary>Share Alt Square (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/share-alt-square/" />
-		[Description("Share Alt Square"),IconId("share-alt-square"),IconCategory("Web Application Icons"),IconCategory("Brand Icons")]
-		ShareAltSquare = 0xf1e1,
-		///<summary>Bomb (created: 4.1)</summary>
-		///<see href="http://fontawesome.io/icon/bomb/" />
-		[Description("Bomb"),IconId("bomb"),IconCategory("Web Application Icons")]
-		Bomb = 0xf1e2,
-		///<summary>Futbol Outlined (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/futbol-o/" />
-		[Description("Futbol Outlined"),IconId("futbol-o"),IconCategory("Web Application Icons")]
-		FutbolOutline = 0xf1e3,
-		///<summary>Alias of: FutbolOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.FutbolOutline" />
-		[IconAlias]
-		SoccerBallOutline = FutbolOutline,
-		///<summary>TTY (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/tty/" />
-		[Description("TTY"),IconId("tty"),IconCategory("Web Application Icons"),IconCategory("Accessibility Icons")]
-		Tty = 0xf1e4,
-		///<summary>Binoculars (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/binoculars/" />
-		[Description("Binoculars"),IconId("binoculars"),IconCategory("Web Application Icons")]
-		Binoculars = 0xf1e5,
-		///<summary>Plug (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/plug/" />
-		[Description("Plug"),IconId("plug"),IconCategory("Web Application Icons")]
-		Plug = 0xf1e6,
-		///<summary>Slideshare (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/slideshare/" />
-		[Description("Slideshare"),IconId("slideshare"),IconCategory("Brand Icons")]
-		Slideshare = 0xf1e7,
-		///<summary>Twitch (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/twitch/" />
-		[Description("Twitch"),IconId("twitch"),IconCategory("Brand Icons")]
-		Twitch = 0xf1e8,
-		///<summary>Yelp (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/yelp/" />
-		[Description("Yelp"),IconId("yelp"),IconCategory("Brand Icons")]
-		Yelp = 0xf1e9,
-		///<summary>Newspaper Outlined (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/newspaper-o/" />
-		[Description("Newspaper Outlined"),IconId("newspaper-o"),IconCategory("Web Application Icons")]
-		NewspaperOutline = 0xf1ea,
-		///<summary>WiFi (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/wifi/" />
-		[Description("WiFi"),IconId("wifi"),IconCategory("Web Application Icons")]
-		Wifi = 0xf1eb,
-		///<summary>Calculator (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/calculator/" />
-		[Description("Calculator"),IconId("calculator"),IconCategory("Web Application Icons")]
-		Calculator = 0xf1ec,
-		///<summary>Paypal (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/paypal/" />
-		[Description("Paypal"),IconId("paypal"),IconCategory("Brand Icons"),IconCategory("Payment Icons")]
-		Paypal = 0xf1ed,
-		///<summary>Google Wallet (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/google-wallet/" />
-		[Description("Google Wallet"),IconId("google-wallet"),IconCategory("Brand Icons"),IconCategory("Payment Icons")]
-		GoogleWallet = 0xf1ee,
-		///<summary>Visa Credit Card (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/cc-visa/" />
-		[Description("Visa Credit Card"),IconId("cc-visa"),IconCategory("Brand Icons"),IconCategory("Payment Icons")]
-		CcVisa = 0xf1f0,
-		///<summary>MasterCard Credit Card (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/cc-mastercard/" />
-		[Description("MasterCard Credit Card"),IconId("cc-mastercard"),IconCategory("Brand Icons"),IconCategory("Payment Icons")]
-		CcMastercard = 0xf1f1,
-		///<summary>Discover Credit Card (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/cc-discover/" />
-		[Description("Discover Credit Card"),IconId("cc-discover"),IconCategory("Brand Icons"),IconCategory("Payment Icons")]
-		CcDiscover = 0xf1f2,
-		///<summary>American Express Credit Card (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/cc-amex/" />
-		[Description("American Express Credit Card"),IconId("cc-amex"),IconCategory("Brand Icons"),IconCategory("Payment Icons")]
-		CcAmex = 0xf1f3,
-		///<summary>Paypal Credit Card (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/cc-paypal/" />
-		[Description("Paypal Credit Card"),IconId("cc-paypal"),IconCategory("Brand Icons"),IconCategory("Payment Icons")]
-		CcPaypal = 0xf1f4,
-		///<summary>Stripe Credit Card (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/cc-stripe/" />
-		[Description("Stripe Credit Card"),IconId("cc-stripe"),IconCategory("Brand Icons"),IconCategory("Payment Icons")]
-		CcStripe = 0xf1f5,
-		///<summary>Bell Slash (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/bell-slash/" />
-		[Description("Bell Slash"),IconId("bell-slash"),IconCategory("Web Application Icons")]
-		BellSlash = 0xf1f6,
-		///<summary>Bell Slash Outlined (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/bell-slash-o/" />
-		[Description("Bell Slash Outlined"),IconId("bell-slash-o"),IconCategory("Web Application Icons")]
-		BellSlashOutline = 0xf1f7,
-		///<summary>Trash (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/trash/" />
-		[Description("Trash"),IconId("trash"),IconCategory("Web Application Icons")]
-		Trash = 0xf1f8,
-		///<summary>Copyright (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/copyright/" />
-		[Description("Copyright"),IconId("copyright"),IconCategory("Web Application Icons")]
-		Copyright = 0xf1f9,
-		///<summary>At (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/at/" />
-		[Description("At"),IconId("at"),IconCategory("Web Application Icons")]
-		At = 0xf1fa,
-		///<summary>Eyedropper (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/eyedropper/" />
-		[Description("Eyedropper"),IconId("eyedropper"),IconCategory("Web Application Icons")]
-		Eyedropper = 0xf1fb,
-		///<summary>Paint Brush (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/paint-brush/" />
-		[Description("Paint Brush"),IconId("paint-brush"),IconCategory("Web Application Icons")]
-		PaintBrush = 0xf1fc,
-		///<summary>Birthday Cake (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/birthday-cake/" />
-		[Description("Birthday Cake"),IconId("birthday-cake"),IconCategory("Web Application Icons")]
-		BirthdayCake = 0xf1fd,
-		///<summary>Area Chart (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/area-chart/" />
-		[Description("Area Chart"),IconId("area-chart"),IconCategory("Web Application Icons"),IconCategory("Chart Icons")]
-		AreaChart = 0xf1fe,
-		///<summary>Pie Chart (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/pie-chart/" />
-		[Description("Pie Chart"),IconId("pie-chart"),IconCategory("Web Application Icons"),IconCategory("Chart Icons")]
-		PieChart = 0xf200,
-		///<summary>Line Chart (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/line-chart/" />
-		[Description("Line Chart"),IconId("line-chart"),IconCategory("Web Application Icons"),IconCategory("Chart Icons")]
-		LineChart = 0xf201,
-		///<summary>last.fm (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/lastfm/" />
-		[Description("last.fm"),IconId("lastfm"),IconCategory("Brand Icons")]
-		Lastfm = 0xf202,
-		///<summary>last.fm Square (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/lastfm-square/" />
-		[Description("last.fm Square"),IconId("lastfm-square"),IconCategory("Brand Icons")]
-		LastfmSquare = 0xf203,
-		///<summary>Toggle Off (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/toggle-off/" />
-		[Description("Toggle Off"),IconId("toggle-off"),IconCategory("Web Application Icons")]
-		ToggleOff = 0xf204,
-		///<summary>Toggle On (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/toggle-on/" />
-		[Description("Toggle On"),IconId("toggle-on"),IconCategory("Web Application Icons")]
-		ToggleOn = 0xf205,
-		///<summary>Bicycle (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/bicycle/" />
-		[Description("Bicycle"),IconId("bicycle"),IconCategory("Web Application Icons"),IconCategory("Transportation Icons")]
-		Bicycle = 0xf206,
-		///<summary>Bus (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/bus/" />
-		[Description("Bus"),IconId("bus"),IconCategory("Web Application Icons"),IconCategory("Transportation Icons")]
-		Bus = 0xf207,
-		///<summary>ioxhost (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/ioxhost/" />
-		[Description("ioxhost"),IconId("ioxhost"),IconCategory("Brand Icons")]
-		Ioxhost = 0xf208,
-		///<summary>AngelList (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/angellist/" />
-		[Description("AngelList"),IconId("angellist"),IconCategory("Brand Icons")]
-		Angellist = 0xf209,
-		///<summary>Closed Captions (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/cc/" />
-		[Description("Closed Captions"),IconId("cc"),IconCategory("Web Application Icons"),IconCategory("Accessibility Icons")]
-		Cc = 0xf20a,
-		///<summary>Shekel (ILS) (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/ils/" />
-		[Description("Shekel (ILS)"),IconId("ils"),IconCategory("Currency Icons")]
-		Ils = 0xf20b,
-		///<summary>Alias of: Ils</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Ils" />
-		[IconAlias]
-		Shekel = Ils,
-		///<summary>Alias of: Ils</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Ils" />
-		[IconAlias]
-		Sheqel = Ils,
-		///<summary>meanpath (created: 4.2)</summary>
-		///<see href="http://fontawesome.io/icon/meanpath/" />
-		[Description("meanpath"),IconId("meanpath"),IconCategory("Brand Icons")]
-		Meanpath = 0xf20c,
-		///<summary>BuySellAds (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/buysellads/" />
-		[Description("BuySellAds"),IconId("buysellads"),IconCategory("Brand Icons")]
-		Buysellads = 0xf20d,
-		///<summary>Connect Develop (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/connectdevelop/" />
-		[Description("Connect Develop"),IconId("connectdevelop"),IconCategory("Brand Icons")]
-		Connectdevelop = 0xf20e,
-		///<summary>DashCube (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/dashcube/" />
-		[Description("DashCube"),IconId("dashcube"),IconCategory("Brand Icons")]
-		Dashcube = 0xf210,
-		///<summary>Forumbee (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/forumbee/" />
-		[Description("Forumbee"),IconId("forumbee"),IconCategory("Brand Icons")]
-		Forumbee = 0xf211,
-		///<summary>Leanpub (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/leanpub/" />
-		[Description("Leanpub"),IconId("leanpub"),IconCategory("Brand Icons")]
-		Leanpub = 0xf212,
-		///<summary>Sellsy (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/sellsy/" />
-		[Description("Sellsy"),IconId("sellsy"),IconCategory("Brand Icons")]
-		Sellsy = 0xf213,
-		///<summary>Shirts in Bulk (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/shirtsinbulk/" />
-		[Description("Shirts in Bulk"),IconId("shirtsinbulk"),IconCategory("Brand Icons")]
-		Shirtsinbulk = 0xf214,
-		///<summary>SimplyBuilt (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/simplybuilt/" />
-		[Description("SimplyBuilt"),IconId("simplybuilt"),IconCategory("Brand Icons")]
-		Simplybuilt = 0xf215,
-		///<summary>skyatlas (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/skyatlas/" />
-		[Description("skyatlas"),IconId("skyatlas"),IconCategory("Brand Icons")]
-		Skyatlas = 0xf216,
-		///<summary>Add to Shopping Cart (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/cart-plus/" />
-		[Description("Add to Shopping Cart"),IconId("cart-plus"),IconCategory("Web Application Icons")]
-		CartPlus = 0xf217,
-		///<summary>Shopping Cart Arrow Down (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/cart-arrow-down/" />
-		[Description("Shopping Cart Arrow Down"),IconId("cart-arrow-down"),IconCategory("Web Application Icons")]
-		CartArrowDown = 0xf218,
-		///<summary>Diamond (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/diamond/" />
-		[Description("Diamond"),IconId("diamond"),IconCategory("Web Application Icons")]
-		Diamond = 0xf219,
-		///<summary>Ship (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/ship/" />
-		[Description("Ship"),IconId("ship"),IconCategory("Web Application Icons"),IconCategory("Transportation Icons")]
-		Ship = 0xf21a,
-		///<summary>User Secret (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/user-secret/" />
-		[Description("User Secret"),IconId("user-secret"),IconCategory("Web Application Icons")]
-		UserSecret = 0xf21b,
-		///<summary>Motorcycle (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/motorcycle/" />
-		[Description("Motorcycle"),IconId("motorcycle"),IconCategory("Web Application Icons"),IconCategory("Transportation Icons")]
-		Motorcycle = 0xf21c,
-		///<summary>Street View (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/street-view/" />
-		[Description("Street View"),IconId("street-view"),IconCategory("Web Application Icons")]
-		StreetView = 0xf21d,
-		///<summary>Heartbeat (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/heartbeat/" />
-		[Description("Heartbeat"),IconId("heartbeat"),IconCategory("Web Application Icons"),IconCategory("Medical Icons")]
-		Heartbeat = 0xf21e,
-		///<summary>Venus (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/venus/" />
-		[Description("Venus"),IconId("venus"),IconCategory("Gender Icons")]
-		Venus = 0xf221,
-		///<summary>Mars (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/mars/" />
-		[Description("Mars"),IconId("mars"),IconCategory("Gender Icons")]
-		Mars = 0xf222,
-		///<summary>Mercury (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/mercury/" />
-		[Description("Mercury"),IconId("mercury"),IconCategory("Gender Icons")]
-		Mercury = 0xf223,
-		///<summary>Transgender (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/transgender/" />
-		[Description("Transgender"),IconId("transgender"),IconCategory("Gender Icons")]
-		Transgender = 0xf224,
-		///<summary>Alias of: Transgender</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Transgender" />
-		[IconAlias]
-		Intersex = Transgender,
-		///<summary>Transgender Alt (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/transgender-alt/" />
-		[Description("Transgender Alt"),IconId("transgender-alt"),IconCategory("Gender Icons")]
-		TransgenderAlt = 0xf225,
-		///<summary>Venus Double (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/venus-double/" />
-		[Description("Venus Double"),IconId("venus-double"),IconCategory("Gender Icons")]
-		VenusDouble = 0xf226,
-		///<summary>Mars Double (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/mars-double/" />
-		[Description("Mars Double"),IconId("mars-double"),IconCategory("Gender Icons")]
-		MarsDouble = 0xf227,
-		///<summary>Venus Mars (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/venus-mars/" />
-		[Description("Venus Mars"),IconId("venus-mars"),IconCategory("Gender Icons")]
-		VenusMars = 0xf228,
-		///<summary>Mars Stroke (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/mars-stroke/" />
-		[Description("Mars Stroke"),IconId("mars-stroke"),IconCategory("Gender Icons")]
-		MarsStroke = 0xf229,
-		///<summary>Mars Stroke Vertical (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/mars-stroke-v/" />
-		[Description("Mars Stroke Vertical"),IconId("mars-stroke-v"),IconCategory("Gender Icons")]
-		MarsStrokeV = 0xf22a,
-		///<summary>Mars Stroke Horizontal (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/mars-stroke-h/" />
-		[Description("Mars Stroke Horizontal"),IconId("mars-stroke-h"),IconCategory("Gender Icons")]
-		MarsStrokeH = 0xf22b,
-		///<summary>Neuter (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/neuter/" />
-		[Description("Neuter"),IconId("neuter"),IconCategory("Gender Icons")]
-		Neuter = 0xf22c,
-		///<summary>Genderless (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/genderless/" />
-		[Description("Genderless"),IconId("genderless"),IconCategory("Gender Icons")]
-		Genderless = 0xf22d,
-		///<summary>Facebook Official (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/facebook-official/" />
-		[Description("Facebook Official"),IconId("facebook-official"),IconCategory("Brand Icons")]
-		FacebookOfficial = 0xf230,
-		///<summary>Pinterest P (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/pinterest-p/" />
-		[Description("Pinterest P"),IconId("pinterest-p"),IconCategory("Brand Icons")]
-		PinterestP = 0xf231,
-		///<summary>What's App (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/whatsapp/" />
-		[Description("What's App"),IconId("whatsapp"),IconCategory("Brand Icons")]
-		Whatsapp = 0xf232,
-		///<summary>Server (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/server/" />
-		[Description("Server"),IconId("server"),IconCategory("Web Application Icons")]
-		Server = 0xf233,
-		///<summary>Add User (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/user-plus/" />
-		[Description("Add User"),IconId("user-plus"),IconCategory("Web Application Icons")]
-		UserPlus = 0xf234,
-		///<summary>Remove User (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/user-times/" />
-		[Description("Remove User"),IconId("user-times"),IconCategory("Web Application Icons")]
-		UserTimes = 0xf235,
-		///<summary>Bed (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/bed/" />
-		[Description("Bed"),IconId("bed"),IconCategory("Web Application Icons")]
-		Bed = 0xf236,
-		///<summary>Alias of: Bed</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Bed" />
-		[IconAlias]
-		Hotel = Bed,
-		///<summary>Viacoin (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/viacoin/" />
-		[Description("Viacoin"),IconId("viacoin"),IconCategory("Brand Icons")]
-		Viacoin = 0xf237,
-		///<summary>Train (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/train/" />
-		[Description("Train"),IconId("train"),IconCategory("Transportation Icons")]
-		Train = 0xf238,
-		///<summary>Subway (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/subway/" />
-		[Description("Subway"),IconId("subway"),IconCategory("Transportation Icons")]
-		Subway = 0xf239,
-		///<summary>Medium (created: 4.3)</summary>
-		///<see href="http://fontawesome.io/icon/medium/" />
-		[Description("Medium"),IconId("medium"),IconCategory("Brand Icons")]
-		Medium = 0xf23a,
-		///<summary>Y Combinator (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/y-combinator/" />
-		[Description("Y Combinator"),IconId("y-combinator"),IconCategory("Brand Icons")]
-		YCombinator = 0xf23b,
-		///<summary>Alias of: YCombinator</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.YCombinator" />
-		[IconAlias]
-		Yc = YCombinator,
-		///<summary>Optin Monster (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/optin-monster/" />
-		[Description("Optin Monster"),IconId("optin-monster"),IconCategory("Brand Icons")]
-		OptinMonster = 0xf23c,
-		///<summary>OpenCart (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/opencart/" />
-		[Description("OpenCart"),IconId("opencart"),IconCategory("Brand Icons")]
-		Opencart = 0xf23d,
-		///<summary>ExpeditedSSL (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/expeditedssl/" />
-		[Description("ExpeditedSSL"),IconId("expeditedssl"),IconCategory("Brand Icons")]
-		Expeditedssl = 0xf23e,
-		///<summary>Battery Full (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/battery-full/" />
-		[Description("Battery Full"),IconId("battery-full"),IconCategory("Web Application Icons")]
-		BatteryFull = 0xf240,
-		///<summary>Alias of: BatteryFull</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.BatteryFull" />
-		[IconAlias]
-		Battery4 = BatteryFull,
-		///<summary>Alias of: BatteryFull</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.BatteryFull" />
-		[IconAlias]
-		Battery = BatteryFull,
-		///<summary>Battery 3/4 Full (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/battery-three-quarters/" />
-		[Description("Battery 3/4 Full"),IconId("battery-three-quarters"),IconCategory("Web Application Icons")]
-		BatteryThreeQuarters = 0xf241,
-		///<summary>Alias of: BatteryThreeQuarters</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.BatteryThreeQuarters" />
-		[IconAlias]
-		Battery3 = BatteryThreeQuarters,
-		///<summary>Battery 1/2 Full (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/battery-half/" />
-		[Description("Battery 1/2 Full"),IconId("battery-half"),IconCategory("Web Application Icons")]
-		BatteryHalf = 0xf242,
-		///<summary>Alias of: BatteryHalf</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.BatteryHalf" />
-		[IconAlias]
-		Battery2 = BatteryHalf,
-		///<summary>Battery 1/4 Full (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/battery-quarter/" />
-		[Description("Battery 1/4 Full"),IconId("battery-quarter"),IconCategory("Web Application Icons")]
-		BatteryQuarter = 0xf243,
-		///<summary>Alias of: BatteryQuarter</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.BatteryQuarter" />
-		[IconAlias]
-		Battery1 = BatteryQuarter,
-		///<summary>Battery Empty (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/battery-empty/" />
-		[Description("Battery Empty"),IconId("battery-empty"),IconCategory("Web Application Icons")]
-		BatteryEmpty = 0xf244,
-		///<summary>Alias of: BatteryEmpty</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.BatteryEmpty" />
-		[IconAlias]
-		Battery0 = BatteryEmpty,
-		///<summary>Mouse Pointer (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/mouse-pointer/" />
-		[Description("Mouse Pointer"),IconId("mouse-pointer"),IconCategory("Web Application Icons")]
-		MousePointer = 0xf245,
-		///<summary>I Beam Cursor (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/i-cursor/" />
-		[Description("I Beam Cursor"),IconId("i-cursor"),IconCategory("Web Application Icons")]
-		ICursor = 0xf246,
-		///<summary>Object Group (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/object-group/" />
-		[Description("Object Group"),IconId("object-group"),IconCategory("Web Application Icons")]
-		ObjectGroup = 0xf247,
-		///<summary>Object Ungroup (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/object-ungroup/" />
-		[Description("Object Ungroup"),IconId("object-ungroup"),IconCategory("Web Application Icons")]
-		ObjectUngroup = 0xf248,
-		///<summary>Sticky Note (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/sticky-note/" />
-		[Description("Sticky Note"),IconId("sticky-note"),IconCategory("Web Application Icons")]
-		StickyNote = 0xf249,
-		///<summary>Sticky Note Outlined (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/sticky-note-o/" />
-		[Description("Sticky Note Outlined"),IconId("sticky-note-o"),IconCategory("Web Application Icons")]
-		StickyNoteOutline = 0xf24a,
-		///<summary>JCB Credit Card (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/cc-jcb/" />
-		[Description("JCB Credit Card"),IconId("cc-jcb"),IconCategory("Brand Icons"),IconCategory("Payment Icons")]
-		CcJcb = 0xf24b,
-		///<summary>Diner's Club Credit Card (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/cc-diners-club/" />
-		[Description("Diner's Club Credit Card"),IconId("cc-diners-club"),IconCategory("Brand Icons"),IconCategory("Payment Icons")]
-		CcDinersClub = 0xf24c,
-		///<summary>Clone (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/clone/" />
-		[Description("Clone"),IconId("clone"),IconCategory("Web Application Icons")]
-		Clone = 0xf24d,
-		///<summary>Balance Scale (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/balance-scale/" />
-		[Description("Balance Scale"),IconId("balance-scale"),IconCategory("Web Application Icons")]
-		BalanceScale = 0xf24e,
-		///<summary>Hourglass Outlined (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/hourglass-o/" />
-		[Description("Hourglass Outlined"),IconId("hourglass-o"),IconCategory("Web Application Icons")]
-		HourglassOutline = 0xf250,
-		///<summary>Hourglass Start (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/hourglass-start/" />
-		[Description("Hourglass Start"),IconId("hourglass-start"),IconCategory("Web Application Icons")]
-		HourglassStart = 0xf251,
-		///<summary>Alias of: HourglassStart</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.HourglassStart" />
-		[IconAlias]
-		Hourglass1 = HourglassStart,
-		///<summary>Hourglass Half (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/hourglass-half/" />
-		[Description("Hourglass Half"),IconId("hourglass-half"),IconCategory("Web Application Icons")]
-		HourglassHalf = 0xf252,
-		///<summary>Alias of: HourglassHalf</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.HourglassHalf" />
-		[IconAlias]
-		Hourglass2 = HourglassHalf,
-		///<summary>Hourglass End (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/hourglass-end/" />
-		[Description("Hourglass End"),IconId("hourglass-end"),IconCategory("Web Application Icons")]
-		HourglassEnd = 0xf253,
-		///<summary>Alias of: HourglassEnd</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.HourglassEnd" />
-		[IconAlias]
-		Hourglass3 = HourglassEnd,
-		///<summary>Hourglass (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/hourglass/" />
-		[Description("Hourglass"),IconId("hourglass"),IconCategory("Web Application Icons")]
-		Hourglass = 0xf254,
-		///<summary>Rock (Hand) (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/hand-rock-o/" />
-		[Description("Rock (Hand)"),IconId("hand-rock-o"),IconCategory("Web Application Icons"),IconCategory("Hand Icons")]
-		HandRockOutline = 0xf255,
-		///<summary>Alias of: HandRockOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.HandRockOutline" />
-		[IconAlias]
-		HandGrabOutline = HandRockOutline,
-		///<summary>Paper (Hand) (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/hand-paper-o/" />
-		[Description("Paper (Hand)"),IconId("hand-paper-o"),IconCategory("Web Application Icons"),IconCategory("Hand Icons")]
-		HandPaperOutline = 0xf256,
-		///<summary>Alias of: HandPaperOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.HandPaperOutline" />
-		[IconAlias]
-		HandStopOutline = HandPaperOutline,
-		///<summary>Scissors (Hand) (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/hand-scissors-o/" />
-		[Description("Scissors (Hand)"),IconId("hand-scissors-o"),IconCategory("Web Application Icons"),IconCategory("Hand Icons")]
-		HandScissorsOutline = 0xf257,
-		///<summary>Lizard (Hand) (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/hand-lizard-o/" />
-		[Description("Lizard (Hand)"),IconId("hand-lizard-o"),IconCategory("Web Application Icons"),IconCategory("Hand Icons")]
-		HandLizardOutline = 0xf258,
-		///<summary>Spock (Hand) (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/hand-spock-o/" />
-		[Description("Spock (Hand)"),IconId("hand-spock-o"),IconCategory("Web Application Icons"),IconCategory("Hand Icons")]
-		HandSpockOutline = 0xf259,
-		///<summary>Hand Pointer (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/hand-pointer-o/" />
-		[Description("Hand Pointer"),IconId("hand-pointer-o"),IconCategory("Web Application Icons"),IconCategory("Hand Icons")]
-		HandPointerOutline = 0xf25a,
-		///<summary>Hand Peace (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/hand-peace-o/" />
-		[Description("Hand Peace"),IconId("hand-peace-o"),IconCategory("Web Application Icons"),IconCategory("Hand Icons")]
-		HandPeaceOutline = 0xf25b,
-		///<summary>Trademark (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/trademark/" />
-		[Description("Trademark"),IconId("trademark"),IconCategory("Web Application Icons")]
-		Trademark = 0xf25c,
-		///<summary>Registered Trademark (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/registered/" />
-		[Description("Registered Trademark"),IconId("registered"),IconCategory("Web Application Icons")]
-		Registered = 0xf25d,
-		///<summary>Creative Commons (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/creative-commons/" />
-		[Description("Creative Commons"),IconId("creative-commons"),IconCategory("Web Application Icons")]
-		CreativeCommons = 0xf25e,
-		///<summary>GG Currency (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/gg/" />
-		[Description("GG Currency"),IconId("gg"),IconCategory("Currency Icons"),IconCategory("Brand Icons")]
-		Gg = 0xf260,
-		///<summary>GG Currency Circle (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/gg-circle/" />
-		[Description("GG Currency Circle"),IconId("gg-circle"),IconCategory("Currency Icons"),IconCategory("Brand Icons")]
-		GgCircle = 0xf261,
-		///<summary>TripAdvisor (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/tripadvisor/" />
-		[Description("TripAdvisor"),IconId("tripadvisor"),IconCategory("Brand Icons")]
-		Tripadvisor = 0xf262,
-		///<summary>Odnoklassniki (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/odnoklassniki/" />
-		[Description("Odnoklassniki"),IconId("odnoklassniki"),IconCategory("Brand Icons")]
-		Odnoklassniki = 0xf263,
-		///<summary>Odnoklassniki Square (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/odnoklassniki-square/" />
-		[Description("Odnoklassniki Square"),IconId("odnoklassniki-square"),IconCategory("Brand Icons")]
-		OdnoklassnikiSquare = 0xf264,
-		///<summary>Get Pocket (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/get-pocket/" />
-		[Description("Get Pocket"),IconId("get-pocket"),IconCategory("Brand Icons")]
-		GetPocket = 0xf265,
-		///<summary>Wikipedia W (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/wikipedia-w/" />
-		[Description("Wikipedia W"),IconId("wikipedia-w"),IconCategory("Brand Icons")]
-		WikipediaW = 0xf266,
-		///<summary>Safari (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/safari/" />
-		[Description("Safari"),IconId("safari"),IconCategory("Brand Icons")]
-		Safari = 0xf267,
-		///<summary>Chrome (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/chrome/" />
-		[Description("Chrome"),IconId("chrome"),IconCategory("Brand Icons")]
-		Chrome = 0xf268,
-		///<summary>Firefox (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/firefox/" />
-		[Description("Firefox"),IconId("firefox"),IconCategory("Brand Icons")]
-		Firefox = 0xf269,
-		///<summary>Opera (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/opera/" />
-		[Description("Opera"),IconId("opera"),IconCategory("Brand Icons")]
-		Opera = 0xf26a,
-		///<summary>Internet-explorer (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/internet-explorer/" />
-		[Description("Internet-explorer"),IconId("internet-explorer"),IconCategory("Brand Icons")]
-		InternetExplorer = 0xf26b,
-		///<summary>Television (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/television/" />
-		[Description("Television"),IconId("television"),IconCategory("Web Application Icons")]
-		Television = 0xf26c,
-		///<summary>Alias of: Television</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Television" />
-		[IconAlias]
-		Tv = Television,
-		///<summary>Contao (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/contao/" />
-		[Description("Contao"),IconId("contao"),IconCategory("Brand Icons")]
-		Contao = 0xf26d,
-		///<summary>500px (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/500px/" />
-		[Description("500px"),IconId("500px"),IconCategory("Brand Icons")]
+		[Description("500px")]
 		_500Px = 0xf26e,
-		///<summary>Amazon (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/amazon/" />
-		[Description("Amazon"),IconId("amazon"),IconCategory("Brand Icons")]
-		Amazon = 0xf270,
-		///<summary>Calendar Plus Outlined (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/calendar-plus-o/" />
-		[Description("Calendar Plus Outlined"),IconId("calendar-plus-o"),IconCategory("Web Application Icons")]
-		CalendarPlusOutline = 0xf271,
-		///<summary>Calendar Minus Outlined (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/calendar-minus-o/" />
-		[Description("Calendar Minus Outlined"),IconId("calendar-minus-o"),IconCategory("Web Application Icons")]
-		CalendarMinusOutline = 0xf272,
-		///<summary>Calendar Times Outlined (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/calendar-times-o/" />
-		[Description("Calendar Times Outlined"),IconId("calendar-times-o"),IconCategory("Web Application Icons")]
-		CalendarTimesOutline = 0xf273,
-		///<summary>Calendar Check Outlined (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/calendar-check-o/" />
-		[Description("Calendar Check Outlined"),IconId("calendar-check-o"),IconCategory("Web Application Icons")]
-		CalendarCheckOutline = 0xf274,
-		///<summary>Industry (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/industry/" />
-		[Description("Industry"),IconId("industry"),IconCategory("Web Application Icons")]
-		Industry = 0xf275,
-		///<summary>Map Pin (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/map-pin/" />
-		[Description("Map Pin"),IconId("map-pin"),IconCategory("Web Application Icons")]
-		MapPin = 0xf276,
-		///<summary>Map Signs (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/map-signs/" />
-		[Description("Map Signs"),IconId("map-signs"),IconCategory("Web Application Icons")]
-		MapSigns = 0xf277,
-		///<summary>Map Outlined (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/map-o/" />
-		[Description("Map Outlined"),IconId("map-o"),IconCategory("Web Application Icons")]
-		MapOutline = 0xf278,
-		///<summary>Map (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/map/" />
-		[Description("Map"),IconId("map"),IconCategory("Web Application Icons")]
-		Map = 0xf279,
-		///<summary>Commenting (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/commenting/" />
-		[Description("Commenting"),IconId("commenting"),IconCategory("Web Application Icons")]
-		Commenting = 0xf27a,
-		///<summary>Commenting Outlined (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/commenting-o/" />
-		[Description("Commenting Outlined"),IconId("commenting-o"),IconCategory("Web Application Icons")]
-		CommentingOutline = 0xf27b,
-		///<summary>Houzz (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/houzz/" />
-		[Description("Houzz"),IconId("houzz"),IconCategory("Brand Icons")]
-		Houzz = 0xf27c,
-		///<summary>Vimeo (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/vimeo/" />
-		[Description("Vimeo"),IconId("vimeo"),IconCategory("Brand Icons")]
-		Vimeo = 0xf27d,
-		///<summary>Font Awesome Black Tie (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/black-tie/" />
-		[Description("Font Awesome Black Tie"),IconId("black-tie"),IconCategory("Brand Icons")]
-		BlackTie = 0xf27e,
-		///<summary>Fonticons (created: 4.4)</summary>
-		///<see href="http://fontawesome.io/icon/fonticons/" />
-		[Description("Fonticons"),IconId("fonticons"),IconCategory("Brand Icons")]
-		Fonticons = 0xf280,
-		///<summary>reddit Alien (created: 4.5)</summary>
-		///<see href="http://fontawesome.io/icon/reddit-alien/" />
-		[Description("reddit Alien"),IconId("reddit-alien"),IconCategory("Brand Icons")]
-		RedditAlien = 0xf281,
-		///<summary>Edge Browser (created: 4.5)</summary>
-		///<see href="http://fontawesome.io/icon/edge/" />
-		[Description("Edge Browser"),IconId("edge"),IconCategory("Brand Icons")]
-		Edge = 0xf282,
-		///<summary>Credit Card (created: 4.5)</summary>
-		///<see href="http://fontawesome.io/icon/credit-card-alt/" />
-		[Description("Credit Card"),IconId("credit-card-alt"),IconCategory("Payment Icons"),IconCategory("Web Application Icons")]
-		CreditCardAlt = 0xf283,
-		///<summary>Codie Pie (created: 4.5)</summary>
-		///<see href="http://fontawesome.io/icon/codiepie/" />
-		[Description("Codie Pie"),IconId("codiepie"),IconCategory("Brand Icons")]
-		Codiepie = 0xf284,
-		///<summary>MODX (created: 4.5)</summary>
-		///<see href="http://fontawesome.io/icon/modx/" />
-		[Description("MODX"),IconId("modx"),IconCategory("Brand Icons")]
-		Modx = 0xf285,
-		///<summary>Fort Awesome (created: 4.5)</summary>
-		///<see href="http://fontawesome.io/icon/fort-awesome/" />
-		[Description("Fort Awesome"),IconId("fort-awesome"),IconCategory("Brand Icons")]
-		FortAwesome = 0xf286,
-		///<summary>USB (created: 4.5)</summary>
-		///<see href="http://fontawesome.io/icon/usb/" />
-		[Description("USB"),IconId("usb"),IconCategory("Brand Icons")]
-		Usb = 0xf287,
-		///<summary>Product Hunt (created: 4.5)</summary>
-		///<see href="http://fontawesome.io/icon/product-hunt/" />
-		[Description("Product Hunt"),IconId("product-hunt"),IconCategory("Brand Icons")]
-		ProductHunt = 0xf288,
-		///<summary>Mixcloud (created: 4.5)</summary>
-		///<see href="http://fontawesome.io/icon/mixcloud/" />
-		[Description("Mixcloud"),IconId("mixcloud"),IconCategory("Brand Icons")]
-		Mixcloud = 0xf289,
-		///<summary>Scribd (created: 4.5)</summary>
-		///<see href="http://fontawesome.io/icon/scribd/" />
-		[Description("Scribd"),IconId("scribd"),IconCategory("Brand Icons")]
-		Scribd = 0xf28a,
-		///<summary>Pause Circle (created: 4.5)</summary>
-		///<see href="http://fontawesome.io/icon/pause-circle/" />
-		[Description("Pause Circle"),IconId("pause-circle"),IconCategory("Video Player Icons")]
-		PauseCircle = 0xf28b,
-		///<summary>Pause Circle Outlined (created: 4.5)</summary>
-		///<see href="http://fontawesome.io/icon/pause-circle-o/" />
-		[Description("Pause Circle Outlined"),IconId("pause-circle-o"),IconCategory("Video Player Icons")]
-		PauseCircleOutline = 0xf28c,
-		///<summary>Stop Circle (created: 4.5)</summary>
-		///<see href="http://fontawesome.io/icon/stop-circle/" />
-		[Description("Stop Circle"),IconId("stop-circle"),IconCategory("Video Player Icons")]
-		StopCircle = 0xf28d,
-		///<summary>Stop Circle Outlined (created: 4.5)</summary>
-		///<see href="http://fontawesome.io/icon/stop-circle-o/" />
-		[Description("Stop Circle Outlined"),IconId("stop-circle-o"),IconCategory("Video Player Icons")]
-		StopCircleOutline = 0xf28e,
-		///<summary>Shopping Bag (created: 4.5)</summary>
-		///<see href="http://fontawesome.io/icon/shopping-bag/" />
-		[Description("Shopping Bag"),IconId("shopping-bag"),IconCategory("Web Application Icons")]
-		ShoppingBag = 0xf290,
-		///<summary>Shopping Basket (created: 4.5)</summary>
-		///<see href="http://fontawesome.io/icon/shopping-basket/" />
-		[Description("Shopping Basket"),IconId("shopping-basket"),IconCategory("Web Application Icons")]
-		ShoppingBasket = 0xf291,
-		///<summary>Hashtag (created: 4.5)</summary>
-		///<see href="http://fontawesome.io/icon/hashtag/" />
-		[Description("Hashtag"),IconId("hashtag"),IconCategory("Web Application Icons")]
-		Hashtag = 0xf292,
-		///<summary>Bluetooth (created: 4.5)</summary>
-		///<see href="http://fontawesome.io/icon/bluetooth/" />
-		[Description("Bluetooth"),IconId("bluetooth"),IconCategory("Web Application Icons"),IconCategory("Brand Icons")]
-		Bluetooth = 0xf293,
-		///<summary>Bluetooth (created: 4.5)</summary>
-		///<see href="http://fontawesome.io/icon/bluetooth-b/" />
-		[Description("Bluetooth"),IconId("bluetooth-b"),IconCategory("Web Application Icons"),IconCategory("Brand Icons")]
-		BluetoothB = 0xf294,
-		///<summary>Percent (created: 4.5)</summary>
-		///<see href="http://fontawesome.io/icon/percent/" />
-		[Description("Percent"),IconId("percent"),IconCategory("Web Application Icons")]
-		Percent = 0xf295,
-		///<summary>GitLab (created: 4.6)</summary>
-		///<see href="http://fontawesome.io/icon/gitlab/" />
-		[Description("GitLab"),IconId("gitlab"),IconCategory("Brand Icons")]
-		Gitlab = 0xf296,
-		///<summary>WPBeginner (created: 4.6)</summary>
-		///<see href="http://fontawesome.io/icon/wpbeginner/" />
-		[Description("WPBeginner"),IconId("wpbeginner"),IconCategory("Brand Icons")]
-		Wpbeginner = 0xf297,
-		///<summary>WPForms (created: 4.6)</summary>
-		///<see href="http://fontawesome.io/icon/wpforms/" />
-		[Description("WPForms"),IconId("wpforms"),IconCategory("Brand Icons")]
-		Wpforms = 0xf298,
-		///<summary>Envira Gallery (created: 4.6)</summary>
-		///<see href="http://fontawesome.io/icon/envira/" />
-		[Description("Envira Gallery"),IconId("envira"),IconCategory("Brand Icons")]
-		Envira = 0xf299,
-		///<summary>Universal Access (created: 4.6)</summary>
-		///<see href="http://fontawesome.io/icon/universal-access/" />
-		[Description("Universal Access"),IconId("universal-access"),IconCategory("Web Application Icons"),IconCategory("Accessibility Icons")]
-		UniversalAccess = 0xf29a,
-		///<summary>Wheelchair Alt (created: 4.6)</summary>
-		///<see href="http://fontawesome.io/icon/wheelchair-alt/" />
-		[Description("Wheelchair Alt"),IconId("wheelchair-alt"),IconCategory("Web Application Icons"),IconCategory("Medical Icons"),IconCategory("Transportation Icons"),IconCategory("Accessibility Icons")]
-		WheelchairAlt = 0xf29b,
-		///<summary>Question Circle Outlined (created: 4.6)</summary>
-		///<see href="http://fontawesome.io/icon/question-circle-o/" />
-		[Description("Question Circle Outlined"),IconId("question-circle-o"),IconCategory("Web Application Icons"),IconCategory("Accessibility Icons")]
-		QuestionCircleOutline = 0xf29c,
-		///<summary>Blind (created: 4.6)</summary>
-		///<see href="http://fontawesome.io/icon/blind/" />
-		[Description("Blind"),IconId("blind"),IconCategory("Web Application Icons"),IconCategory("Accessibility Icons")]
-		Blind = 0xf29d,
-		///<summary>Audio Description (created: 4.6)</summary>
-		///<see href="http://fontawesome.io/icon/audio-description/" />
-		[Description("Audio Description"),IconId("audio-description"),IconCategory("Web Application Icons"),IconCategory("Accessibility Icons")]
-		AudioDescription = 0xf29e,
-		///<summary>Volume Control Phone (created: 4.6)</summary>
-		///<see href="http://fontawesome.io/icon/volume-control-phone/" />
-		[Description("Volume Control Phone"),IconId("volume-control-phone"),IconCategory("Web Application Icons"),IconCategory("Accessibility Icons")]
-		VolumeControlPhone = 0xf2a0,
-		///<summary>Braille (created: 4.6)</summary>
-		///<see href="http://fontawesome.io/icon/braille/" />
-		[Description("Braille"),IconId("braille"),IconCategory("Web Application Icons"),IconCategory("Accessibility Icons")]
-		Braille = 0xf2a1,
-		///<summary>Assistive Listening Systems (created: 4.6)</summary>
-		///<see href="http://fontawesome.io/icon/assistive-listening-systems/" />
-		[Description("Assistive Listening Systems"),IconId("assistive-listening-systems"),IconCategory("Web Application Icons"),IconCategory("Accessibility Icons")]
-		AssistiveListeningSystems = 0xf2a2,
-		///<summary>American Sign Language Interpreting (created: 4.6)</summary>
-		///<see href="http://fontawesome.io/icon/american-sign-language-interpreting/" />
-		[Description("American Sign Language Interpreting"),IconId("american-sign-language-interpreting"),IconCategory("Web Application Icons"),IconCategory("Accessibility Icons")]
-		AmericanSignLanguageInterpreting = 0xf2a3,
-		///<summary>Alias of: AmericanSignLanguageInterpreting</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.AmericanSignLanguageInterpreting" />
-		[IconAlias]
-		AslInterpreting = AmericanSignLanguageInterpreting,
-		///<summary>Deaf (created: 4.6)</summary>
-		///<see href="http://fontawesome.io/icon/deaf/" />
-		[Description("Deaf"),IconId("deaf"),IconCategory("Web Application Icons"),IconCategory("Accessibility Icons")]
-		Deaf = 0xf2a4,
-		///<summary>Alias of: Deaf</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Deaf" />
-		[IconAlias]
-		Deafness = Deaf,
-		///<summary>Alias of: Deaf</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Deaf" />
-		[IconAlias]
-		HardOfHearing = Deaf,
-		///<summary>Glide (created: 4.6)</summary>
-		///<see href="http://fontawesome.io/icon/glide/" />
-		[Description("Glide"),IconId("glide"),IconCategory("Brand Icons")]
-		Glide = 0xf2a5,
-		///<summary>Glide G (created: 4.6)</summary>
-		///<see href="http://fontawesome.io/icon/glide-g/" />
-		[Description("Glide G"),IconId("glide-g"),IconCategory("Brand Icons")]
-		GlideG = 0xf2a6,
-		///<summary>Sign Language (created: 4.6)</summary>
-		///<see href="http://fontawesome.io/icon/sign-language/" />
-		[Description("Sign Language"),IconId("sign-language"),IconCategory("Web Application Icons"),IconCategory("Accessibility Icons")]
-		SignLanguage = 0xf2a7,
-		///<summary>Alias of: SignLanguage</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.SignLanguage" />
-		[IconAlias]
-		Signing = SignLanguage,
-		///<summary>Low Vision (created: 4.6)</summary>
-		///<see href="http://fontawesome.io/icon/low-vision/" />
-		[Description("Low Vision"),IconId("low-vision"),IconCategory("Web Application Icons"),IconCategory("Accessibility Icons")]
-		LowVision = 0xf2a8,
-		///<summary>Viadeo (created: 4.6)</summary>
-		///<see href="http://fontawesome.io/icon/viadeo/" />
-		[Description("Viadeo"),IconId("viadeo"),IconCategory("Brand Icons")]
-		Viadeo = 0xf2a9,
-		///<summary>Viadeo Square (created: 4.6)</summary>
-		///<see href="http://fontawesome.io/icon/viadeo-square/" />
-		[Description("Viadeo Square"),IconId("viadeo-square"),IconCategory("Brand Icons")]
-		ViadeoSquare = 0xf2aa,
-		///<summary>Snapchat (created: 4.6)</summary>
-		///<see href="http://fontawesome.io/icon/snapchat/" />
-		[Description("Snapchat"),IconId("snapchat"),IconCategory("Brand Icons")]
-		Snapchat = 0xf2ab,
-		///<summary>Snapchat Ghost (created: 4.6)</summary>
-		///<see href="http://fontawesome.io/icon/snapchat-ghost/" />
-		[Description("Snapchat Ghost"),IconId("snapchat-ghost"),IconCategory("Brand Icons")]
-		SnapchatGhost = 0xf2ac,
-		///<summary>Snapchat Square (created: 4.6)</summary>
-		///<see href="http://fontawesome.io/icon/snapchat-square/" />
-		[Description("Snapchat Square"),IconId("snapchat-square"),IconCategory("Brand Icons")]
-		SnapchatSquare = 0xf2ad,
-		///<summary>Pied Piper Logo (created: 4.6)</summary>
-		///<see href="http://fontawesome.io/icon/pied-piper/" />
-		[Description("Pied Piper Logo"),IconId("pied-piper"),IconCategory("Brand Icons")]
-		PiedPiper = 0xf2ae,
-		///<summary>First Order (created: 4.6)</summary>
-		///<see href="http://fontawesome.io/icon/first-order/" />
-		[Description("First Order"),IconId("first-order"),IconCategory("Brand Icons")]
-		FirstOrder = 0xf2b0,
-		///<summary>Yoast (created: 4.6)</summary>
-		///<see href="http://fontawesome.io/icon/yoast/" />
-		[Description("Yoast"),IconId("yoast"),IconCategory("Brand Icons")]
-		Yoast = 0xf2b1,
-		///<summary>ThemeIsle (created: 4.6)</summary>
-		///<see href="http://fontawesome.io/icon/themeisle/" />
-		[Description("ThemeIsle"),IconId("themeisle"),IconCategory("Brand Icons")]
-		Themeisle = 0xf2b2,
-		///<summary>Google Plus Official (created: 4.6)</summary>
-		///<see href="http://fontawesome.io/icon/google-plus-official/" />
-		[Description("Google Plus Official"),IconId("google-plus-official"),IconCategory("Brand Icons")]
-		GooglePlusOfficial = 0xf2b3,
-		///<summary>Alias of: GooglePlusOfficial</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.GooglePlusOfficial" />
-		[IconAlias]
-		GooglePlusCircle = GooglePlusOfficial,
-		///<summary>Font Awesome (created: 4.6)</summary>
-		///<see href="http://fontawesome.io/icon/font-awesome/" />
-		[Description("Font Awesome"),IconId("font-awesome"),IconCategory("Brand Icons")]
-		FontAwesome = 0xf2b4,
-		///<summary>Alias of: FontAwesome</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.FontAwesome" />
-		[IconAlias]
-		Fa = FontAwesome,
-		///<summary>Handshake Outlined (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/handshake-o/" />
-		[Description("Handshake Outlined"),IconId("handshake-o"),IconCategory("Web Application Icons")]
-		HandshakeOutline = 0xf2b5,
-		///<summary>Envelope Open (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/envelope-open/" />
-		[Description("Envelope Open"),IconId("envelope-open"),IconCategory("Web Application Icons")]
-		EnvelopeOpen = 0xf2b6,
-		///<summary>Envelope Open Outlined (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/envelope-open-o/" />
-		[Description("Envelope Open Outlined"),IconId("envelope-open-o"),IconCategory("Web Application Icons")]
-		EnvelopeOutlinepenOutline = 0xf2b7,
-		///<summary>Linode (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/linode/" />
-		[Description("Linode"),IconId("linode"),IconCategory("Brand Icons")]
-		Linode = 0xf2b8,
-		///<summary>Address Book (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/address-book/" />
-		[Description("Address Book"),IconId("address-book"),IconCategory("Web Application Icons")]
+		[Description("Accessible Icon")]
+		AccessibleIcon = 0xf368,
+		[Description("Accusoft")]
+		Accusoft = 0xf369,
+		[Description("Acquisitions Incorporated")]
+		AcquisitionsIncorporated = 0xf6af,
+		[Description("Ad")]
+		Ad = 0xf641,
+		[Description("Address Book")]
 		AddressBook = 0xf2b9,
-		///<summary>Address Book Outlined (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/address-book-o/" />
-		[Description("Address Book Outlined"),IconId("address-book-o"),IconCategory("Web Application Icons")]
-		AddressBookOutline = 0xf2ba,
-		///<summary>Address Card (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/address-card/" />
-		[Description("Address Card"),IconId("address-card"),IconCategory("Web Application Icons")]
+		[Description("Address Card")]
 		AddressCard = 0xf2bb,
-		///<summary>Alias of: AddressCard</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.AddressCard" />
-		[IconAlias]
-		Vcard = AddressCard,
-		///<summary>Address Card Outlined (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/address-card-o/" />
-		[Description("Address Card Outlined"),IconId("address-card-o"),IconCategory("Web Application Icons")]
-		AddressCardOutline = 0xf2bc,
-		///<summary>Alias of: AddressCardOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.AddressCardOutline" />
-		[IconAlias]
-		VcardOutline = AddressCardOutline,
-		///<summary>User Circle (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/user-circle/" />
-		[Description("User Circle"),IconId("user-circle"),IconCategory("Web Application Icons")]
-		UserCircle = 0xf2bd,
-		///<summary>User Circle Outlined (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/user-circle-o/" />
-		[Description("User Circle Outlined"),IconId("user-circle-o"),IconCategory("Web Application Icons")]
-		UserCircleOutline = 0xf2be,
-		///<summary>User Outlined (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/user-o/" />
-		[Description("User Outlined"),IconId("user-o"),IconCategory("Web Application Icons")]
-		UserOutline = 0xf2c0,
-		///<summary>Identification Badge (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/id-badge/" />
-		[Description("Identification Badge"),IconId("id-badge"),IconCategory("Web Application Icons")]
-		IdBadge = 0xf2c1,
-		///<summary>Identification Card (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/id-card/" />
-		[Description("Identification Card"),IconId("id-card"),IconCategory("Web Application Icons")]
-		IdCard = 0xf2c2,
-		///<summary>Alias of: IdCard</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.IdCard" />
-		[IconAlias]
-		DriversLicense = IdCard,
-		///<summary>Identification Card Outlined (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/id-card-o/" />
-		[Description("Identification Card Outlined"),IconId("id-card-o"),IconCategory("Web Application Icons")]
-		IdCardOutline = 0xf2c3,
-		///<summary>Alias of: IdCardOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.IdCardOutline" />
-		[IconAlias]
-		DriversLicenseOutline = IdCardOutline,
-		///<summary>Quora (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/quora/" />
-		[Description("Quora"),IconId("quora"),IconCategory("Brand Icons")]
-		Quora = 0xf2c4,
-		///<summary>Free Code Camp (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/free-code-camp/" />
-		[Description("Free Code Camp"),IconId("free-code-camp"),IconCategory("Brand Icons")]
-		FreeCodeCamp = 0xf2c5,
-		///<summary>Telegram (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/telegram/" />
-		[Description("Telegram"),IconId("telegram"),IconCategory("Brand Icons")]
-		Telegram = 0xf2c6,
-		///<summary>Thermometer Full (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/thermometer-full/" />
-		[Description("Thermometer Full"),IconId("thermometer-full"),IconCategory("Web Application Icons")]
-		ThermometerFull = 0xf2c7,
-		///<summary>Alias of: ThermometerFull</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.ThermometerFull" />
-		[IconAlias]
-		Thermometer4 = ThermometerFull,
-		///<summary>Alias of: ThermometerFull</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.ThermometerFull" />
-		[IconAlias]
-		Thermometer = ThermometerFull,
-		///<summary>Thermometer 3/4 Full (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/thermometer-three-quarters/" />
-		[Description("Thermometer 3/4 Full"),IconId("thermometer-three-quarters"),IconCategory("Web Application Icons")]
-		ThermometerThreeQuarters = 0xf2c8,
-		///<summary>Alias of: ThermometerThreeQuarters</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.ThermometerThreeQuarters" />
-		[IconAlias]
-		Thermometer3 = ThermometerThreeQuarters,
-		///<summary>Thermometer 1/2 Full (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/thermometer-half/" />
-		[Description("Thermometer 1/2 Full"),IconId("thermometer-half"),IconCategory("Web Application Icons")]
-		ThermometerHalf = 0xf2c9,
-		///<summary>Alias of: ThermometerHalf</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.ThermometerHalf" />
-		[IconAlias]
-		Thermometer2 = ThermometerHalf,
-		///<summary>Thermometer 1/4 Full (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/thermometer-quarter/" />
-		[Description("Thermometer 1/4 Full"),IconId("thermometer-quarter"),IconCategory("Web Application Icons")]
-		ThermometerQuarter = 0xf2ca,
-		///<summary>Alias of: ThermometerQuarter</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.ThermometerQuarter" />
-		[IconAlias]
-		Thermometer1 = ThermometerQuarter,
-		///<summary>Thermometer Empty (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/thermometer-empty/" />
-		[Description("Thermometer Empty"),IconId("thermometer-empty"),IconCategory("Web Application Icons")]
-		ThermometerEmpty = 0xf2cb,
-		///<summary>Alias of: ThermometerEmpty</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.ThermometerEmpty" />
-		[IconAlias]
-		Thermometer0 = ThermometerEmpty,
-		///<summary>Shower (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/shower/" />
-		[Description("Shower"),IconId("shower"),IconCategory("Web Application Icons")]
-		Shower = 0xf2cc,
-		///<summary>Bath (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/bath/" />
-		[Description("Bath"),IconId("bath"),IconCategory("Web Application Icons")]
-		Bath = 0xf2cd,
-		///<summary>Alias of: Bath</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Bath" />
-		[IconAlias]
-		Bathtub = Bath,
-		///<summary>Alias of: Bath</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Bath" />
-		[IconAlias]
-		S15 = Bath,
-		///<summary>Podcast (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/podcast/" />
-		[Description("Podcast"),IconId("podcast"),IconCategory("Web Application Icons")]
-		Podcast = 0xf2ce,
-		///<summary>Window Maximize (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/window-maximize/" />
-		[Description("Window Maximize"),IconId("window-maximize"),IconCategory("Web Application Icons")]
-		WindowMaximize = 0xf2d0,
-		///<summary>Window Minimize (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/window-minimize/" />
-		[Description("Window Minimize"),IconId("window-minimize"),IconCategory("Web Application Icons")]
-		WindowMinimize = 0xf2d1,
-		///<summary>Window Restore (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/window-restore/" />
-		[Description("Window Restore"),IconId("window-restore"),IconCategory("Web Application Icons")]
-		WindowRestore = 0xf2d2,
-		///<summary>Window Close (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/window-close/" />
-		[Description("Window Close"),IconId("window-close"),IconCategory("Web Application Icons")]
-		WindowClose = 0xf2d3,
-		///<summary>Alias of: WindowClose</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.WindowClose" />
-		[IconAlias]
-		TimesRectangle = WindowClose,
-		///<summary>Window Close Outline (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/window-close-o/" />
-		[Description("Window Close Outline"),IconId("window-close-o"),IconCategory("Web Application Icons")]
-		WindowCloseOutline = 0xf2d4,
-		///<summary>Alias of: WindowCloseOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.WindowCloseOutline" />
-		[IconAlias]
-		TimesRectangleOutline = WindowCloseOutline,
-		///<summary>Bandcamp (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/bandcamp/" />
-		[Description("Bandcamp"),IconId("bandcamp"),IconCategory("Brand Icons")]
+		[Description("adjust")]
+		Adjust = 0xf042,
+		[Description("App.net")]
+		Adn = 0xf170,
+		[Description("Adobe")]
+		Adobe = 0xf778,
+		[Description("Adversal")]
+		Adversal = 0xf36a,
+		[Description("affiliatetheme")]
+		Affiliatetheme = 0xf36b,
+		[Description("Air Freshener")]
+		AirFreshener = 0xf5d0,
+		[Description("Airbnb")]
+		Airbnb = 0xf834,
+		[Description("Algolia")]
+		Algolia = 0xf36c,
+		[Description("align-center")]
+		AlignCenter = 0xf037,
+		[Description("align-justify")]
+		AlignJustify = 0xf039,
+		[Description("align-left")]
+		AlignLeft = 0xf036,
+		[Description("align-right")]
+		AlignRight = 0xf038,
+		[Description("Alipay")]
+		Alipay = 0xf642,
+		[Description("Allergies")]
+		Allergies = 0xf461,
+		[Description("Amazon")]
+		Amazon = 0xf270,
+		[Description("Amazon Pay")]
+		AmazonPay = 0xf42c,
+		[Description("ambulance")]
+		Ambulance = 0xf0f9,
+		[Description("American Sign Language Interpreting")]
+		AmericanSignLanguageInterpreting = 0xf2a3,
+		[Description("Amilia")]
+		Amilia = 0xf36d,
+		[Description("Anchor")]
+		Anchor = 0xf13d,
+		[Description("Android")]
+		Android = 0xf17b,
+		[Description("AngelList")]
+		Angellist = 0xf209,
+		[Description("Angle Double Down")]
+		AngleDoubleDown = 0xf103,
+		[Description("Angle Double Left")]
+		AngleDoubleLeft = 0xf100,
+		[Description("Angle Double Right")]
+		AngleDoubleRight = 0xf101,
+		[Description("Angle Double Up")]
+		AngleDoubleUp = 0xf102,
+		[Description("angle-down")]
+		AngleDown = 0xf107,
+		[Description("angle-left")]
+		AngleLeft = 0xf104,
+		[Description("angle-right")]
+		AngleRight = 0xf105,
+		[Description("angle-up")]
+		AngleUp = 0xf106,
+		[Description("Angry Face")]
+		Angry = 0xf556,
+		[Description("Angry Creative")]
+		Angrycreative = 0xf36e,
+		[Description("Angular")]
+		Angular = 0xf420,
+		[Description("Ankh")]
+		Ankh = 0xf644,
+		[Description("App Store")]
+		AppStore = 0xf36f,
+		[Description("iOS App Store")]
+		AppStoreIos = 0xf370,
+		[Description("Apper Systems AB")]
+		Apper = 0xf371,
+		[Description("Apple")]
+		Apple = 0xf179,
+		[Description("Fruit Apple")]
+		AppleAlt = 0xf5d1,
+		[Description("Apple Pay")]
+		ApplePay = 0xf415,
+		[Description("Archive")]
+		Archive = 0xf187,
+		[Description("Archway")]
+		Archway = 0xf557,
+		[Description("Alternate Arrow Circle Down")]
+		ArrowAltCircleDown = 0xf358,
+		[Description("Alternate Arrow Circle Left")]
+		ArrowAltCircleLeft = 0xf359,
+		[Description("Alternate Arrow Circle Right")]
+		ArrowAltCircleRight = 0xf35a,
+		[Description("Alternate Arrow Circle Up")]
+		ArrowAltCircleUp = 0xf35b,
+		[Description("Arrow Circle Down")]
+		ArrowCircleDown = 0xf0ab,
+		[Description("Arrow Circle Left")]
+		ArrowCircleLeft = 0xf0a8,
+		[Description("Arrow Circle Right")]
+		ArrowCircleRight = 0xf0a9,
+		[Description("Arrow Circle Up")]
+		ArrowCircleUp = 0xf0aa,
+		[Description("arrow-down")]
+		ArrowDown = 0xf063,
+		[Description("arrow-left")]
+		ArrowLeft = 0xf060,
+		[Description("arrow-right")]
+		ArrowRight = 0xf061,
+		[Description("arrow-up")]
+		ArrowUp = 0xf062,
+		[Description("Alternate Arrows")]
+		ArrowsAlt = 0xf0b2,
+		[Description("Alternate Arrows Horizontal")]
+		ArrowsAltH = 0xf337,
+		[Description("Alternate Arrows Vertical")]
+		ArrowsAltV = 0xf338,
+		[Description("Artstation")]
+		Artstation = 0xf77a,
+		[Description("Assistive Listening Systems")]
+		AssistiveListeningSystems = 0xf2a2,
+		[Description("asterisk")]
+		Asterisk = 0xf069,
+		[Description("Asymmetrik, Ltd.")]
+		Asymmetrik = 0xf372,
+		[Description("At")]
+		At = 0xf1fa,
+		[Description("Atlas")]
+		Atlas = 0xf558,
+		[Description("Atlassian")]
+		Atlassian = 0xf77b,
+		[Description("Atom")]
+		Atom = 0xf5d2,
+		[Description("Audible")]
+		Audible = 0xf373,
+		[Description("Audio Description")]
+		AudioDescription = 0xf29e,
+		[Description("Autoprefixer")]
+		Autoprefixer = 0xf41c,
+		[Description("avianex")]
+		Avianex = 0xf374,
+		[Description("Aviato")]
+		Aviato = 0xf421,
+		[Description("Award")]
+		Award = 0xf559,
+		[Description("Amazon Web Services (AWS)")]
+		Aws = 0xf375,
+		[Description("Baby")]
+		Baby = 0xf77c,
+		[Description("Baby Carriage")]
+		BabyCarriage = 0xf77d,
+		[Description("Backspace")]
+		Backspace = 0xf55a,
+		[Description("backward")]
+		Backward = 0xf04a,
+		[Description("Bacon")]
+		Bacon = 0xf7e5,
+		[Description("Bahá'í")]
+		Bahai = 0xf666,
+		[Description("Balance Scale")]
+		BalanceScale = 0xf24e,
+		[Description("Balance Scale (Left-Weighted)")]
+		BalanceScaleLeft = 0xf515,
+		[Description("Balance Scale (Right-Weighted)")]
+		BalanceScaleRight = 0xf516,
+		[Description("ban")]
+		Ban = 0xf05e,
+		[Description("Band-Aid")]
+		BandAid = 0xf462,
+		[Description("Bandcamp")]
 		Bandcamp = 0xf2d5,
-		///<summary>Grav (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/grav/" />
-		[Description("Grav"),IconId("grav"),IconCategory("Brand Icons")]
-		Grav = 0xf2d6,
-		///<summary>Etsy (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/etsy/" />
-		[Description("Etsy"),IconId("etsy"),IconCategory("Brand Icons")]
+		[Description("barcode")]
+		Barcode = 0xf02a,
+		[Description("Bars")]
+		Bars = 0xf0c9,
+		[Description("Baseball Ball")]
+		BaseballBall = 0xf433,
+		[Description("Basketball Ball")]
+		BasketballBall = 0xf434,
+		[Description("Bath")]
+		Bath = 0xf2cd,
+		[Description("Battery Empty")]
+		BatteryEmpty = 0xf244,
+		[Description("Battery Full")]
+		BatteryFull = 0xf240,
+		[Description("Battery 1/2 Full")]
+		BatteryHalf = 0xf242,
+		[Description("Battery 1/4 Full")]
+		BatteryQuarter = 0xf243,
+		[Description("Battery 3/4 Full")]
+		BatteryThreeQuarters = 0xf241,
+		[Description("Battle.net")]
+		BattleNet = 0xf835,
+		[Description("Bed")]
+		Bed = 0xf236,
+		[Description("beer")]
+		Beer = 0xf0fc,
+		[Description("Behance")]
+		Behance = 0xf1b4,
+		[Description("Behance Square")]
+		BehanceSquare = 0xf1b5,
+		[Description("bell")]
+		Bell = 0xf0f3,
+		[Description("Bell Slash")]
+		BellSlash = 0xf1f6,
+		[Description("Bezier Curve")]
+		BezierCurve = 0xf55b,
+		[Description("Bible")]
+		Bible = 0xf647,
+		[Description("Bicycle")]
+		Bicycle = 0xf206,
+		[Description("Biking")]
+		Biking = 0xf84a,
+		[Description("BIMobject")]
+		Bimobject = 0xf378,
+		[Description("Binoculars")]
+		Binoculars = 0xf1e5,
+		[Description("Biohazard")]
+		Biohazard = 0xf780,
+		[Description("Birthday Cake")]
+		BirthdayCake = 0xf1fd,
+		[Description("Bitbucket")]
+		Bitbucket = 0xf171,
+		[Description("Bitcoin")]
+		Bitcoin = 0xf379,
+		[Description("Bity")]
+		Bity = 0xf37a,
+		[Description("Font Awesome Black Tie")]
+		BlackTie = 0xf27e,
+		[Description("BlackBerry")]
+		Blackberry = 0xf37b,
+		[Description("Blender")]
+		Blender = 0xf517,
+		[Description("Blender Phone")]
+		BlenderPhone = 0xf6b6,
+		[Description("Blind")]
+		Blind = 0xf29d,
+		[Description("Blog")]
+		Blog = 0xf781,
+		[Description("Blogger")]
+		Blogger = 0xf37c,
+		[Description("Blogger B")]
+		BloggerB = 0xf37d,
+		[Description("Bluetooth")]
+		Bluetooth = 0xf293,
+		[Description("Bluetooth")]
+		BluetoothB = 0xf294,
+		[Description("bold")]
+		Bold = 0xf032,
+		[Description("Lightning Bolt")]
+		Bolt = 0xf0e7,
+		[Description("Bomb")]
+		Bomb = 0xf1e2,
+		[Description("Bone")]
+		Bone = 0xf5d7,
+		[Description("Bong")]
+		Bong = 0xf55c,
+		[Description("book")]
+		Book = 0xf02d,
+		[Description("Book of the Dead")]
+		BookDead = 0xf6b7,
+		[Description("Medical Book")]
+		BookMedical = 0xf7e6,
+		[Description("Book Open")]
+		BookOpen = 0xf518,
+		[Description("Book Reader")]
+		BookReader = 0xf5da,
+		[Description("bookmark")]
+		Bookmark = 0xf02e,
+		[Description("Bootstrap")]
+		Bootstrap = 0xf836,
+		[Description("Border All")]
+		BorderAll = 0xf84c,
+		[Description("Border None")]
+		BorderNone = 0xf850,
+		[Description("Border Style")]
+		BorderStyle = 0xf853,
+		[Description("Bowling Ball")]
+		BowlingBall = 0xf436,
+		[Description("Box")]
+		Box = 0xf466,
+		[Description("Box Open")]
+		BoxOpen = 0xf49e,
+		[Description("Boxes")]
+		Boxes = 0xf468,
+		[Description("Braille")]
+		Braille = 0xf2a1,
+		[Description("Brain")]
+		Brain = 0xf5dc,
+		[Description("Bread Slice")]
+		BreadSlice = 0xf7ec,
+		[Description("Briefcase")]
+		Briefcase = 0xf0b1,
+		[Description("Medical Briefcase")]
+		BriefcaseMedical = 0xf469,
+		[Description("Broadcast Tower")]
+		BroadcastTower = 0xf519,
+		[Description("Broom")]
+		Broom = 0xf51a,
+		[Description("Brush")]
+		Brush = 0xf55d,
+		[Description("BTC")]
+		Btc = 0xf15a,
+		[Description("Buffer")]
+		Buffer = 0xf837,
+		[Description("Bug")]
+		Bug = 0xf188,
+		[Description("Building")]
+		Building = 0xf1ad,
+		[Description("bullhorn")]
+		Bullhorn = 0xf0a1,
+		[Description("Bullseye")]
+		Bullseye = 0xf140,
+		[Description("Burn")]
+		Burn = 0xf46a,
+		[Description("Büromöbel-Experte GmbH & Co. KG.")]
+		Buromobelexperte = 0xf37f,
+		[Description("Bus")]
+		Bus = 0xf207,
+		[Description("Bus Alt")]
+		BusAlt = 0xf55e,
+		[Description("Business Time")]
+		BusinessTime = 0xf64a,
+		[Description("Buy n Large")]
+		BuyNLarge = 0xf8a6,
+		[Description("BuySellAds")]
+		Buysellads = 0xf20d,
+		[Description("Calculator")]
+		Calculator = 0xf1ec,
+		[Description("Calendar")]
+		Calendar = 0xf133,
+		[Description("Alternate Calendar")]
+		CalendarAlt = 0xf073,
+		[Description("Calendar Check")]
+		CalendarCheck = 0xf274,
+		[Description("Calendar with Day Focus")]
+		CalendarDay = 0xf783,
+		[Description("Calendar Minus")]
+		CalendarMinus = 0xf272,
+		[Description("Calendar Plus")]
+		CalendarPlus = 0xf271,
+		[Description("Calendar Times")]
+		CalendarTimes = 0xf273,
+		[Description("Calendar with Week Focus")]
+		CalendarWeek = 0xf784,
+		[Description("camera")]
+		Camera = 0xf030,
+		[Description("Retro Camera")]
+		CameraRetro = 0xf083,
+		[Description("Campground")]
+		Campground = 0xf6bb,
+		[Description("Canadian Maple Leaf")]
+		CanadianMapleLeaf = 0xf785,
+		[Description("Candy Cane")]
+		CandyCane = 0xf786,
+		[Description("Cannabis")]
+		Cannabis = 0xf55f,
+		[Description("Capsules")]
+		Capsules = 0xf46b,
+		[Description("Car")]
+		Car = 0xf1b9,
+		[Description("Alternate Car")]
+		CarAlt = 0xf5de,
+		[Description("Car Battery")]
+		CarBattery = 0xf5df,
+		[Description("Car Crash")]
+		CarCrash = 0xf5e1,
+		[Description("Car Side")]
+		CarSide = 0xf5e4,
+		[Description("Caravan")]
+		Caravan = 0xf8ff,
+		[Description("Caret Down")]
+		CaretDown = 0xf0d7,
+		[Description("Caret Left")]
+		CaretLeft = 0xf0d9,
+		[Description("Caret Right")]
+		CaretRight = 0xf0da,
+		[Description("Caret Square Down")]
+		CaretSquareDown = 0xf150,
+		[Description("Caret Square Left")]
+		CaretSquareLeft = 0xf191,
+		[Description("Caret Square Right")]
+		CaretSquareRight = 0xf152,
+		[Description("Caret Square Up")]
+		CaretSquareUp = 0xf151,
+		[Description("Caret Up")]
+		CaretUp = 0xf0d8,
+		[Description("Carrot")]
+		Carrot = 0xf787,
+		[Description("Shopping Cart Arrow Down")]
+		CartArrowDown = 0xf218,
+		[Description("Add to Shopping Cart")]
+		CartPlus = 0xf217,
+		[Description("Cash Register")]
+		CashRegister = 0xf788,
+		[Description("Cat")]
+		Cat = 0xf6be,
+		[Description("Amazon Pay Credit Card")]
+		CcAmazonPay = 0xf42d,
+		[Description("American Express Credit Card")]
+		CcAmex = 0xf1f3,
+		[Description("Apple Pay Credit Card")]
+		CcApplePay = 0xf416,
+		[Description("Diner's Club Credit Card")]
+		CcDinersClub = 0xf24c,
+		[Description("Discover Credit Card")]
+		CcDiscover = 0xf1f2,
+		[Description("JCB Credit Card")]
+		CcJcb = 0xf24b,
+		[Description("MasterCard Credit Card")]
+		CcMastercard = 0xf1f1,
+		[Description("Paypal Credit Card")]
+		CcPaypal = 0xf1f4,
+		[Description("Stripe Credit Card")]
+		CcStripe = 0xf1f5,
+		[Description("Visa Credit Card")]
+		CcVisa = 0xf1f0,
+		[Description("Centercode")]
+		Centercode = 0xf380,
+		[Description("Centos")]
+		Centos = 0xf789,
+		[Description("certificate")]
+		Certificate = 0xf0a3,
+		[Description("Chair")]
+		Chair = 0xf6c0,
+		[Description("Chalkboard")]
+		Chalkboard = 0xf51b,
+		[Description("Chalkboard Teacher")]
+		ChalkboardTeacher = 0xf51c,
+		[Description("Charging Station")]
+		ChargingStation = 0xf5e7,
+		[Description("Area Chart")]
+		ChartArea = 0xf1fe,
+		[Description("Bar Chart")]
+		ChartBar = 0xf080,
+		[Description("Line Chart")]
+		ChartLine = 0xf201,
+		[Description("Pie Chart")]
+		ChartPie = 0xf200,
+		[Description("Check")]
+		Check = 0xf00c,
+		[Description("Check Circle")]
+		CheckCircle = 0xf058,
+		[Description("Double Check")]
+		CheckDouble = 0xf560,
+		[Description("Check Square")]
+		CheckSquare = 0xf14a,
+		[Description("Cheese")]
+		Cheese = 0xf7ef,
+		[Description("Chess")]
+		Chess = 0xf439,
+		[Description("Chess Bishop")]
+		ChessBishop = 0xf43a,
+		[Description("Chess Board")]
+		ChessBoard = 0xf43c,
+		[Description("Chess King")]
+		ChessKing = 0xf43f,
+		[Description("Chess Knight")]
+		ChessKnight = 0xf441,
+		[Description("Chess Pawn")]
+		ChessPawn = 0xf443,
+		[Description("Chess Queen")]
+		ChessQueen = 0xf445,
+		[Description("Chess Rook")]
+		ChessRook = 0xf447,
+		[Description("Chevron Circle Down")]
+		ChevronCircleDown = 0xf13a,
+		[Description("Chevron Circle Left")]
+		ChevronCircleLeft = 0xf137,
+		[Description("Chevron Circle Right")]
+		ChevronCircleRight = 0xf138,
+		[Description("Chevron Circle Up")]
+		ChevronCircleUp = 0xf139,
+		[Description("chevron-down")]
+		ChevronDown = 0xf078,
+		[Description("chevron-left")]
+		ChevronLeft = 0xf053,
+		[Description("chevron-right")]
+		ChevronRight = 0xf054,
+		[Description("chevron-up")]
+		ChevronUp = 0xf077,
+		[Description("Child")]
+		Child = 0xf1ae,
+		[Description("Chrome")]
+		Chrome = 0xf268,
+		[Description("Chromecast")]
+		Chromecast = 0xf838,
+		[Description("Church")]
+		Church = 0xf51d,
+		[Description("Circle")]
+		Circle = 0xf111,
+		[Description("Circle Notched")]
+		CircleNotch = 0xf1ce,
+		[Description("City")]
+		City = 0xf64f,
+		[Description("Medical Clinic")]
+		ClinicMedical = 0xf7f2,
+		[Description("Clipboard")]
+		Clipboard = 0xf328,
+		[Description("Clipboard with Check")]
+		ClipboardCheck = 0xf46c,
+		[Description("Clipboard List")]
+		ClipboardList = 0xf46d,
+		[Description("Clock")]
+		Clock = 0xf017,
+		[Description("Clone")]
+		Clone = 0xf24d,
+		[Description("Closed Captioning")]
+		ClosedCaptioning = 0xf20a,
+		[Description("Cloud")]
+		Cloud = 0xf0c2,
+		[Description("Alternate Cloud Download")]
+		CloudDownloadAlt = 0xf381,
+		[Description("Cloud with (a chance of) Meatball")]
+		CloudMeatball = 0xf73b,
+		[Description("Cloud with Moon")]
+		CloudMoon = 0xf6c3,
+		[Description("Cloud with Moon and Rain")]
+		CloudMoonRain = 0xf73c,
+		[Description("Cloud with Rain")]
+		CloudRain = 0xf73d,
+		[Description("Cloud with Heavy Showers")]
+		CloudShowersHeavy = 0xf740,
+		[Description("Cloud with Sun")]
+		CloudSun = 0xf6c4,
+		[Description("Cloud with Sun and Rain")]
+		CloudSunRain = 0xf743,
+		[Description("Alternate Cloud Upload")]
+		CloudUploadAlt = 0xf382,
+		[Description("cloudscale.ch")]
+		Cloudscale = 0xf383,
+		[Description("Cloudsmith")]
+		Cloudsmith = 0xf384,
+		[Description("cloudversify")]
+		Cloudversify = 0xf385,
+		[Description("Cocktail")]
+		Cocktail = 0xf561,
+		[Description("Code")]
+		Code = 0xf121,
+		[Description("Code Branch")]
+		CodeBranch = 0xf126,
+		[Description("Codepen")]
+		Codepen = 0xf1cb,
+		[Description("Codie Pie")]
+		Codiepie = 0xf284,
+		[Description("Coffee")]
+		Coffee = 0xf0f4,
+		[Description("cog")]
+		Cog = 0xf013,
+		[Description("cogs")]
+		Cogs = 0xf085,
+		[Description("Coins")]
+		Coins = 0xf51e,
+		[Description("Columns")]
+		Columns = 0xf0db,
+		[Description("comment")]
+		Comment = 0xf075,
+		[Description("Alternate Comment")]
+		CommentAlt = 0xf27a,
+		[Description("Comment Dollar")]
+		CommentDollar = 0xf651,
+		[Description("Comment Dots")]
+		CommentDots = 0xf4ad,
+		[Description("Alternate Medical Chat")]
+		CommentMedical = 0xf7f5,
+		[Description("Comment Slash")]
+		CommentSlash = 0xf4b3,
+		[Description("comments")]
+		Comments = 0xf086,
+		[Description("Comments Dollar")]
+		CommentsDollar = 0xf653,
+		[Description("Compact Disc")]
+		CompactDisc = 0xf51f,
+		[Description("Compass")]
+		Compass = 0xf14e,
+		[Description("Compress")]
+		Compress = 0xf066,
+		[Description("Alternate Compress")]
+		CompressAlt = 0xf422,
+		[Description("Alternate Compress Arrows")]
+		CompressArrowsAlt = 0xf78c,
+		[Description("Concierge Bell")]
+		ConciergeBell = 0xf562,
+		[Description("Confluence")]
+		Confluence = 0xf78d,
+		[Description("Connect Develop")]
+		Connectdevelop = 0xf20e,
+		[Description("Contao")]
+		Contao = 0xf26d,
+		[Description("Cookie")]
+		Cookie = 0xf563,
+		[Description("Cookie Bite")]
+		CookieBite = 0xf564,
+		[Description("Copy")]
+		Copy = 0xf0c5,
+		[Description("Copyright")]
+		Copyright = 0xf1f9,
+		[Description("Cotton Bureau")]
+		CottonBureau = 0xf89e,
+		[Description("Couch")]
+		Couch = 0xf4b8,
+		[Description("cPanel")]
+		Cpanel = 0xf388,
+		[Description("Creative Commons")]
+		CreativeCommons = 0xf25e,
+		[Description("Creative Commons Attribution")]
+		CreativeCommonsBy = 0xf4e7,
+		[Description("Creative Commons Noncommercial")]
+		CreativeCommonsNc = 0xf4e8,
+		[Description("Creative Commons Noncommercial (Euro Sign)")]
+		CreativeCommonsNcEu = 0xf4e9,
+		[Description("Creative Commons Noncommercial (Yen Sign)")]
+		CreativeCommonsNcJp = 0xf4ea,
+		[Description("Creative Commons No Derivative Works")]
+		CreativeCommonsNd = 0xf4eb,
+		[Description("Creative Commons Public Domain")]
+		CreativeCommonsPd = 0xf4ec,
+		[Description("Alternate Creative Commons Public Domain")]
+		CreativeCommonsPdAlt = 0xf4ed,
+		[Description("Creative Commons Remix")]
+		CreativeCommonsRemix = 0xf4ee,
+		[Description("Creative Commons Share Alike")]
+		CreativeCommonsSa = 0xf4ef,
+		[Description("Creative Commons Sampling")]
+		CreativeCommonsSampling = 0xf4f0,
+		[Description("Creative Commons Sampling +")]
+		CreativeCommonsSamplingPlus = 0xf4f1,
+		[Description("Creative Commons Share")]
+		CreativeCommonsShare = 0xf4f2,
+		[Description("Creative Commons CC0")]
+		CreativeCommonsZero = 0xf4f3,
+		[Description("Credit Card")]
+		CreditCard = 0xf09d,
+		[Description("Critical Role")]
+		CriticalRole = 0xf6c9,
+		[Description("crop")]
+		Crop = 0xf125,
+		[Description("Alternate Crop")]
+		CropAlt = 0xf565,
+		[Description("Cross")]
+		Cross = 0xf654,
+		[Description("Crosshairs")]
+		Crosshairs = 0xf05b,
+		[Description("Crow")]
+		Crow = 0xf520,
+		[Description("Crown")]
+		Crown = 0xf521,
+		[Description("Crutch")]
+		Crutch = 0xf7f7,
+		[Description("CSS 3 Logo")]
+		Css3 = 0xf13c,
+		[Description("Alternate CSS3 Logo")]
+		Css3Alt = 0xf38b,
+		[Description("Cube")]
+		Cube = 0xf1b2,
+		[Description("Cubes")]
+		Cubes = 0xf1b3,
+		[Description("Cut")]
+		Cut = 0xf0c4,
+		[Description("Cuttlefish")]
+		Cuttlefish = 0xf38c,
+		[Description("Dungeons & Dragons")]
+		DAndD = 0xf38d,
+		[Description("D&D Beyond")]
+		DAndDBeyond = 0xf6ca,
+		[Description("dailymotion")]
+		Dailymotion = 0xf952,
+		[Description("DashCube")]
+		Dashcube = 0xf210,
+		[Description("Database")]
+		Database = 0xf1c0,
+		[Description("Deaf")]
+		Deaf = 0xf2a4,
+		[Description("Delicious")]
+		Delicious = 0xf1a5,
+		[Description("Democrat")]
+		Democrat = 0xf747,
+		[Description("deploy.dog")]
+		Deploydog = 0xf38e,
+		[Description("Deskpro")]
+		Deskpro = 0xf38f,
+		[Description("Desktop")]
+		Desktop = 0xf108,
+		[Description("DEV")]
+		Dev = 0xf6cc,
+		[Description("deviantART")]
+		Deviantart = 0xf1bd,
+		[Description("Dharmachakra")]
+		Dharmachakra = 0xf655,
+		[Description("DHL")]
+		Dhl = 0xf790,
+		[Description("Diagnoses")]
+		Diagnoses = 0xf470,
+		[Description("Diaspora")]
+		Diaspora = 0xf791,
+		[Description("Dice")]
+		Dice = 0xf522,
+		[Description("Dice D20")]
+		DiceD20 = 0xf6cf,
+		[Description("Dice D6")]
+		DiceD6 = 0xf6d1,
+		[Description("Dice Five")]
+		DiceFive = 0xf523,
+		[Description("Dice Four")]
+		DiceFour = 0xf524,
+		[Description("Dice One")]
+		DiceOne = 0xf525,
+		[Description("Dice Six")]
+		DiceSix = 0xf526,
+		[Description("Dice Three")]
+		DiceThree = 0xf527,
+		[Description("Dice Two")]
+		DiceTwo = 0xf528,
+		[Description("Digg Logo")]
+		Digg = 0xf1a6,
+		[Description("Digital Ocean")]
+		DigitalOcean = 0xf391,
+		[Description("Digital Tachograph")]
+		DigitalTachograph = 0xf566,
+		[Description("Directions")]
+		Directions = 0xf5eb,
+		[Description("Discord")]
+		Discord = 0xf392,
+		[Description("Discourse")]
+		Discourse = 0xf393,
+		[Description("Divide")]
+		Divide = 0xf529,
+		[Description("Dizzy Face")]
+		Dizzy = 0xf567,
+		[Description("DNA")]
+		Dna = 0xf471,
+		[Description("DocHub")]
+		Dochub = 0xf394,
+		[Description("Docker")]
+		Docker = 0xf395,
+		[Description("Dog")]
+		Dog = 0xf6d3,
+		[Description("Dollar Sign")]
+		DollarSign = 0xf155,
+		[Description("Dolly")]
+		Dolly = 0xf472,
+		[Description("Dolly Flatbed")]
+		DollyFlatbed = 0xf474,
+		[Description("Donate")]
+		Donate = 0xf4b9,
+		[Description("Door Closed")]
+		DoorClosed = 0xf52a,
+		[Description("Door Open")]
+		DoorOpen = 0xf52b,
+		[Description("Dot Circle")]
+		DotCircle = 0xf192,
+		[Description("Dove")]
+		Dove = 0xf4ba,
+		[Description("Download")]
+		Download = 0xf019,
+		[Description("Draft2digital")]
+		Draft2digital = 0xf396,
+		[Description("Drafting Compass")]
+		DraftingCompass = 0xf568,
+		[Description("Dragon")]
+		Dragon = 0xf6d5,
+		[Description("Draw Polygon")]
+		DrawPolygon = 0xf5ee,
+		[Description("Dribbble")]
+		Dribbble = 0xf17d,
+		[Description("Dribbble Square")]
+		DribbbleSquare = 0xf397,
+		[Description("Dropbox")]
+		Dropbox = 0xf16b,
+		[Description("Drum")]
+		Drum = 0xf569,
+		[Description("Drum Steelpan")]
+		DrumSteelpan = 0xf56a,
+		[Description("Drumstick with Bite Taken Out")]
+		DrumstickBite = 0xf6d7,
+		[Description("Drupal Logo")]
+		Drupal = 0xf1a9,
+		[Description("Dumbbell")]
+		Dumbbell = 0xf44b,
+		[Description("Dumpster")]
+		Dumpster = 0xf793,
+		[Description("Dumpster Fire")]
+		DumpsterFire = 0xf794,
+		[Description("Dungeon")]
+		Dungeon = 0xf6d9,
+		[Description("Dyalog")]
+		Dyalog = 0xf399,
+		[Description("Earlybirds")]
+		Earlybirds = 0xf39a,
+		[Description("eBay")]
+		Ebay = 0xf4f4,
+		[Description("Edge Browser")]
+		Edge = 0xf282,
+		[Description("Edit")]
+		Edit = 0xf044,
+		[Description("Egg")]
+		Egg = 0xf7fb,
+		[Description("eject")]
+		Eject = 0xf052,
+		[Description("Elementor")]
+		Elementor = 0xf430,
+		[Description("Horizontal Ellipsis")]
+		EllipsisH = 0xf141,
+		[Description("Vertical Ellipsis")]
+		EllipsisV = 0xf142,
+		[Description("Ello")]
+		Ello = 0xf5f1,
+		[Description("Ember")]
+		Ember = 0xf423,
+		[Description("Galactic Empire")]
+		Empire = 0xf1d1,
+		[Description("Envelope")]
+		Envelope = 0xf0e0,
+		[Description("Envelope Open")]
+		EnvelopeOpen = 0xf2b6,
+		[Description("Envelope Open-text")]
+		EnvelopeOpenText = 0xf658,
+		[Description("Envelope Square")]
+		EnvelopeSquare = 0xf199,
+		[Description("Envira Gallery")]
+		Envira = 0xf299,
+		[Description("Equals")]
+		Equals = 0xf52c,
+		[Description("eraser")]
+		Eraser = 0xf12d,
+		[Description("Erlang")]
+		Erlang = 0xf39d,
+		[Description("Ethereum")]
+		Ethereum = 0xf42e,
+		[Description("Ethernet")]
+		Ethernet = 0xf796,
+		[Description("Etsy")]
 		Etsy = 0xf2d7,
-		///<summary>IMDB (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/imdb/" />
-		[Description("IMDB"),IconId("imdb"),IconCategory("Brand Icons")]
+		[Description("Euro Sign")]
+		EuroSign = 0xf153,
+		[Description("Evernote")]
+		Evernote = 0xf839,
+		[Description("Alternate Exchange")]
+		ExchangeAlt = 0xf362,
+		[Description("exclamation")]
+		Exclamation = 0xf12a,
+		[Description("Exclamation Circle")]
+		ExclamationCircle = 0xf06a,
+		[Description("Exclamation Triangle")]
+		ExclamationTriangle = 0xf071,
+		[Description("Expand")]
+		Expand = 0xf065,
+		[Description("Alternate Expand")]
+		ExpandAlt = 0xf424,
+		[Description("Alternate Expand Arrows")]
+		ExpandArrowsAlt = 0xf31e,
+		[Description("ExpeditedSSL")]
+		Expeditedssl = 0xf23e,
+		[Description("Alternate External Link")]
+		ExternalLinkAlt = 0xf35d,
+		[Description("Alternate External Link Square")]
+		ExternalLinkSquareAlt = 0xf360,
+		[Description("Eye")]
+		Eye = 0xf06e,
+		[Description("Eye Dropper")]
+		EyeDropper = 0xf1fb,
+		[Description("Eye Slash")]
+		EyeSlash = 0xf070,
+		[Description("Facebook")]
+		Facebook = 0xf09a,
+		[Description("Facebook F")]
+		FacebookF = 0xf39e,
+		[Description("Facebook Messenger")]
+		FacebookMessenger = 0xf39f,
+		[Description("Facebook Square")]
+		FacebookSquare = 0xf082,
+		[Description("Fan")]
+		Fan = 0xf863,
+		[Description("Fantasy Flight-games")]
+		FantasyFlightGames = 0xf6dc,
+		[Description("fast-backward")]
+		FastBackward = 0xf049,
+		[Description("fast-forward")]
+		FastForward = 0xf050,
+		[Description("Fax")]
+		Fax = 0xf1ac,
+		[Description("Feather")]
+		Feather = 0xf52d,
+		[Description("Alternate Feather")]
+		FeatherAlt = 0xf56b,
+		[Description("FedEx")]
+		Fedex = 0xf797,
+		[Description("Fedora")]
+		Fedora = 0xf798,
+		[Description("Female")]
+		Female = 0xf182,
+		[Description("fighter-jet")]
+		FighterJet = 0xf0fb,
+		[Description("Figma")]
+		Figma = 0xf799,
+		[Description("File")]
+		File = 0xf15b,
+		[Description("Alternate File")]
+		FileAlt = 0xf15c,
+		[Description("Archive File")]
+		FileArchive = 0xf1c6,
+		[Description("Audio File")]
+		FileAudio = 0xf1c7,
+		[Description("Code File")]
+		FileCode = 0xf1c9,
+		[Description("File Contract")]
+		FileContract = 0xf56c,
+		[Description("File CSV")]
+		FileCsv = 0xf6dd,
+		[Description("File Download")]
+		FileDownload = 0xf56d,
+		[Description("Excel File")]
+		FileExcel = 0xf1c3,
+		[Description("File Export")]
+		FileExport = 0xf56e,
+		[Description("Image File")]
+		FileImage = 0xf1c5,
+		[Description("File Import")]
+		FileImport = 0xf56f,
+		[Description("File Invoice")]
+		FileInvoice = 0xf570,
+		[Description("File Invoice with US Dollar")]
+		FileInvoiceDollar = 0xf571,
+		[Description("Medical File")]
+		FileMedical = 0xf477,
+		[Description("Alternate Medical File")]
+		FileMedicalAlt = 0xf478,
+		[Description("PDF File")]
+		FilePdf = 0xf1c1,
+		[Description("Powerpoint File")]
+		FilePowerpoint = 0xf1c4,
+		[Description("File Prescription")]
+		FilePrescription = 0xf572,
+		[Description("File Signature")]
+		FileSignature = 0xf573,
+		[Description("File Upload")]
+		FileUpload = 0xf574,
+		[Description("Video File")]
+		FileVideo = 0xf1c8,
+		[Description("Word File")]
+		FileWord = 0xf1c2,
+		[Description("Fill")]
+		Fill = 0xf575,
+		[Description("Fill Drip")]
+		FillDrip = 0xf576,
+		[Description("Film")]
+		Film = 0xf008,
+		[Description("Filter")]
+		Filter = 0xf0b0,
+		[Description("Fingerprint")]
+		Fingerprint = 0xf577,
+		[Description("fire")]
+		Fire = 0xf06d,
+		[Description("Alternate Fire")]
+		FireAlt = 0xf7e4,
+		[Description("fire-extinguisher")]
+		FireExtinguisher = 0xf134,
+		[Description("Firefox")]
+		Firefox = 0xf269,
+		[Description("Firefox Browser")]
+		FirefoxBrowser = 0xf907,
+		[Description("First Aid")]
+		FirstAid = 0xf479,
+		[Description("First Order")]
+		FirstOrder = 0xf2b0,
+		[Description("Alternate First Order")]
+		FirstOrderAlt = 0xf50a,
+		[Description("firstdraft")]
+		Firstdraft = 0xf3a1,
+		[Description("Fish")]
+		Fish = 0xf578,
+		[Description("Raised Fist")]
+		FistRaised = 0xf6de,
+		[Description("flag")]
+		Flag = 0xf024,
+		[Description("flag-checkered")]
+		FlagCheckered = 0xf11e,
+		[Description("United States of America Flag")]
+		FlagUsa = 0xf74d,
+		[Description("Flask")]
+		Flask = 0xf0c3,
+		[Description("Flickr")]
+		Flickr = 0xf16e,
+		[Description("Flipboard")]
+		Flipboard = 0xf44d,
+		[Description("Flushed Face")]
+		Flushed = 0xf579,
+		[Description("Fly")]
+		Fly = 0xf417,
+		[Description("Folder")]
+		Folder = 0xf07b,
+		[Description("Folder Minus")]
+		FolderMinus = 0xf65d,
+		[Description("Folder Open")]
+		FolderOpen = 0xf07c,
+		[Description("Folder Plus")]
+		FolderPlus = 0xf65e,
+		[Description("font")]
+		Font = 0xf031,
+		[Description("Font Awesome")]
+		FontAwesome = 0xf2b4,
+		[Description("Alternate Font Awesome")]
+		FontAwesomeAlt = 0xf35c,
+		[Description("Font Awesome Flag")]
+		FontAwesomeFlag = 0xf425,
+		[Description("Font Awesome Full Logo")]
+		FontAwesomeLogoFull = 0xf4e6,
+		[Description("Fonticons")]
+		Fonticons = 0xf280,
+		[Description("Fonticons Fi")]
+		FonticonsFi = 0xf3a2,
+		[Description("Football Ball")]
+		FootballBall = 0xf44e,
+		[Description("Fort Awesome")]
+		FortAwesome = 0xf286,
+		[Description("Alternate Fort Awesome")]
+		FortAwesomeAlt = 0xf3a3,
+		[Description("Forumbee")]
+		Forumbee = 0xf211,
+		[Description("forward")]
+		Forward = 0xf04e,
+		[Description("Foursquare")]
+		Foursquare = 0xf180,
+		[Description("freeCodeCamp")]
+		FreeCodeCamp = 0xf2c5,
+		[Description("FreeBSD")]
+		Freebsd = 0xf3a4,
+		[Description("Frog")]
+		Frog = 0xf52e,
+		[Description("Frowning Face")]
+		Frown = 0xf119,
+		[Description("Frowning Face With Open Mouth")]
+		FrownOpen = 0xf57a,
+		[Description("Fulcrum")]
+		Fulcrum = 0xf50b,
+		[Description("Funnel Dollar")]
+		FunnelDollar = 0xf662,
+		[Description("Futbol")]
+		Futbol = 0xf1e3,
+		[Description("Galactic Republic")]
+		GalacticRepublic = 0xf50c,
+		[Description("Galactic Senate")]
+		GalacticSenate = 0xf50d,
+		[Description("Gamepad")]
+		Gamepad = 0xf11b,
+		[Description("Gas Pump")]
+		GasPump = 0xf52f,
+		[Description("Gavel")]
+		Gavel = 0xf0e3,
+		[Description("Gem")]
+		Gem = 0xf3a5,
+		[Description("Genderless")]
+		Genderless = 0xf22d,
+		[Description("Get Pocket")]
+		GetPocket = 0xf265,
+		[Description("GG Currency")]
+		Gg = 0xf260,
+		[Description("GG Currency Circle")]
+		GgCircle = 0xf261,
+		[Description("Ghost")]
+		Ghost = 0xf6e2,
+		[Description("gift")]
+		Gift = 0xf06b,
+		[Description("Gifts")]
+		Gifts = 0xf79c,
+		[Description("Git")]
+		Git = 0xf1d3,
+		[Description("Git Alt")]
+		GitAlt = 0xf841,
+		[Description("Git Square")]
+		GitSquare = 0xf1d2,
+		[Description("GitHub")]
+		Github = 0xf09b,
+		[Description("Alternate GitHub")]
+		GithubAlt = 0xf113,
+		[Description("GitHub Square")]
+		GithubSquare = 0xf092,
+		[Description("GitKraken")]
+		Gitkraken = 0xf3a6,
+		[Description("GitLab")]
+		Gitlab = 0xf296,
+		[Description("Gitter")]
+		Gitter = 0xf426,
+		[Description("Glass Cheers")]
+		GlassCheers = 0xf79f,
+		[Description("Martini Glass")]
+		GlassMartini = 0xf000,
+		[Description("Alternate Glass Martini")]
+		GlassMartiniAlt = 0xf57b,
+		[Description("Glass Whiskey")]
+		GlassWhiskey = 0xf7a0,
+		[Description("Glasses")]
+		Glasses = 0xf530,
+		[Description("Glide")]
+		Glide = 0xf2a5,
+		[Description("Glide G")]
+		GlideG = 0xf2a6,
+		[Description("Globe")]
+		Globe = 0xf0ac,
+		[Description("Globe with Africa shown")]
+		GlobeAfrica = 0xf57c,
+		[Description("Globe with Americas shown")]
+		GlobeAmericas = 0xf57d,
+		[Description("Globe with Asia shown")]
+		GlobeAsia = 0xf57e,
+		[Description("Globe with Europe shown")]
+		GlobeEurope = 0xf7a2,
+		[Description("Gofore")]
+		Gofore = 0xf3a7,
+		[Description("Golf Ball")]
+		GolfBall = 0xf450,
+		[Description("Goodreads")]
+		Goodreads = 0xf3a8,
+		[Description("Goodreads G")]
+		GoodreadsG = 0xf3a9,
+		[Description("Google Logo")]
+		Google = 0xf1a0,
+		[Description("Google Drive")]
+		GoogleDrive = 0xf3aa,
+		[Description("Google Play")]
+		GooglePlay = 0xf3ab,
+		[Description("Google Plus")]
+		GooglePlus = 0xf2b3,
+		[Description("Google Plus G")]
+		GooglePlusG = 0xf0d5,
+		[Description("Google Plus Square")]
+		GooglePlusSquare = 0xf0d4,
+		[Description("Google Wallet")]
+		GoogleWallet = 0xf1ee,
+		[Description("Gopuram")]
+		Gopuram = 0xf664,
+		[Description("Graduation Cap")]
+		GraduationCap = 0xf19d,
+		[Description("Gratipay (Gittip)")]
+		Gratipay = 0xf184,
+		[Description("Grav")]
+		Grav = 0xf2d6,
+		[Description("Greater Than")]
+		GreaterThan = 0xf531,
+		[Description("Greater Than Equal To")]
+		GreaterThanEqual = 0xf532,
+		[Description("Grimacing Face")]
+		Grimace = 0xf57f,
+		[Description("Grinning Face")]
+		Grin = 0xf580,
+		[Description("Alternate Grinning Face")]
+		GrinAlt = 0xf581,
+		[Description("Grinning Face With Smiling Eyes")]
+		GrinBeam = 0xf582,
+		[Description("Grinning Face With Sweat")]
+		GrinBeamSweat = 0xf583,
+		[Description("Smiling Face With Heart-Eyes")]
+		GrinHearts = 0xf584,
+		[Description("Grinning Squinting Face")]
+		GrinSquint = 0xf585,
+		[Description("Rolling on the Floor Laughing")]
+		GrinSquintTears = 0xf586,
+		[Description("Star-Struck")]
+		GrinStars = 0xf587,
+		[Description("Face With Tears of Joy")]
+		GrinTears = 0xf588,
+		[Description("Face With Tongue")]
+		GrinTongue = 0xf589,
+		[Description("Squinting Face With Tongue")]
+		GrinTongueSquint = 0xf58a,
+		[Description("Winking Face With Tongue")]
+		GrinTongueWink = 0xf58b,
+		[Description("Grinning Winking Face")]
+		GrinWink = 0xf58c,
+		[Description("Grip Horizontal")]
+		GripHorizontal = 0xf58d,
+		[Description("Grip Lines")]
+		GripLines = 0xf7a4,
+		[Description("Grip Lines Vertical")]
+		GripLinesVertical = 0xf7a5,
+		[Description("Grip Vertical")]
+		GripVertical = 0xf58e,
+		[Description("Gripfire, Inc.")]
+		Gripfire = 0xf3ac,
+		[Description("Grunt")]
+		Grunt = 0xf3ad,
+		[Description("Guitar")]
+		Guitar = 0xf7a6,
+		[Description("Gulp")]
+		Gulp = 0xf3ae,
+		[Description("H Square")]
+		HSquare = 0xf0fd,
+		[Description("Hacker News")]
+		HackerNews = 0xf1d4,
+		[Description("Hacker News Square")]
+		HackerNewsSquare = 0xf3af,
+		[Description("Hackerrank")]
+		Hackerrank = 0xf5f7,
+		[Description("Hamburger")]
+		Hamburger = 0xf805,
+		[Description("Hammer")]
+		Hammer = 0xf6e3,
+		[Description("Hamsa")]
+		Hamsa = 0xf665,
+		[Description("Hand Holding")]
+		HandHolding = 0xf4bd,
+		[Description("Hand Holding Heart")]
+		HandHoldingHeart = 0xf4be,
+		[Description("Hand Holding US Dollar")]
+		HandHoldingUsd = 0xf4c0,
+		[Description("Lizard (Hand)")]
+		HandLizard = 0xf258,
+		[Description("Hand with Middle Finger Raised")]
+		HandMiddleFinger = 0xf806,
+		[Description("Paper (Hand)")]
+		HandPaper = 0xf256,
+		[Description("Peace (Hand)")]
+		HandPeace = 0xf25b,
+		[Description("Hand Pointing Down")]
+		HandPointDown = 0xf0a7,
+		[Description("Hand Pointing Left")]
+		HandPointLeft = 0xf0a5,
+		[Description("Hand Pointing Right")]
+		HandPointRight = 0xf0a4,
+		[Description("Hand Pointing Up")]
+		HandPointUp = 0xf0a6,
+		[Description("Pointer (Hand)")]
+		HandPointer = 0xf25a,
+		[Description("Rock (Hand)")]
+		HandRock = 0xf255,
+		[Description("Scissors (Hand)")]
+		HandScissors = 0xf257,
+		[Description("Spock (Hand)")]
+		HandSpock = 0xf259,
+		[Description("Hands")]
+		Hands = 0xf4c2,
+		[Description("Helping Hands")]
+		HandsHelping = 0xf4c4,
+		[Description("Handshake")]
+		Handshake = 0xf2b5,
+		[Description("Hanukiah")]
+		Hanukiah = 0xf6e6,
+		[Description("Hard Hat")]
+		HardHat = 0xf807,
+		[Description("Hashtag")]
+		Hashtag = 0xf292,
+		[Description("Cowboy Hat")]
+		HatCowboy = 0xf8c0,
+		[Description("Cowboy Hat Side")]
+		HatCowboySide = 0xf8c1,
+		[Description("Wizard's Hat")]
+		HatWizard = 0xf6e8,
+		[Description("HDD")]
+		Hdd = 0xf0a0,
+		[Description("heading")]
+		Heading = 0xf1dc,
+		[Description("headphones")]
+		Headphones = 0xf025,
+		[Description("Alternate Headphones")]
+		HeadphonesAlt = 0xf58f,
+		[Description("Headset")]
+		Headset = 0xf590,
+		[Description("Heart")]
+		Heart = 0xf004,
+		[Description("Heart Broken")]
+		HeartBroken = 0xf7a9,
+		[Description("Heartbeat")]
+		Heartbeat = 0xf21e,
+		[Description("Helicopter")]
+		Helicopter = 0xf533,
+		[Description("Highlighter")]
+		Highlighter = 0xf591,
+		[Description("Hiking")]
+		Hiking = 0xf6ec,
+		[Description("Hippo")]
+		Hippo = 0xf6ed,
+		[Description("Hips")]
+		Hips = 0xf452,
+		[Description("HireAHelper")]
+		HireAHelper = 0xf3b0,
+		[Description("History")]
+		History = 0xf1da,
+		[Description("Hockey Puck")]
+		HockeyPuck = 0xf453,
+		[Description("Holly Berry")]
+		HollyBerry = 0xf7aa,
+		[Description("home")]
+		Home = 0xf015,
+		[Description("Hooli")]
+		Hooli = 0xf427,
+		[Description("Hornbill")]
+		Hornbill = 0xf592,
+		[Description("Horse")]
+		Horse = 0xf6f0,
+		[Description("Horse Head")]
+		HorseHead = 0xf7ab,
+		[Description("hospital")]
+		Hospital = 0xf0f8,
+		[Description("Alternate Hospital")]
+		HospitalAlt = 0xf47d,
+		[Description("Hospital Symbol")]
+		HospitalSymbol = 0xf47e,
+		[Description("Hot Tub")]
+		HotTub = 0xf593,
+		[Description("Hot Dog")]
+		Hotdog = 0xf80f,
+		[Description("Hotel")]
+		Hotel = 0xf594,
+		[Description("Hotjar")]
+		Hotjar = 0xf3b1,
+		[Description("Hourglass")]
+		Hourglass = 0xf254,
+		[Description("Hourglass End")]
+		HourglassEnd = 0xf253,
+		[Description("Hourglass Half")]
+		HourglassHalf = 0xf252,
+		[Description("Hourglass Start")]
+		HourglassStart = 0xf251,
+		[Description("Damaged House")]
+		HouseDamage = 0xf6f1,
+		[Description("Houzz")]
+		Houzz = 0xf27c,
+		[Description("Hryvnia")]
+		Hryvnia = 0xf6f2,
+		[Description("HTML 5 Logo")]
+		Html5 = 0xf13b,
+		[Description("HubSpot")]
+		Hubspot = 0xf3b2,
+		[Description("I Beam Cursor")]
+		ICursor = 0xf246,
+		[Description("Ice Cream")]
+		IceCream = 0xf810,
+		[Description("Icicles")]
+		Icicles = 0xf7ad,
+		[Description("Icons")]
+		Icons = 0xf86d,
+		[Description("Identification Badge")]
+		IdBadge = 0xf2c1,
+		[Description("Identification Card")]
+		IdCard = 0xf2c2,
+		[Description("Alternate Identification Card")]
+		IdCardAlt = 0xf47f,
+		[Description("iDeal")]
+		Ideal = 0xf913,
+		[Description("Igloo")]
+		Igloo = 0xf7ae,
+		[Description("Image")]
+		Image = 0xf03e,
+		[Description("Images")]
+		Images = 0xf302,
+		[Description("IMDB")]
 		Imdb = 0xf2d8,
-		///<summary>Ravelry (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/ravelry/" />
-		[Description("Ravelry"),IconId("ravelry"),IconCategory("Brand Icons")]
-		Ravelry = 0xf2d9,
-		///<summary>Eercast (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/eercast/" />
-		[Description("Eercast"),IconId("eercast"),IconCategory("Brand Icons")]
-		Eercast = 0xf2da,
-		///<summary>Microchip (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/microchip/" />
-		[Description("Microchip"),IconId("microchip"),IconCategory("Web Application Icons")]
-		Microchip = 0xf2db,
-		///<summary>Snowflake Outlined (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/snowflake-o/" />
-		[Description("Snowflake Outlined"),IconId("snowflake-o"),IconCategory("Web Application Icons")]
-		SnowflakeOutline = 0xf2dc,
-		///<summary>Superpowers (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/superpowers/" />
-		[Description("Superpowers"),IconId("superpowers"),IconCategory("Brand Icons")]
-		Superpowers = 0xf2dd,
-		///<summary>WPExplorer (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/wpexplorer/" />
-		[Description("WPExplorer"),IconId("wpexplorer"),IconCategory("Brand Icons")]
-		Wpexplorer = 0xf2de,
-		///<summary>Meetup (created: 4.7)</summary>
-		///<see href="http://fontawesome.io/icon/meetup/" />
-		[Description("Meetup"),IconId("meetup"),IconCategory("Brand Icons")]
+		[Description("inbox")]
+		Inbox = 0xf01c,
+		[Description("Indent")]
+		Indent = 0xf03c,
+		[Description("Industry")]
+		Industry = 0xf275,
+		[Description("Infinity")]
+		Infinity = 0xf534,
+		[Description("Info")]
+		Info = 0xf129,
+		[Description("Info Circle")]
+		InfoCircle = 0xf05a,
+		[Description("Instagram")]
+		Instagram = 0xf16d,
+		[Description("Instagram Square")]
+		InstagramSquare = 0xf955,
+		[Description("Intercom")]
+		Intercom = 0xf7af,
+		[Description("Internet-explorer")]
+		InternetExplorer = 0xf26b,
+		[Description("InVision")]
+		Invision = 0xf7b0,
+		[Description("ioxhost")]
+		Ioxhost = 0xf208,
+		[Description("italic")]
+		Italic = 0xf033,
+		[Description("itch.io")]
+		ItchIo = 0xf83a,
+		[Description("iTunes")]
+		Itunes = 0xf3b4,
+		[Description("Itunes Note")]
+		ItunesNote = 0xf3b5,
+		[Description("Java")]
+		Java = 0xf4e4,
+		[Description("Jedi")]
+		Jedi = 0xf669,
+		[Description("Jedi Order")]
+		JediOrder = 0xf50e,
+		[Description("Jenkis")]
+		Jenkins = 0xf3b6,
+		[Description("Jira")]
+		Jira = 0xf7b1,
+		[Description("Joget")]
+		Joget = 0xf3b7,
+		[Description("Joint")]
+		Joint = 0xf595,
+		[Description("Joomla Logo")]
+		Joomla = 0xf1aa,
+		[Description("Journal of the Whills")]
+		JournalWhills = 0xf66a,
+		[Description("JavaScript (JS)")]
+		Js = 0xf3b8,
+		[Description("JavaScript (JS) Square")]
+		JsSquare = 0xf3b9,
+		[Description("jsFiddle")]
+		Jsfiddle = 0xf1cc,
+		[Description("Kaaba")]
+		Kaaba = 0xf66b,
+		[Description("Kaggle")]
+		Kaggle = 0xf5fa,
+		[Description("key")]
+		Key = 0xf084,
+		[Description("Keybase")]
+		Keybase = 0xf4f5,
+		[Description("Keyboard")]
+		Keyboard = 0xf11c,
+		[Description("KeyCDN")]
+		Keycdn = 0xf3ba,
+		[Description("Khanda")]
+		Khanda = 0xf66d,
+		[Description("Kickstarter")]
+		Kickstarter = 0xf3bb,
+		[Description("Kickstarter K")]
+		KickstarterK = 0xf3bc,
+		[Description("Kissing Face")]
+		Kiss = 0xf596,
+		[Description("Kissing Face With Smiling Eyes")]
+		KissBeam = 0xf597,
+		[Description("Face Blowing a Kiss")]
+		KissWinkHeart = 0xf598,
+		[Description("Kiwi Bird")]
+		KiwiBird = 0xf535,
+		[Description("KORVUE")]
+		Korvue = 0xf42f,
+		[Description("Landmark")]
+		Landmark = 0xf66f,
+		[Description("Language")]
+		Language = 0xf1ab,
+		[Description("Laptop")]
+		Laptop = 0xf109,
+		[Description("Laptop Code")]
+		LaptopCode = 0xf5fc,
+		[Description("Laptop Medical")]
+		LaptopMedical = 0xf812,
+		[Description("Laravel")]
+		Laravel = 0xf3bd,
+		[Description("last.fm")]
+		Lastfm = 0xf202,
+		[Description("last.fm Square")]
+		LastfmSquare = 0xf203,
+		[Description("Grinning Face With Big Eyes")]
+		Laugh = 0xf599,
+		[Description("Laugh Face with Beaming Eyes")]
+		LaughBeam = 0xf59a,
+		[Description("Laughing Squinting Face")]
+		LaughSquint = 0xf59b,
+		[Description("Laughing Winking Face")]
+		LaughWink = 0xf59c,
+		[Description("Layer Group")]
+		LayerGroup = 0xf5fd,
+		[Description("leaf")]
+		Leaf = 0xf06c,
+		[Description("Leanpub")]
+		Leanpub = 0xf212,
+		[Description("Lemon")]
+		Lemon = 0xf094,
+		[Description("Less")]
+		Less = 0xf41d,
+		[Description("Less Than")]
+		LessThan = 0xf536,
+		[Description("Less Than Equal To")]
+		LessThanEqual = 0xf537,
+		[Description("Alternate Level Down")]
+		LevelDownAlt = 0xf3be,
+		[Description("Alternate Level Up")]
+		LevelUpAlt = 0xf3bf,
+		[Description("Life Ring")]
+		LifeRing = 0xf1cd,
+		[Description("Lightbulb")]
+		Lightbulb = 0xf0eb,
+		[Description("Line")]
+		Line = 0xf3c0,
+		[Description("Link")]
+		Link = 0xf0c1,
+		[Description("LinkedIn")]
+		Linkedin = 0xf08c,
+		[Description("LinkedIn In")]
+		LinkedinIn = 0xf0e1,
+		[Description("Linode")]
+		Linode = 0xf2b8,
+		[Description("Linux")]
+		Linux = 0xf17c,
+		[Description("Turkish Lira Sign")]
+		LiraSign = 0xf195,
+		[Description("List")]
+		List = 0xf03a,
+		[Description("Alternate List")]
+		ListAlt = 0xf022,
+		[Description("list-ol")]
+		ListOl = 0xf0cb,
+		[Description("list-ul")]
+		ListUl = 0xf0ca,
+		[Description("location-arrow")]
+		LocationArrow = 0xf124,
+		[Description("lock")]
+		Lock = 0xf023,
+		[Description("Lock Open")]
+		LockOpen = 0xf3c1,
+		[Description("Alternate Long Arrow Down")]
+		LongArrowAltDown = 0xf309,
+		[Description("Alternate Long Arrow Left")]
+		LongArrowAltLeft = 0xf30a,
+		[Description("Alternate Long Arrow Right")]
+		LongArrowAltRight = 0xf30b,
+		[Description("Alternate Long Arrow Up")]
+		LongArrowAltUp = 0xf30c,
+		[Description("Low Vision")]
+		LowVision = 0xf2a8,
+		[Description("Luggage Cart")]
+		LuggageCart = 0xf59d,
+		[Description("lyft")]
+		Lyft = 0xf3c3,
+		[Description("Magento")]
+		Magento = 0xf3c4,
+		[Description("magic")]
+		Magic = 0xf0d0,
+		[Description("magnet")]
+		Magnet = 0xf076,
+		[Description("Mail Bulk")]
+		MailBulk = 0xf674,
+		[Description("Mailchimp")]
+		Mailchimp = 0xf59e,
+		[Description("Male")]
+		Male = 0xf183,
+		[Description("Mandalorian")]
+		Mandalorian = 0xf50f,
+		[Description("Map")]
+		Map = 0xf279,
+		[Description("Map Marked")]
+		MapMarked = 0xf59f,
+		[Description("Alternate Map Marked")]
+		MapMarkedAlt = 0xf5a0,
+		[Description("map-marker")]
+		MapMarker = 0xf041,
+		[Description("Alternate Map Marker")]
+		MapMarkerAlt = 0xf3c5,
+		[Description("Map Pin")]
+		MapPin = 0xf276,
+		[Description("Map Signs")]
+		MapSigns = 0xf277,
+		[Description("Markdown")]
+		Markdown = 0xf60f,
+		[Description("Marker")]
+		Marker = 0xf5a1,
+		[Description("Mars")]
+		Mars = 0xf222,
+		[Description("Mars Double")]
+		MarsDouble = 0xf227,
+		[Description("Mars Stroke")]
+		MarsStroke = 0xf229,
+		[Description("Mars Stroke Horizontal")]
+		MarsStrokeH = 0xf22b,
+		[Description("Mars Stroke Vertical")]
+		MarsStrokeV = 0xf22a,
+		[Description("Mask")]
+		Mask = 0xf6fa,
+		[Description("Mastodon")]
+		Mastodon = 0xf4f6,
+		[Description("MaxCDN")]
+		Maxcdn = 0xf136,
+		[Description("Material Design for Bootstrap")]
+		Mdb = 0xf8ca,
+		[Description("Medal")]
+		Medal = 0xf5a2,
+		[Description("MedApps")]
+		Medapps = 0xf3c6,
+		[Description("Medium")]
+		Medium = 0xf23a,
+		[Description("Medium M")]
+		MediumM = 0xf3c7,
+		[Description("medkit")]
+		Medkit = 0xf0fa,
+		[Description("MRT")]
+		Medrt = 0xf3c8,
+		[Description("Meetup")]
 		Meetup = 0xf2e0,
+		[Description("Megaport")]
+		Megaport = 0xf5a3,
+		[Description("Neutral Face")]
+		Meh = 0xf11a,
+		[Description("Face Without Mouth")]
+		MehBlank = 0xf5a4,
+		[Description("Face With Rolling Eyes")]
+		MehRollingEyes = 0xf5a5,
+		[Description("Memory")]
+		Memory = 0xf538,
+		[Description("Mendeley")]
+		Mendeley = 0xf7b3,
+		[Description("Menorah")]
+		Menorah = 0xf676,
+		[Description("Mercury")]
+		Mercury = 0xf223,
+		[Description("Meteor")]
+		Meteor = 0xf753,
+		[Description("Micro.blog")]
+		Microblog = 0xf91a,
+		[Description("Microchip")]
+		Microchip = 0xf2db,
+		[Description("microphone")]
+		Microphone = 0xf130,
+		[Description("Alternate Microphone")]
+		MicrophoneAlt = 0xf3c9,
+		[Description("Alternate Microphone Slash")]
+		MicrophoneAltSlash = 0xf539,
+		[Description("Microphone Slash")]
+		MicrophoneSlash = 0xf131,
+		[Description("Microscope")]
+		Microscope = 0xf610,
+		[Description("Microsoft")]
+		Microsoft = 0xf3ca,
+		[Description("minus")]
+		Minus = 0xf068,
+		[Description("Minus Circle")]
+		MinusCircle = 0xf056,
+		[Description("Minus Square")]
+		MinusSquare = 0xf146,
+		[Description("Mitten")]
+		Mitten = 0xf7b5,
+		[Description("Mix")]
+		Mix = 0xf3cb,
+		[Description("Mixcloud")]
+		Mixcloud = 0xf289,
+		[Description("Mixer")]
+		Mixer = 0xf956,
+		[Description("Mizuni")]
+		Mizuni = 0xf3cc,
+		[Description("Mobile Phone")]
+		Mobile = 0xf10b,
+		[Description("Alternate Mobile")]
+		MobileAlt = 0xf3cd,
+		[Description("MODX")]
+		Modx = 0xf285,
+		[Description("Monero")]
+		Monero = 0xf3d0,
+		[Description("Money Bill")]
+		MoneyBill = 0xf0d6,
+		[Description("Alternate Money Bill")]
+		MoneyBillAlt = 0xf3d1,
+		[Description("Wavy Money Bill")]
+		MoneyBillWave = 0xf53a,
+		[Description("Alternate Wavy Money Bill")]
+		MoneyBillWaveAlt = 0xf53b,
+		[Description("Money Check")]
+		MoneyCheck = 0xf53c,
+		[Description("Alternate Money Check")]
+		MoneyCheckAlt = 0xf53d,
+		[Description("Monument")]
+		Monument = 0xf5a6,
+		[Description("Moon")]
+		Moon = 0xf186,
+		[Description("Mortar Pestle")]
+		MortarPestle = 0xf5a7,
+		[Description("Mosque")]
+		Mosque = 0xf678,
+		[Description("Motorcycle")]
+		Motorcycle = 0xf21c,
+		[Description("Mountain")]
+		Mountain = 0xf6fc,
+		[Description("Mouse")]
+		Mouse = 0xf8cc,
+		[Description("Mouse Pointer")]
+		MousePointer = 0xf245,
+		[Description("Mug Hot")]
+		MugHot = 0xf7b6,
+		[Description("Music")]
+		Music = 0xf001,
+		[Description("Napster")]
+		Napster = 0xf3d2,
+		[Description("Neos")]
+		Neos = 0xf612,
+		[Description("Wired Network")]
+		NetworkWired = 0xf6ff,
+		[Description("Neuter")]
+		Neuter = 0xf22c,
+		[Description("Newspaper")]
+		Newspaper = 0xf1ea,
+		[Description("Nimblr")]
+		Nimblr = 0xf5a8,
+		[Description("Node.js")]
+		Node = 0xf419,
+		[Description("Node.js JS")]
+		NodeJs = 0xf3d3,
+		[Description("Not Equal")]
+		NotEqual = 0xf53e,
+		[Description("Medical Notes")]
+		NotesMedical = 0xf481,
+		[Description("npm")]
+		Npm = 0xf3d4,
+		[Description("NS8")]
+		Ns8 = 0xf3d5,
+		[Description("Nutritionix")]
+		Nutritionix = 0xf3d6,
+		[Description("Object Group")]
+		ObjectGroup = 0xf247,
+		[Description("Object Ungroup")]
+		ObjectUngroup = 0xf248,
+		[Description("Odnoklassniki")]
+		Odnoklassniki = 0xf263,
+		[Description("Odnoklassniki Square")]
+		OdnoklassnikiSquare = 0xf264,
+		[Description("Oil Can")]
+		OilCan = 0xf613,
+		[Description("Old Republic")]
+		OldRepublic = 0xf510,
+		[Description("Om")]
+		Om = 0xf679,
+		[Description("OpenCart")]
+		Opencart = 0xf23d,
+		[Description("OpenID")]
+		Openid = 0xf19b,
+		[Description("Opera")]
+		Opera = 0xf26a,
+		[Description("Optin Monster")]
+		OptinMonster = 0xf23c,
+		[Description("ORCID")]
+		Orcid = 0xf8d2,
+		[Description("Open Source Initiative")]
+		Osi = 0xf41a,
+		[Description("Otter")]
+		Otter = 0xf700,
+		[Description("Outdent")]
+		Outdent = 0xf03b,
+		[Description("page4 Corporation")]
+		Page4 = 0xf3d7,
+		[Description("Pagelines")]
+		Pagelines = 0xf18c,
+		[Description("Pager")]
+		Pager = 0xf815,
+		[Description("Paint Brush")]
+		PaintBrush = 0xf1fc,
+		[Description("Paint Roller")]
+		PaintRoller = 0xf5aa,
+		[Description("Palette")]
+		Palette = 0xf53f,
+		[Description("Palfed")]
+		Palfed = 0xf3d8,
+		[Description("Pallet")]
+		Pallet = 0xf482,
+		[Description("Paper Plane")]
+		PaperPlane = 0xf1d8,
+		[Description("Paperclip")]
+		Paperclip = 0xf0c6,
+		[Description("Parachute Box")]
+		ParachuteBox = 0xf4cd,
+		[Description("paragraph")]
+		Paragraph = 0xf1dd,
+		[Description("Parking")]
+		Parking = 0xf540,
+		[Description("Passport")]
+		Passport = 0xf5ab,
+		[Description("Pastafarianism")]
+		Pastafarianism = 0xf67b,
+		[Description("Paste")]
+		Paste = 0xf0ea,
+		[Description("Patreon")]
+		Patreon = 0xf3d9,
+		[Description("pause")]
+		Pause = 0xf04c,
+		[Description("Pause Circle")]
+		PauseCircle = 0xf28b,
+		[Description("Paw")]
+		Paw = 0xf1b0,
+		[Description("Paypal")]
+		Paypal = 0xf1ed,
+		[Description("Peace")]
+		Peace = 0xf67c,
+		[Description("Pen")]
+		Pen = 0xf304,
+		[Description("Alternate Pen")]
+		PenAlt = 0xf305,
+		[Description("Pen Fancy")]
+		PenFancy = 0xf5ac,
+		[Description("Pen Nib")]
+		PenNib = 0xf5ad,
+		[Description("Pen Square")]
+		PenSquare = 0xf14b,
+		[Description("Alternate Pencil")]
+		PencilAlt = 0xf303,
+		[Description("Pencil Ruler")]
+		PencilRuler = 0xf5ae,
+		[Description("Penny Arcade")]
+		PennyArcade = 0xf704,
+		[Description("People Carry")]
+		PeopleCarry = 0xf4ce,
+		[Description("Hot Pepper")]
+		PepperHot = 0xf816,
+		[Description("Percent")]
+		Percent = 0xf295,
+		[Description("Percentage")]
+		Percentage = 0xf541,
+		[Description("Periscope")]
+		Periscope = 0xf3da,
+		[Description("Person Entering Booth")]
+		PersonBooth = 0xf756,
+		[Description("Phabricator")]
+		Phabricator = 0xf3db,
+		[Description("Phoenix Framework")]
+		PhoenixFramework = 0xf3dc,
+		[Description("Phoenix Squadron")]
+		PhoenixSquadron = 0xf511,
+		[Description("Phone")]
+		Phone = 0xf095,
+		[Description("Alternate Phone")]
+		PhoneAlt = 0xf879,
+		[Description("Phone Slash")]
+		PhoneSlash = 0xf3dd,
+		[Description("Phone Square")]
+		PhoneSquare = 0xf098,
+		[Description("Alternate Phone Square")]
+		PhoneSquareAlt = 0xf87b,
+		[Description("Phone Volume")]
+		PhoneVolume = 0xf2a0,
+		[Description("Photo Video")]
+		PhotoVideo = 0xf87c,
+		[Description("PHP")]
+		Php = 0xf457,
+		[Description("Pied Piper Logo")]
+		PiedPiper = 0xf2ae,
+		[Description("Alternate Pied Piper Logo (Old)")]
+		PiedPiperAlt = 0xf1a8,
+		[Description("Pied Piper Hat (Old)")]
+		PiedPiperHat = 0xf4e5,
+		[Description("Pied Piper PP Logo (Old)")]
+		PiedPiperPp = 0xf1a7,
+		[Description("Pied Piper Square Logo (Old)")]
+		PiedPiperSquare = 0xf91e,
+		[Description("Piggy Bank")]
+		PiggyBank = 0xf4d3,
+		[Description("Pills")]
+		Pills = 0xf484,
+		[Description("Pinterest")]
+		Pinterest = 0xf0d2,
+		[Description("Pinterest P")]
+		PinterestP = 0xf231,
+		[Description("Pinterest Square")]
+		PinterestSquare = 0xf0d3,
+		[Description("Pizza Slice")]
+		PizzaSlice = 0xf818,
+		[Description("Place of Worship")]
+		PlaceOfWorship = 0xf67f,
+		[Description("plane")]
+		Plane = 0xf072,
+		[Description("Plane Arrival")]
+		PlaneArrival = 0xf5af,
+		[Description("Plane Departure")]
+		PlaneDeparture = 0xf5b0,
+		[Description("play")]
+		Play = 0xf04b,
+		[Description("Play Circle")]
+		PlayCircle = 0xf144,
+		[Description("PlayStation")]
+		Playstation = 0xf3df,
+		[Description("Plug")]
+		Plug = 0xf1e6,
+		[Description("plus")]
+		Plus = 0xf067,
+		[Description("Plus Circle")]
+		PlusCircle = 0xf055,
+		[Description("Plus Square")]
+		PlusSquare = 0xf0fe,
+		[Description("Podcast")]
+		Podcast = 0xf2ce,
+		[Description("Poll")]
+		Poll = 0xf681,
+		[Description("Poll H")]
+		PollH = 0xf682,
+		[Description("Poo")]
+		Poo = 0xf2fe,
+		[Description("Poo Storm")]
+		PooStorm = 0xf75a,
+		[Description("Poop")]
+		Poop = 0xf619,
+		[Description("Portrait")]
+		Portrait = 0xf3e0,
+		[Description("Pound Sign")]
+		PoundSign = 0xf154,
+		[Description("Power Off")]
+		PowerOff = 0xf011,
+		[Description("Pray")]
+		Pray = 0xf683,
+		[Description("Praying Hands")]
+		PrayingHands = 0xf684,
+		[Description("Prescription")]
+		Prescription = 0xf5b1,
+		[Description("Prescription Bottle")]
+		PrescriptionBottle = 0xf485,
+		[Description("Alternate Prescription Bottle")]
+		PrescriptionBottleAlt = 0xf486,
+		[Description("print")]
+		Print = 0xf02f,
+		[Description("Procedures")]
+		Procedures = 0xf487,
+		[Description("Product Hunt")]
+		ProductHunt = 0xf288,
+		[Description("Project Diagram")]
+		ProjectDiagram = 0xf542,
+		[Description("Pushed")]
+		Pushed = 0xf3e1,
+		[Description("Puzzle Piece")]
+		PuzzlePiece = 0xf12e,
+		[Description("Python")]
+		Python = 0xf3e2,
+		[Description("QQ")]
+		Qq = 0xf1d6,
+		[Description("qrcode")]
+		Qrcode = 0xf029,
+		[Description("Question")]
+		Question = 0xf128,
+		[Description("Question Circle")]
+		QuestionCircle = 0xf059,
+		[Description("Quidditch")]
+		Quidditch = 0xf458,
+		[Description("QuinScape")]
+		Quinscape = 0xf459,
+		[Description("Quora")]
+		Quora = 0xf2c4,
+		[Description("quote-left")]
+		QuoteLeft = 0xf10d,
+		[Description("quote-right")]
+		QuoteRight = 0xf10e,
+		[Description("Quran")]
+		Quran = 0xf687,
+		[Description("R Project")]
+		RProject = 0xf4f7,
+		[Description("Radiation")]
+		Radiation = 0xf7b9,
+		[Description("Alternate Radiation")]
+		RadiationAlt = 0xf7ba,
+		[Description("Rainbow")]
+		Rainbow = 0xf75b,
+		[Description("random")]
+		Random = 0xf074,
+		[Description("Raspberry Pi")]
+		RaspberryPi = 0xf7bb,
+		[Description("Ravelry")]
+		Ravelry = 0xf2d9,
+		[Description("React")]
+		React = 0xf41b,
+		[Description("ReactEurope")]
+		Reacteurope = 0xf75d,
+		[Description("ReadMe")]
+		Readme = 0xf4d5,
+		[Description("Rebel Alliance")]
+		Rebel = 0xf1d0,
+		[Description("Receipt")]
+		Receipt = 0xf543,
+		[Description("Record Vinyl")]
+		RecordVinyl = 0xf8d9,
+		[Description("Recycle")]
+		Recycle = 0xf1b8,
+		[Description("red river")]
+		RedRiver = 0xf3e3,
+		[Description("reddit Logo")]
+		Reddit = 0xf1a1,
+		[Description("reddit Alien")]
+		RedditAlien = 0xf281,
+		[Description("reddit Square")]
+		RedditSquare = 0xf1a2,
+		[Description("Redhat")]
+		Redhat = 0xf7bc,
+		[Description("Redo")]
+		Redo = 0xf01e,
+		[Description("Alternate Redo")]
+		RedoAlt = 0xf2f9,
+		[Description("Registered Trademark")]
+		Registered = 0xf25d,
+		[Description("Remove Format")]
+		RemoveFormat = 0xf87d,
+		[Description("Renren")]
+		Renren = 0xf18b,
+		[Description("Reply")]
+		Reply = 0xf3e5,
+		[Description("reply-all")]
+		ReplyAll = 0xf122,
+		[Description("replyd")]
+		Replyd = 0xf3e6,
+		[Description("Republican")]
+		Republican = 0xf75e,
+		[Description("Researchgate")]
+		Researchgate = 0xf4f8,
+		[Description("Resolving")]
+		Resolving = 0xf3e7,
+		[Description("Restroom")]
+		Restroom = 0xf7bd,
+		[Description("Retweet")]
+		Retweet = 0xf079,
+		[Description("Rev.io")]
+		Rev = 0xf5b2,
+		[Description("Ribbon")]
+		Ribbon = 0xf4d6,
+		[Description("Ring")]
+		Ring = 0xf70b,
+		[Description("road")]
+		Road = 0xf018,
+		[Description("Robot")]
+		Robot = 0xf544,
+		[Description("rocket")]
+		Rocket = 0xf135,
+		[Description("Rocket.Chat")]
+		Rocketchat = 0xf3e8,
+		[Description("Rockrms")]
+		Rockrms = 0xf3e9,
+		[Description("Route")]
+		Route = 0xf4d7,
+		[Description("rss")]
+		Rss = 0xf09e,
+		[Description("RSS Square")]
+		RssSquare = 0xf143,
+		[Description("Ruble Sign")]
+		RubleSign = 0xf158,
+		[Description("Ruler")]
+		Ruler = 0xf545,
+		[Description("Ruler Combined")]
+		RulerCombined = 0xf546,
+		[Description("Ruler Horizontal")]
+		RulerHorizontal = 0xf547,
+		[Description("Ruler Vertical")]
+		RulerVertical = 0xf548,
+		[Description("Running")]
+		Running = 0xf70c,
+		[Description("Indian Rupee Sign")]
+		RupeeSign = 0xf156,
+		[Description("Crying Face")]
+		SadCry = 0xf5b3,
+		[Description("Loudly Crying Face")]
+		SadTear = 0xf5b4,
+		[Description("Safari")]
+		Safari = 0xf267,
+		[Description("Salesforce")]
+		Salesforce = 0xf83b,
+		[Description("Sass")]
+		Sass = 0xf41e,
+		[Description("Satellite")]
+		Satellite = 0xf7bf,
+		[Description("Satellite Dish")]
+		SatelliteDish = 0xf7c0,
+		[Description("Save")]
+		Save = 0xf0c7,
+		[Description("SCHLIX")]
+		Schlix = 0xf3ea,
+		[Description("School")]
+		School = 0xf549,
+		[Description("Screwdriver")]
+		Screwdriver = 0xf54a,
+		[Description("Scribd")]
+		Scribd = 0xf28a,
+		[Description("Scroll")]
+		Scroll = 0xf70e,
+		[Description("Sd Card")]
+		SdCard = 0xf7c2,
+		[Description("Search")]
+		Search = 0xf002,
+		[Description("Search Dollar")]
+		SearchDollar = 0xf688,
+		[Description("Search Location")]
+		SearchLocation = 0xf689,
+		[Description("Search Minus")]
+		SearchMinus = 0xf010,
+		[Description("Search Plus")]
+		SearchPlus = 0xf00e,
+		[Description("Searchengin")]
+		Searchengin = 0xf3eb,
+		[Description("Seedling")]
+		Seedling = 0xf4d8,
+		[Description("Sellcast")]
+		Sellcast = 0xf2da,
+		[Description("Sellsy")]
+		Sellsy = 0xf213,
+		[Description("Server")]
+		Server = 0xf233,
+		[Description("Servicestack")]
+		Servicestack = 0xf3ec,
+		[Description("Shapes")]
+		Shapes = 0xf61f,
+		[Description("Share")]
+		Share = 0xf064,
+		[Description("Alternate Share")]
+		ShareAlt = 0xf1e0,
+		[Description("Alternate Share Square")]
+		ShareAltSquare = 0xf1e1,
+		[Description("Share Square")]
+		ShareSquare = 0xf14d,
+		[Description("Shekel Sign")]
+		ShekelSign = 0xf20b,
+		[Description("Alternate Shield")]
+		ShieldAlt = 0xf3ed,
+		[Description("Ship")]
+		Ship = 0xf21a,
+		[Description("Shipping Fast")]
+		ShippingFast = 0xf48b,
+		[Description("Shirts in Bulk")]
+		Shirtsinbulk = 0xf214,
+		[Description("Shoe Prints")]
+		ShoePrints = 0xf54b,
+		[Description("Shopify")]
+		Shopify = 0xf957,
+		[Description("Shopping Bag")]
+		ShoppingBag = 0xf290,
+		[Description("Shopping Basket")]
+		ShoppingBasket = 0xf291,
+		[Description("shopping-cart")]
+		ShoppingCart = 0xf07a,
+		[Description("Shopware")]
+		Shopware = 0xf5b5,
+		[Description("Shower")]
+		Shower = 0xf2cc,
+		[Description("Shuttle Van")]
+		ShuttleVan = 0xf5b6,
+		[Description("Sign")]
+		Sign = 0xf4d9,
+		[Description("Alternate Sign In")]
+		SignInAlt = 0xf2f6,
+		[Description("Sign Language")]
+		SignLanguage = 0xf2a7,
+		[Description("Alternate Sign Out")]
+		SignOutAlt = 0xf2f5,
+		[Description("signal")]
+		Signal = 0xf012,
+		[Description("Signature")]
+		Signature = 0xf5b7,
+		[Description("SIM Card")]
+		SimCard = 0xf7c4,
+		[Description("SimplyBuilt")]
+		Simplybuilt = 0xf215,
+		[Description("SISTRIX")]
+		Sistrix = 0xf3ee,
+		[Description("Sitemap")]
+		Sitemap = 0xf0e8,
+		[Description("Sith")]
+		Sith = 0xf512,
+		[Description("Skating")]
+		Skating = 0xf7c5,
+		[Description("Sketch")]
+		Sketch = 0xf7c6,
+		[Description("Skiing")]
+		Skiing = 0xf7c9,
+		[Description("Skiing Nordic")]
+		SkiingNordic = 0xf7ca,
+		[Description("Skull")]
+		Skull = 0xf54c,
+		[Description("Skull & Crossbones")]
+		SkullCrossbones = 0xf714,
+		[Description("skyatlas")]
+		Skyatlas = 0xf216,
+		[Description("Skype")]
+		Skype = 0xf17e,
+		[Description("Slack Logo")]
+		Slack = 0xf198,
+		[Description("Slack Hashtag")]
+		SlackHash = 0xf3ef,
+		[Description("Slash")]
+		Slash = 0xf715,
+		[Description("Sleigh")]
+		Sleigh = 0xf7cc,
+		[Description("Horizontal Sliders")]
+		SlidersH = 0xf1de,
+		[Description("Slideshare")]
+		Slideshare = 0xf1e7,
+		[Description("Smiling Face")]
+		Smile = 0xf118,
+		[Description("Beaming Face With Smiling Eyes")]
+		SmileBeam = 0xf5b8,
+		[Description("Winking Face")]
+		SmileWink = 0xf4da,
+		[Description("Smog")]
+		Smog = 0xf75f,
+		[Description("Smoking")]
+		Smoking = 0xf48d,
+		[Description("Smoking Ban")]
+		SmokingBan = 0xf54d,
+		[Description("SMS")]
+		Sms = 0xf7cd,
+		[Description("Snapchat")]
+		Snapchat = 0xf2ab,
+		[Description("Snapchat Ghost")]
+		SnapchatGhost = 0xf2ac,
+		[Description("Snapchat Square")]
+		SnapchatSquare = 0xf2ad,
+		[Description("Snowboarding")]
+		Snowboarding = 0xf7ce,
+		[Description("Snowflake")]
+		Snowflake = 0xf2dc,
+		[Description("Snowman")]
+		Snowman = 0xf7d0,
+		[Description("Snowplow")]
+		Snowplow = 0xf7d2,
+		[Description("Socks")]
+		Socks = 0xf696,
+		[Description("Solar Panel")]
+		SolarPanel = 0xf5ba,
+		[Description("Sort")]
+		Sort = 0xf0dc,
+		[Description("Sort Alphabetical Down")]
+		SortAlphaDown = 0xf15d,
+		[Description("Alternate Sort Alphabetical Down")]
+		SortAlphaDownAlt = 0xf881,
+		[Description("Sort Alphabetical Up")]
+		SortAlphaUp = 0xf15e,
+		[Description("Alternate Sort Alphabetical Up")]
+		SortAlphaUpAlt = 0xf882,
+		[Description("Sort Amount Down")]
+		SortAmountDown = 0xf160,
+		[Description("Alternate Sort Amount Down")]
+		SortAmountDownAlt = 0xf884,
+		[Description("Sort Amount Up")]
+		SortAmountUp = 0xf161,
+		[Description("Alternate Sort Amount Up")]
+		SortAmountUpAlt = 0xf885,
+		[Description("Sort Down (Descending)")]
+		SortDown = 0xf0dd,
+		[Description("Sort Numeric Down")]
+		SortNumericDown = 0xf162,
+		[Description("Alternate Sort Numeric Down")]
+		SortNumericDownAlt = 0xf886,
+		[Description("Sort Numeric Up")]
+		SortNumericUp = 0xf163,
+		[Description("Alternate Sort Numeric Up")]
+		SortNumericUpAlt = 0xf887,
+		[Description("Sort Up (Ascending)")]
+		SortUp = 0xf0de,
+		[Description("SoundCloud")]
+		Soundcloud = 0xf1be,
+		[Description("Sourcetree")]
+		Sourcetree = 0xf7d3,
+		[Description("Spa")]
+		Spa = 0xf5bb,
+		[Description("Space Shuttle")]
+		SpaceShuttle = 0xf197,
+		[Description("Speakap")]
+		Speakap = 0xf3f3,
+		[Description("Speaker Deck")]
+		SpeakerDeck = 0xf83c,
+		[Description("Spell Check")]
+		SpellCheck = 0xf891,
+		[Description("Spider")]
+		Spider = 0xf717,
+		[Description("Spinner")]
+		Spinner = 0xf110,
+		[Description("Splotch")]
+		Splotch = 0xf5bc,
+		[Description("Spotify")]
+		Spotify = 0xf1bc,
+		[Description("Spray Can")]
+		SprayCan = 0xf5bd,
+		[Description("Square")]
+		Square = 0xf0c8,
+		[Description("Square Full")]
+		SquareFull = 0xf45c,
+		[Description("Alternate Square Root")]
+		SquareRootAlt = 0xf698,
+		[Description("Squarespace")]
+		Squarespace = 0xf5be,
+		[Description("Stack Exchange")]
+		StackExchange = 0xf18d,
+		[Description("Stack Overflow")]
+		StackOverflow = 0xf16c,
+		[Description("Stackpath")]
+		Stackpath = 0xf842,
+		[Description("Stamp")]
+		Stamp = 0xf5bf,
+		[Description("Star")]
+		Star = 0xf005,
+		[Description("Star and Crescent")]
+		StarAndCrescent = 0xf699,
+		[Description("star-half")]
+		StarHalf = 0xf089,
+		[Description("Alternate Star Half")]
+		StarHalfAlt = 0xf5c0,
+		[Description("Star of David")]
+		StarOfDavid = 0xf69a,
+		[Description("Star of Life")]
+		StarOfLife = 0xf621,
+		[Description("StayLinked")]
+		Staylinked = 0xf3f5,
+		[Description("Steam")]
+		Steam = 0xf1b6,
+		[Description("Steam Square")]
+		SteamSquare = 0xf1b7,
+		[Description("Steam Symbol")]
+		SteamSymbol = 0xf3f6,
+		[Description("step-backward")]
+		StepBackward = 0xf048,
+		[Description("step-forward")]
+		StepForward = 0xf051,
+		[Description("Stethoscope")]
+		Stethoscope = 0xf0f1,
+		[Description("Sticker Mule")]
+		StickerMule = 0xf3f7,
+		[Description("Sticky Note")]
+		StickyNote = 0xf249,
+		[Description("stop")]
+		Stop = 0xf04d,
+		[Description("Stop Circle")]
+		StopCircle = 0xf28d,
+		[Description("Stopwatch")]
+		Stopwatch = 0xf2f2,
+		[Description("Store")]
+		Store = 0xf54e,
+		[Description("Alternate Store")]
+		StoreAlt = 0xf54f,
+		[Description("Strava")]
+		Strava = 0xf428,
+		[Description("Stream")]
+		Stream = 0xf550,
+		[Description("Street View")]
+		StreetView = 0xf21d,
+		[Description("Strikethrough")]
+		Strikethrough = 0xf0cc,
+		[Description("Stripe")]
+		Stripe = 0xf429,
+		[Description("Stripe S")]
+		StripeS = 0xf42a,
+		[Description("Stroopwafel")]
+		Stroopwafel = 0xf551,
+		[Description("Studio Vinari")]
+		Studiovinari = 0xf3f8,
+		[Description("StumbleUpon Logo")]
+		Stumbleupon = 0xf1a4,
+		[Description("StumbleUpon Circle")]
+		StumbleuponCircle = 0xf1a3,
+		[Description("subscript")]
+		Subscript = 0xf12c,
+		[Description("Subway")]
+		Subway = 0xf239,
+		[Description("Suitcase")]
+		Suitcase = 0xf0f2,
+		[Description("Suitcase Rolling")]
+		SuitcaseRolling = 0xf5c1,
+		[Description("Sun")]
+		Sun = 0xf185,
+		[Description("Superpowers")]
+		Superpowers = 0xf2dd,
+		[Description("superscript")]
+		Superscript = 0xf12b,
+		[Description("Supple")]
+		Supple = 0xf3f9,
+		[Description("Hushed Face")]
+		Surprise = 0xf5c2,
+		[Description("Suse")]
+		Suse = 0xf7d6,
+		[Description("Swatchbook")]
+		Swatchbook = 0xf5c3,
+		[Description("Swift")]
+		Swift = 0xf8e1,
+		[Description("Swimmer")]
+		Swimmer = 0xf5c4,
+		[Description("Swimming Pool")]
+		SwimmingPool = 0xf5c5,
+		[Description("Symfony")]
+		Symfony = 0xf83d,
+		[Description("Synagogue")]
+		Synagogue = 0xf69b,
+		[Description("Sync")]
+		Sync = 0xf021,
+		[Description("Alternate Sync")]
+		SyncAlt = 0xf2f1,
+		[Description("Syringe")]
+		Syringe = 0xf48e,
+		[Description("table")]
+		Table = 0xf0ce,
+		[Description("Table Tennis")]
+		TableTennis = 0xf45d,
+		[Description("tablet")]
+		Tablet = 0xf10a,
+		[Description("Alternate Tablet")]
+		TabletAlt = 0xf3fa,
+		[Description("Tablets")]
+		Tablets = 0xf490,
+		[Description("Alternate Tachometer")]
+		TachometerAlt = 0xf3fd,
+		[Description("tag")]
+		Tag = 0xf02b,
+		[Description("tags")]
+		Tags = 0xf02c,
+		[Description("Tape")]
+		Tape = 0xf4db,
+		[Description("Tasks")]
+		Tasks = 0xf0ae,
+		[Description("Taxi")]
+		Taxi = 0xf1ba,
+		[Description("TeamSpeak")]
+		Teamspeak = 0xf4f9,
+		[Description("Teeth")]
+		Teeth = 0xf62e,
+		[Description("Teeth Open")]
+		TeethOpen = 0xf62f,
+		[Description("Telegram")]
+		Telegram = 0xf2c6,
+		[Description("Telegram Plane")]
+		TelegramPlane = 0xf3fe,
+		[Description("High Temperature")]
+		TemperatureHigh = 0xf769,
+		[Description("Low Temperature")]
+		TemperatureLow = 0xf76b,
+		[Description("Tencent Weibo")]
+		TencentWeibo = 0xf1d5,
+		[Description("Tenge")]
+		Tenge = 0xf7d7,
+		[Description("Terminal")]
+		Terminal = 0xf120,
+		[Description("text-height")]
+		TextHeight = 0xf034,
+		[Description("Text Width")]
+		TextWidth = 0xf035,
+		[Description("th")]
+		Th = 0xf00a,
+		[Description("th-large")]
+		ThLarge = 0xf009,
+		[Description("th-list")]
+		ThList = 0xf00b,
+		[Description("The Red Yeti")]
+		TheRedYeti = 0xf69d,
+		[Description("Theater Masks")]
+		TheaterMasks = 0xf630,
+		[Description("Themeco")]
+		Themeco = 0xf5c6,
+		[Description("ThemeIsle")]
+		Themeisle = 0xf2b2,
+		[Description("Thermometer")]
+		Thermometer = 0xf491,
+		[Description("Thermometer Empty")]
+		ThermometerEmpty = 0xf2cb,
+		[Description("Thermometer Full")]
+		ThermometerFull = 0xf2c7,
+		[Description("Thermometer 1/2 Full")]
+		ThermometerHalf = 0xf2c9,
+		[Description("Thermometer 1/4 Full")]
+		ThermometerQuarter = 0xf2ca,
+		[Description("Thermometer 3/4 Full")]
+		ThermometerThreeQuarters = 0xf2c8,
+		[Description("Think Peaks")]
+		ThinkPeaks = 0xf731,
+		[Description("thumbs-down")]
+		ThumbsDown = 0xf165,
+		[Description("thumbs-up")]
+		ThumbsUp = 0xf164,
+		[Description("Thumbtack")]
+		Thumbtack = 0xf08d,
+		[Description("Alternate Ticket")]
+		TicketAlt = 0xf3ff,
+		[Description("Times")]
+		Times = 0xf00d,
+		[Description("Times Circle")]
+		TimesCircle = 0xf057,
+		[Description("tint")]
+		Tint = 0xf043,
+		[Description("Tint Slash")]
+		TintSlash = 0xf5c7,
+		[Description("Tired Face")]
+		Tired = 0xf5c8,
+		[Description("Toggle Off")]
+		ToggleOff = 0xf204,
+		[Description("Toggle On")]
+		ToggleOn = 0xf205,
+		[Description("Toilet")]
+		Toilet = 0xf7d8,
+		[Description("Toilet Paper")]
+		ToiletPaper = 0xf71e,
+		[Description("Toolbox")]
+		Toolbox = 0xf552,
+		[Description("Tools")]
+		Tools = 0xf7d9,
+		[Description("Tooth")]
+		Tooth = 0xf5c9,
+		[Description("Torah")]
+		Torah = 0xf6a0,
+		[Description("Torii Gate")]
+		ToriiGate = 0xf6a1,
+		[Description("Tractor")]
+		Tractor = 0xf722,
+		[Description("Trade Federation")]
+		TradeFederation = 0xf513,
+		[Description("Trademark")]
+		Trademark = 0xf25c,
+		[Description("Traffic Light")]
+		TrafficLight = 0xf637,
+		[Description("Trailer")]
+		Trailer = 0xf941,
+		[Description("Train")]
+		Train = 0xf238,
+		[Description("Tram")]
+		Tram = 0xf7da,
+		[Description("Transgender")]
+		Transgender = 0xf224,
+		[Description("Alternate Transgender")]
+		TransgenderAlt = 0xf225,
+		[Description("Trash")]
+		Trash = 0xf1f8,
+		[Description("Alternate Trash")]
+		TrashAlt = 0xf2ed,
+		[Description("Trash Restore")]
+		TrashRestore = 0xf829,
+		[Description("Alternative Trash Restore")]
+		TrashRestoreAlt = 0xf82a,
+		[Description("Tree")]
+		Tree = 0xf1bb,
+		[Description("Trello")]
+		Trello = 0xf181,
+		[Description("TripAdvisor")]
+		Tripadvisor = 0xf262,
+		[Description("trophy")]
+		Trophy = 0xf091,
+		[Description("truck")]
+		Truck = 0xf0d1,
+		[Description("Truck Loading")]
+		TruckLoading = 0xf4de,
+		[Description("Truck Monster")]
+		TruckMonster = 0xf63b,
+		[Description("Truck Moving")]
+		TruckMoving = 0xf4df,
+		[Description("Truck Side")]
+		TruckPickup = 0xf63c,
+		[Description("T-Shirt")]
+		Tshirt = 0xf553,
+		[Description("TTY")]
+		Tty = 0xf1e4,
+		[Description("Tumblr")]
+		Tumblr = 0xf173,
+		[Description("Tumblr Square")]
+		TumblrSquare = 0xf174,
+		[Description("Television")]
+		Tv = 0xf26c,
+		[Description("Twitch")]
+		Twitch = 0xf1e8,
+		[Description("Twitter")]
+		Twitter = 0xf099,
+		[Description("Twitter Square")]
+		TwitterSquare = 0xf081,
+		[Description("Typo3")]
+		Typo3 = 0xf42b,
+		[Description("Uber")]
+		Uber = 0xf402,
+		[Description("Ubuntu")]
+		Ubuntu = 0xf7df,
+		[Description("UIkit")]
+		Uikit = 0xf403,
+		[Description("Umbraco")]
+		Umbraco = 0xf8e8,
+		[Description("Umbrella")]
+		Umbrella = 0xf0e9,
+		[Description("Umbrella Beach")]
+		UmbrellaBeach = 0xf5ca,
+		[Description("Underline")]
+		Underline = 0xf0cd,
+		[Description("Undo")]
+		Undo = 0xf0e2,
+		[Description("Alternate Undo")]
+		UndoAlt = 0xf2ea,
+		[Description("Uniregistry")]
+		Uniregistry = 0xf404,
+		[Description("Unity 3D")]
+		Unity = 0xf949,
+		[Description("Universal Access")]
+		UniversalAccess = 0xf29a,
+		[Description("University")]
+		University = 0xf19c,
+		[Description("unlink")]
+		Unlink = 0xf127,
+		[Description("unlock")]
+		Unlock = 0xf09c,
+		[Description("Alternate Unlock")]
+		UnlockAlt = 0xf13e,
+		[Description("Untappd")]
+		Untappd = 0xf405,
+		[Description("Upload")]
+		Upload = 0xf093,
+		[Description("UPS")]
+		Ups = 0xf7e0,
+		[Description("USB")]
+		Usb = 0xf287,
+		[Description("User")]
+		User = 0xf007,
+		[Description("Alternate User")]
+		UserAlt = 0xf406,
+		[Description("Alternate User Slash")]
+		UserAltSlash = 0xf4fa,
+		[Description("User Astronaut")]
+		UserAstronaut = 0xf4fb,
+		[Description("User Check")]
+		UserCheck = 0xf4fc,
+		[Description("User Circle")]
+		UserCircle = 0xf2bd,
+		[Description("User Clock")]
+		UserClock = 0xf4fd,
+		[Description("User Cog")]
+		UserCog = 0xf4fe,
+		[Description("User Edit")]
+		UserEdit = 0xf4ff,
+		[Description("User Friends")]
+		UserFriends = 0xf500,
+		[Description("User Graduate")]
+		UserGraduate = 0xf501,
+		[Description("User Injured")]
+		UserInjured = 0xf728,
+		[Description("User Lock")]
+		UserLock = 0xf502,
+		[Description("Doctor")]
+		UserMd = 0xf0f0,
+		[Description("User Minus")]
+		UserMinus = 0xf503,
+		[Description("User Ninja")]
+		UserNinja = 0xf504,
+		[Description("Nurse")]
+		UserNurse = 0xf82f,
+		[Description("User Plus")]
+		UserPlus = 0xf234,
+		[Description("User Secret")]
+		UserSecret = 0xf21b,
+		[Description("User Shield")]
+		UserShield = 0xf505,
+		[Description("User Slash")]
+		UserSlash = 0xf506,
+		[Description("User Tag")]
+		UserTag = 0xf507,
+		[Description("User Tie")]
+		UserTie = 0xf508,
+		[Description("Remove User")]
+		UserTimes = 0xf235,
+		[Description("Users")]
+		Users = 0xf0c0,
+		[Description("Users Cog")]
+		UsersCog = 0xf509,
+		[Description("United States Postal Service")]
+		Usps = 0xf7e1,
+		[Description("us-Sunnah Foundation")]
+		Ussunnah = 0xf407,
+		[Description("Utensil Spoon")]
+		UtensilSpoon = 0xf2e5,
+		[Description("Utensils")]
+		Utensils = 0xf2e7,
+		[Description("Vaadin")]
+		Vaadin = 0xf408,
+		[Description("Vector Square")]
+		VectorSquare = 0xf5cb,
+		[Description("Venus")]
+		Venus = 0xf221,
+		[Description("Venus Double")]
+		VenusDouble = 0xf226,
+		[Description("Venus Mars")]
+		VenusMars = 0xf228,
+		[Description("Viacoin")]
+		Viacoin = 0xf237,
+		[Description("Video")]
+		Viadeo = 0xf2a9,
+		[Description("Video Square")]
+		ViadeoSquare = 0xf2aa,
+		[Description("Vial")]
+		Vial = 0xf492,
+		[Description("Vials")]
+		Vials = 0xf493,
+		[Description("Viber")]
+		Viber = 0xf409,
+		[Description("Video")]
+		Video = 0xf03d,
+		[Description("Video Slash")]
+		VideoSlash = 0xf4e2,
+		[Description("Vihara")]
+		Vihara = 0xf6a7,
+		[Description("Vimeo")]
+		Vimeo = 0xf40a,
+		[Description("Vimeo Square")]
+		VimeoSquare = 0xf194,
+		[Description("Vimeo")]
+		VimeoV = 0xf27d,
+		[Description("Vine")]
+		Vine = 0xf1ca,
+		[Description("VK")]
+		Vk = 0xf189,
+		[Description("VNV")]
+		Vnv = 0xf40b,
+		[Description("Voicemail")]
+		Voicemail = 0xf897,
+		[Description("Volleyball Ball")]
+		VolleyballBall = 0xf45f,
+		[Description("Volume Down")]
+		VolumeDown = 0xf027,
+		[Description("Volume Mute")]
+		VolumeMute = 0xf6a9,
+		[Description("Volume Off")]
+		VolumeOff = 0xf026,
+		[Description("Volume Up")]
+		VolumeUp = 0xf028,
+		[Description("Vote Yea")]
+		VoteYea = 0xf772,
+		[Description("Cardboard VR")]
+		VrCardboard = 0xf729,
+		[Description("Vue.js")]
+		Vuejs = 0xf41f,
+		[Description("Walking")]
+		Walking = 0xf554,
+		[Description("Wallet")]
+		Wallet = 0xf555,
+		[Description("Warehouse")]
+		Warehouse = 0xf494,
+		[Description("Water")]
+		Water = 0xf773,
+		[Description("Square Wave")]
+		WaveSquare = 0xf83e,
+		[Description("Waze")]
+		Waze = 0xf83f,
+		[Description("Weebly")]
+		Weebly = 0xf5cc,
+		[Description("Weibo")]
+		Weibo = 0xf18a,
+		[Description("Weight")]
+		Weight = 0xf496,
+		[Description("Hanging Weight")]
+		WeightHanging = 0xf5cd,
+		[Description("Weixin (WeChat)")]
+		Weixin = 0xf1d7,
+		[Description("What's App")]
+		Whatsapp = 0xf232,
+		[Description("What's App Square")]
+		WhatsappSquare = 0xf40c,
+		[Description("Wheelchair")]
+		Wheelchair = 0xf193,
+		[Description("WHMCS")]
+		Whmcs = 0xf40d,
+		[Description("WiFi")]
+		Wifi = 0xf1eb,
+		[Description("Wikipedia W")]
+		WikipediaW = 0xf266,
+		[Description("Wind")]
+		Wind = 0xf72e,
+		[Description("Window Close")]
+		WindowClose = 0xf410,
+		[Description("Window Maximize")]
+		WindowMaximize = 0xf2d0,
+		[Description("Window Minimize")]
+		WindowMinimize = 0xf2d1,
+		[Description("Window Restore")]
+		WindowRestore = 0xf2d2,
+		[Description("Windows")]
+		Windows = 0xf17a,
+		[Description("Wine Bottle")]
+		WineBottle = 0xf72f,
+		[Description("Wine Glass")]
+		WineGlass = 0xf4e3,
+		[Description("Alternate Wine Glas")]
+		WineGlassAlt = 0xf5ce,
+		[Description("Wix")]
+		Wix = 0xf5cf,
+		[Description("Wizards of the Coast")]
+		WizardsOfTheCoast = 0xf730,
+		[Description("Wolf Pack Battalion")]
+		WolfPackBattalion = 0xf514,
+		[Description("Won Sign")]
+		WonSign = 0xf159,
+		[Description("WordPress Logo")]
+		Wordpress = 0xf19a,
+		[Description("Wordpress Simple")]
+		WordpressSimple = 0xf411,
+		[Description("WPBeginner")]
+		Wpbeginner = 0xf297,
+		[Description("WPExplorer")]
+		Wpexplorer = 0xf2de,
+		[Description("WPForms")]
+		Wpforms = 0xf298,
+		[Description("wpressr")]
+		Wpressr = 0xf3e4,
+		[Description("Wrench")]
+		Wrench = 0xf0ad,
+		[Description("X-Ray")]
+		XRay = 0xf497,
+		[Description("Xbox")]
+		Xbox = 0xf412,
+		[Description("Xing")]
+		Xing = 0xf168,
+		[Description("Xing Square")]
+		XingSquare = 0xf169,
+		[Description("Y Combinator")]
+		YCombinator = 0xf23b,
+		[Description("Yahoo Logo")]
+		Yahoo = 0xf19e,
+		[Description("Yammer")]
+		Yammer = 0xf840,
+		[Description("Yandex")]
+		Yandex = 0xf413,
+		[Description("Yandex International")]
+		YandexInternational = 0xf414,
+		[Description("Yarn")]
+		Yarn = 0xf7e3,
+		[Description("Yelp")]
+		Yelp = 0xf1e9,
+		[Description("Yen Sign")]
+		YenSign = 0xf157,
+		[Description("Yin Yang")]
+		YinYang = 0xf6ad,
+		[Description("Yoast")]
+		Yoast = 0xf2b1,
+		[Description("YouTube")]
+		Youtube = 0xf167,
+		[Description("YouTube Square")]
+		YoutubeSquare = 0xf431,
+		[Description("Zhihu")]
+		Zhihu = 0xf63f,
 	}
 }

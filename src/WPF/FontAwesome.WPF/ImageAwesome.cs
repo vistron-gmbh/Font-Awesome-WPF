@@ -15,7 +15,7 @@ namespace FontAwesome.WPF
         /// <summary>
         /// FontAwesome FontFamily.
         /// </summary>
-        private static readonly FontFamily FontAwesomeFontFamily = new FontFamily(new Uri("pack://application:,,,/FontAwesome.WPF;component/"), "./#FontAwesome");
+        private static readonly FontFamily FontAwesomeFontFamily = new FontFamily(new Uri("pack://application:,,,/FontAwesome.WPF;component/"), "./#Font Awesome 5 Free Solid");
         /// <summary>
         /// Typeface used to generate FontAwesome icon.
         /// </summary>

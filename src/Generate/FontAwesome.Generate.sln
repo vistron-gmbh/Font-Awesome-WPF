@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontAwesome.Generate", "FontAwesome.Generate\FontAwesome.Generate.csproj", "{9EEDEA68-70BD-4AEF-AD89-5E76D95F039A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontAwesomeGenerateApplication", "FontAwesomeGenerateApplication\FontAwesomeGenerateApplication.csproj", "{8DA7DEAE-8109-47E4-8BB0-26E031595F5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,8 +20,17 @@ Global
 		{9EEDEA68-70BD-4AEF-AD89-5E76D95F039A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9EEDEA68-70BD-4AEF-AD89-5E76D95F039A}.Signed|Any CPU.ActiveCfg = Signed|Any CPU
 		{9EEDEA68-70BD-4AEF-AD89-5E76D95F039A}.Signed|Any CPU.Build.0 = Signed|Any CPU
+		{8DA7DEAE-8109-47E4-8BB0-26E031595F5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DA7DEAE-8109-47E4-8BB0-26E031595F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DA7DEAE-8109-47E4-8BB0-26E031595F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DA7DEAE-8109-47E4-8BB0-26E031595F5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DA7DEAE-8109-47E4-8BB0-26E031595F5B}.Signed|Any CPU.ActiveCfg = Release|Any CPU
+		{8DA7DEAE-8109-47E4-8BB0-26E031595F5B}.Signed|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C148A69E-E7B5-480C-9B92-9DD3C0B2D876}
 	EndGlobalSection
 EndGlobal

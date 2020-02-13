@@ -12,9 +12,18 @@ namespace FontAwesome.WPF
         : TextBlock, ISpinable, IRotatable, IFlippable
     {
         /// <summary>
-        /// FontAwesome FontFamily.
+        /// FontAwesome FontFamily for Regular icons.
         /// </summary>
-        private static readonly FontFamily FontAwesomeFontFamily = new FontFamily(new Uri("pack://application:,,,/FontAwesome.WPF;component/"), "./#FontAwesome");
+        private static readonly FontFamily FontAwesomeFontFamilyRegular = new FontFamily(new Uri("pack://application:,,,/FontAwesome.WPF;component/"), "./#Font Awesome 5 Free Regular"); //Last one is the actual name of the font family inside the otf file, not the filename!
+        /// <summary>
+        /// FontAwesome FontFamily for Bold icons.
+        /// </summary>
+        private static readonly FontFamily FontAwesomeFontFamilySolid = new FontFamily(new Uri("pack://application:,,,/FontAwesome.WPF;component/"), "./#Font Awesome 5 Free Solid"); //Last one is the actual name of the font family inside the otf file, not the filename!
+                                                                                                                                                                                      /// <summary>
+                                                                                                                                                                                      /// FontAwesome FontFamily for icons belonging to brands.
+                                                                                                                                                                                      /// </summary>
+        private static readonly FontFamily FontAwesomeFontFamilyBrands = new FontFamily(new Uri("pack://application:,,,/FontAwesome.WPF;component/"), "./#Font Awesome 5 Brands Regular"); //Last one is the actual name of the font family inside the otf file, not the filename!
+
         /// <summary>
         /// Identifies the FontAwesome.WPF.FontAwesome.Icon dependency property.
         /// </summary>
@@ -40,6 +49,19 @@ namespace FontAwesome.WPF
         /// </summary>
         public static readonly DependencyProperty FlipOrientationProperty =
             DependencyProperty.Register("FlipOrientation", typeof(FlipOrientation), typeof(FontAwesome), new PropertyMetadata(FlipOrientation.Normal, FlipOrientationChanged));
+        /// <summary>
+        /// Identifies the FontAwesome.WPF.FontAwesome.StyleSelector dependency property.
+        /// </summary>
+        public static readonly DependencyProperty StyleSelectorProperty =
+            DependencyProperty.Register("StyleSelector", typeof(StyleSelector), typeof(FontAwesome), new PropertyMetadata(StyleSelector.Brands, OnStyleSelectorPropertyChanged));
+
+        private static void OnStyleSelectorPropertyChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+        {
+            if (d is FontAwesome fa)
+            {                
+                fa.FontFamily = GetSelectedFontFamily(e.NewValue);
+            }     
+        }
 
         static FontAwesome()
         {
@@ -73,16 +95,29 @@ namespace FontAwesome.WPF
             set { SetValue(SpinProperty, value); }
         }
 
+
+        public StyleSelector StyleSelector
+        {
+            get { return (StyleSelector)GetValue(StyleSelectorProperty); }
+            set { SetValue(StyleSelectorProperty, value); }
+        }
+
+
         private static void OnIconPropertyChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
 #if NET40
             d.SetValue(TextOptions.TextRenderingModeProperty, TextRenderingMode.ClearType);
 #endif
-            d.SetValue(FontFamilyProperty, FontAwesomeFontFamily);
+            if (d is FontAwesome fa)
+            {
+                FontFamily selectedStyle = GetSelectedFontFamily(fa.StyleSelector);
+                d.SetValue(FontFamilyProperty, selectedStyle);
+            }
+
             d.SetValue(TextAlignmentProperty, TextAlignment.Center);
             d.SetValue(TextProperty, char.ConvertFromUtf32((int)e.NewValue));
         }
-
+        
         private static void OnSpinPropertyChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
             var fontAwesome = d as FontAwesome;
@@ -174,5 +209,42 @@ namespace FontAwesome.WPF
 
             fontAwesome.SetFlipOrientation();
         }
+         
+
+        #region Helper
+
+        private static FontFamily GetSelectedFontFamily(object selector)
+        {
+            FontFamily family = null;
+            if (selector is StyleSelector s)            
+                family = GetSelectedFontFamily(s);   
+            
+            return family;
+        }
+
+        private static FontFamily GetSelectedFontFamily(StyleSelector selector)
+        {
+            FontFamily selectedStyle = null;
+            switch (selector)
+            {
+                case StyleSelector.Regular:
+                    selectedStyle = FontAwesomeFontFamilyRegular;
+                    break;
+                case StyleSelector.Solid:
+                    selectedStyle = FontAwesomeFontFamilySolid;
+                    break;
+                case StyleSelector.Brands:
+                    selectedStyle = FontAwesomeFontFamilyBrands;
+                    break;
+                default:
+                    selectedStyle = FontAwesomeFontFamilyRegular;
+                    break;
+            }
+            return selectedStyle;
+        }
+
+
+        #endregion
+
     }
 }

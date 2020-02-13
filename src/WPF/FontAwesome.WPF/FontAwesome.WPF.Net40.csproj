@@ -75,11 +75,7 @@
     <Compile Include="IRotatable.cs" />
     <Compile Include="ISpinable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="..\..\..\Font-Awesome\fonts\FontAwesome.otf">
-      <Link>FontAwesome.otf</Link>
-    </Resource>
+    <Compile Include="StyleSelectorEnum.cs" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
@@ -89,6 +85,11 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="ImageAwesome.Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Font Awesome 5 Brands-Regular-400.otf" />
+    <Resource Include="Font Awesome 5 Free-Regular-400.otf" />
+    <Resource Include="Font Awesome 5 Free-Solid-900.otf" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
