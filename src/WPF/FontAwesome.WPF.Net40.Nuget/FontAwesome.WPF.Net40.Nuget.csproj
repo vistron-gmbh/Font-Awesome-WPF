@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>charri, Manuel Blattner</Authors>
+    <Company>Vistron GmbH</Company>
+    <PackageLicenseUrl>https://github.com/charri/Font-Awesome-WPF/blob/master/LICENSE</PackageLicenseUrl>
+    <Description>Fork of charris Foneawesome wpf Project updated to use fontawesome 5.12
+Original project: https://github.com/charri/Font-Awesome-WPF
+Fontawsome: https://github.com/FortAwesome/Font-Awesome
+Versioning follows fontawesome version</Description>
+    <PackageReleaseNotes>Initial Release, unstable, FontAweome class tested, ImageAwesome and Awesome atached properties untested.</PackageReleaseNotes>
+    <Version>5.12.0</Version>
+    <PackageTags>fontawesome, unstable, fontawesome5</PackageTags>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageId>FontAwesome.WPF</PackageId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="FontAwesome.WPF.dll" pack="true" PackagePath="lib/net48">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

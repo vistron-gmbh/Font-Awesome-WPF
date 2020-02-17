@@ -7,7 +7,10 @@ using System.Threading.Tasks;
 
 namespace FontAwesomeGenerateApplication
 {
-    class Program
+    /// <summary>
+    /// Just for debugging the deserialization process.
+    /// </summary>
+    class DebugApp
     {
         static void Main(string[] args)
         {

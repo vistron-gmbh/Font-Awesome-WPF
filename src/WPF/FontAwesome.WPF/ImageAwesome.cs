@@ -11,16 +11,9 @@ namespace FontAwesome.WPF
     /// </summary>
     public class ImageAwesome
         : Image, ISpinable, IRotatable, IFlippable
-    {
-        /// <summary>
-        /// FontAwesome FontFamily.
-        /// </summary>
-        private static readonly FontFamily FontAwesomeFontFamily = new FontFamily(new Uri("pack://application:,,,/FontAwesome.WPF;component/"), "./#Font Awesome 5 Free Solid");
-        /// <summary>
-        /// Typeface used to generate FontAwesome icon.
-        /// </summary>
-        private static readonly Typeface FontAwesomeTypeface = new Typeface(FontAwesomeFontFamily, FontStyles.Normal,
-            FontWeights.Normal, FontStretches.Normal);
+    {     
+  
+ 
         /// <summary>
         /// Identifies the FontAwesome.WPF.ImageAwesome.Foreground dependency property.
         /// </summary>
@@ -51,6 +44,30 @@ namespace FontAwesome.WPF
         /// </summary>
         public static readonly DependencyProperty FlipOrientationProperty =
             DependencyProperty.Register("FlipOrientation", typeof(FlipOrientation), typeof(ImageAwesome), new PropertyMetadata(FlipOrientation.Normal, FlipOrientationChanged));
+
+
+        /// <summary>
+        /// Identifies the FontAwesome.WPF.FontAwesome.StyleSelector dependency property.
+        /// </summary>
+        public static readonly DependencyProperty StyleSelectorProperty =
+            DependencyProperty.Register("StyleSelector", typeof(StyleSelector), typeof(ImageAwesome), new PropertyMetadata(StyleSelector.Regular, OnStyleSelectorPropertyChanged));
+
+
+        public StyleSelector StyleSelector
+        {
+            get { return (StyleSelector)GetValue(StyleSelectorProperty); }
+            set { SetValue(StyleSelectorProperty, value); }
+        }
+
+        private static void OnStyleSelectorPropertyChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+        {
+            if (d is ContentControl cc)
+            {
+                cc.FontFamily = StyleSelectorBaseImplementation.GetSelectedFontFamily(e.NewValue);
+            }
+        }
+
+
 
         static ImageAwesome()
         {
@@ -191,7 +208,7 @@ namespace FontAwesome.WPF
 
             if (imageAwesome == null) return;
 
-            imageAwesome.SetValue(SourceProperty, CreateImageSource(imageAwesome.Icon, imageAwesome.Foreground));
+            imageAwesome.SetValue(SourceProperty, CreateImageSource(imageAwesome));
         }
 
 
@@ -201,7 +218,12 @@ namespace FontAwesome.WPF
         /// <param name="icon">The FontAwesome icon to be drawn.</param>
         /// <param name="foregroundBrush">The System.Windows.Media.Brush to be used as the foreground.</param>
         /// <returns>A new System.Windows.Media.ImageSource</returns>
-        public static ImageSource CreateImageSource(FontAwesomeIcon icon, Brush foregroundBrush, double emSize = 100)
+        public static ImageSource CreateImageSource(ImageAwesome imageAwesome, double emSize = 100)
+        {
+            return CreateImageSource(imageAwesome.Icon, imageAwesome.Foreground, imageAwesome.StyleSelector, emSize);
+        }
+
+        public static ImageSource CreateImageSource(FontAwesomeIcon icon, Brush brush, StyleSelector selector = StyleSelector.Regular, double emSize = 100)
         {
             var charIcon = char.ConvertFromUtf32((int)icon);
 
@@ -210,9 +232,16 @@ namespace FontAwesome.WPF
             {
                 drawingContext.DrawText(
                     new FormattedText(charIcon, CultureInfo.InvariantCulture, FlowDirection.LeftToRight,
-                        FontAwesomeTypeface, emSize, foregroundBrush) { TextAlignment = TextAlignment.Center }, new Point(0, 0));
+                        GetTypeFace(selector), emSize, brush)
+                    { TextAlignment = TextAlignment.Center }, new Point(0, 0));
             }
             return new DrawingImage(visual.Drawing);
+        }
+
+        private static Typeface GetTypeFace(StyleSelector styleSelector)
+        {
+            return new Typeface(StyleSelectorBaseImplementation.GetSelectedFontFamily(styleSelector), FontStyles.Normal,
+            FontWeights.Normal, FontStretches.Normal);
         }
 
     }

@@ -75,6 +75,7 @@
     <Compile Include="IRotatable.cs" />
     <Compile Include="ISpinable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StyleSelectorBaseImplementation.cs" />
     <Compile Include="StyleSelectorEnum.cs" />
   </ItemGroup>
   <ItemGroup>

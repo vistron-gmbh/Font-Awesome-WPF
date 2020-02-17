@@ -11,20 +11,7 @@ namespace FontAwesome.WPF
     public class FontAwesome
         : TextBlock, ISpinable, IRotatable, IFlippable
     {
-        /// <summary>
-        /// FontAwesome FontFamily for Regular icons.
-        /// </summary>
-        private static readonly FontFamily FontAwesomeFontFamilyRegular = new FontFamily(new Uri("pack://application:,,,/FontAwesome.WPF;component/"), "./#Font Awesome 5 Free Regular"); //Last one is the actual name of the font family inside the otf file, not the filename!
-        /// <summary>
-        /// FontAwesome FontFamily for Bold icons.
-        /// </summary>
-        private static readonly FontFamily FontAwesomeFontFamilySolid = new FontFamily(new Uri("pack://application:,,,/FontAwesome.WPF;component/"), "./#Font Awesome 5 Free Solid"); //Last one is the actual name of the font family inside the otf file, not the filename!
-                                                                                                                                                                                      /// <summary>
-                                                                                                                                                                                      /// FontAwesome FontFamily for icons belonging to brands.
-                                                                                                                                                                                      /// </summary>
-        private static readonly FontFamily FontAwesomeFontFamilyBrands = new FontFamily(new Uri("pack://application:,,,/FontAwesome.WPF;component/"), "./#Font Awesome 5 Brands Regular"); //Last one is the actual name of the font family inside the otf file, not the filename!
-
-        /// <summary>
+             /// <summary>
         /// Identifies the FontAwesome.WPF.FontAwesome.Icon dependency property.
         /// </summary>
         public static readonly DependencyProperty IconProperty =
@@ -53,13 +40,13 @@ namespace FontAwesome.WPF
         /// Identifies the FontAwesome.WPF.FontAwesome.StyleSelector dependency property.
         /// </summary>
         public static readonly DependencyProperty StyleSelectorProperty =
-            DependencyProperty.Register("StyleSelector", typeof(StyleSelector), typeof(FontAwesome), new PropertyMetadata(StyleSelector.Brands, OnStyleSelectorPropertyChanged));
+            DependencyProperty.Register("StyleSelector", typeof(StyleSelector), typeof(FontAwesome), new PropertyMetadata(StyleSelector.Regular, OnStyleSelectorPropertyChanged));
 
         private static void OnStyleSelectorPropertyChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
             if (d is FontAwesome fa)
-            {                
-                fa.FontFamily = GetSelectedFontFamily(e.NewValue);
+            {
+                fa.FontFamily = StyleSelectorBaseImplementation.GetSelectedFontFamily(e.NewValue);
             }     
         }
 
@@ -110,7 +97,7 @@ namespace FontAwesome.WPF
 #endif
             if (d is FontAwesome fa)
             {
-                FontFamily selectedStyle = GetSelectedFontFamily(fa.StyleSelector);
+                FontFamily selectedStyle = StyleSelectorBaseImplementation.GetSelectedFontFamily(fa.StyleSelector);
                 d.SetValue(FontFamilyProperty, selectedStyle);
             }
 
@@ -209,42 +196,7 @@ namespace FontAwesome.WPF
 
             fontAwesome.SetFlipOrientation();
         }
-         
-
-        #region Helper
-
-        private static FontFamily GetSelectedFontFamily(object selector)
-        {
-            FontFamily family = null;
-            if (selector is StyleSelector s)            
-                family = GetSelectedFontFamily(s);   
-            
-            return family;
-        }
-
-        private static FontFamily GetSelectedFontFamily(StyleSelector selector)
-        {
-            FontFamily selectedStyle = null;
-            switch (selector)
-            {
-                case StyleSelector.Regular:
-                    selectedStyle = FontAwesomeFontFamilyRegular;
-                    break;
-                case StyleSelector.Solid:
-                    selectedStyle = FontAwesomeFontFamilySolid;
-                    break;
-                case StyleSelector.Brands:
-                    selectedStyle = FontAwesomeFontFamilyBrands;
-                    break;
-                default:
-                    selectedStyle = FontAwesomeFontFamilyRegular;
-                    break;
-            }
-            return selectedStyle;
-        }
-
-
-        #endregion
+   
 
     }
 }
